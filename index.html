@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deux quinquennats sous Macron</title>
+<meta name="description" content="Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. Les descriptions factuelles et sourcées sont suivies de…">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Deux quinquennats sous Macron">
+<meta property="og:description" content="Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. Les descriptions factuelles et sourcées sont suivies de…">
+<style>
+:root{
+  --encre:#1a1a18; --texte:#2c2c2a; --gris:#5f5e5a; --pale:#8a8985;
+  --trait:#e2e0d9; --trait-fort:#c9c7be;
+  --fond:#faf9f5; --carte:#ffffff;
+  --ambre:#854f0b; --ambre-fond:#faeeda; --ambre-trait:#e5c98f;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --lg:760px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --encre:#f2f1ec; --texte:#dedcd5; --gris:#a3a19a; --pale:#77756f;
+    --trait:#33322e; --trait-fort:#4a4844;
+    --fond:#171714; --carte:#1e1e1b;
+    --ambre:#e0a94a; --ambre-fond:#2e2413; --ambre-trait:#5c4a24;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--fond); color:var(--texte);
+  font-family:var(--sans); font-size:16px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.enveloppe{max-width:var(--lg); margin:0 auto; padding:0 24px}
+
+/* ---------- en-tete ---------- */
+.chapeau{padding:64px 0 30px}
+.chapeau h1{
+  font-size:34px; font-weight:500; letter-spacing:-.022em;
+  line-height:1.15; margin:0 0 16px; color:var(--encre);
+}
+.chapeau .chapo{margin:0; font-size:16px; color:var(--gris); max-width:52ch}
+.chapeau .chapo p{margin:0 0 10px}
+.chapeau .chapo p:last-child{margin:0}
+.entrees{display:flex; gap:18px; margin-top:22px}
+.entrees button{
+  font:inherit; font-size:13px; color:var(--gris);
+  background:none; border:none; padding:0; cursor:pointer;
+  border-bottom:1px solid var(--trait-fort);
+}
+.entrees button:hover{color:var(--encre); border-bottom-color:var(--gris)}
+
+/* ---------- annees ---------- */
+.annee{border-bottom:1px solid var(--trait)}
+.tete{
+  display:flex; align-items:center; gap:14px; width:100%;
+  padding:18px 0; background:none; border:none; cursor:pointer;
+  font:inherit; color:inherit; text-align:left;
+}
+.chevron{
+  flex:none; width:16px; height:16px; color:var(--pale);
+  transition:transform .18s ease;
+}
+.annee.ouverte .chevron{transform:rotate(90deg); color:var(--gris)}
+.millesime{
+  font-size:30px; font-weight:500; letter-spacing:-.02em;
+  line-height:1; color:var(--gris); transition:color .18s ease, font-size .18s ease;
+}
+.annee.ouverte .millesime{color:var(--encre); font-size:38px}
+.resume{min-width:0; flex:1}
+.resume b{display:block; font-size:13px; font-weight:500; color:var(--gris)}
+.annee.ouverte .resume b{color:var(--texte)}
+.resume span{
+  display:block; font-size:12px; color:var(--pale); line-height:1.45;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.densite{flex:none; display:flex; gap:3px; align-items:flex-end; height:20px}
+.densite i{width:6px; background:var(--trait-fort); border-radius:1px}
+.densite i.vide{background:var(--trait)}
+.densite i.haut{background:var(--gris)}
+
+.corps{display:none; padding:2px 0 34px 30px}
+.annee.ouverte .corps{display:block}
+
+/* ---------- fiches ---------- */
+.transverses{
+  margin:0 0 26px; padding:14px 0 2px;
+  border-top:1px solid var(--trait); border-bottom:1px solid var(--trait);
+}
+.transverses>p{margin:0 0 12px; font-size:12px; color:var(--pale)}
+.fiche{display:flex; gap:18px}
+.axe{display:flex; flex-direction:column; align-items:center; padding-top:7px; flex:none}
+.point{width:8px; height:8px; border-radius:50%; background:var(--trait-fort)}
+.fiche.alerte .point{background:var(--ambre)}
+.ligne{width:1px; flex:1; background:var(--trait); margin-top:6px}
+.fiche:last-child .ligne{background:linear-gradient(var(--trait),transparent)}
+.contenu{min-width:0; padding-bottom:30px}
+.entete{display:flex; align-items:center; gap:9px; flex-wrap:wrap; margin-bottom:7px}
+.quand{font-size:12px; font-weight:500; letter-spacing:.03em; color:var(--gris)}
+.etiquette{
+  font-size:11px; font-weight:500; padding:2px 8px; border-radius:6px;
+  border:1px solid var(--trait-fort); color:var(--pale); white-space:nowrap;
+}
+.etiquette.ambre{color:var(--ambre); background:var(--ambre-fond); border-color:var(--ambre-trait)}
+.titre{font-size:17px; font-weight:500; line-height:1.4; color:var(--encre); margin:0 0 10px}
+.factuel{margin:0 0 12px; font-size:15px; line-height:1.65}
+.factuel p{margin:0 0 9px}
+.factuel p:last-child{margin:0}
+.critique{
+  margin:0 0 12px; padding-left:22px;
+  font-size:13px; line-height:1.6; color:var(--gris);
+}
+.source{font-size:12px; color:var(--pale)}
+.source a{color:var(--pale); text-decoration:none; border-bottom:1px solid var(--trait-fort)}
+.source a:hover{color:var(--encre); border-bottom-color:var(--gris)}
+
+/* ---------- panneaux ---------- */
+.voile{
+  display:none; position:fixed; inset:0; z-index:100;
+  background:rgba(0,0,0,.4); padding:24px; overflow-y:auto;
+}
+.voile.visible{display:block}
+.panneau{
+  max-width:640px; margin:40px auto; background:var(--carte);
+  border-radius:12px; padding:32px 36px; position:relative;
+}
+.panneau h2{font-size:22px; font-weight:500; margin:0 0 18px; color:var(--encre)}
+.panneau h3{font-size:16px; font-weight:500; margin:24px 0 8px; color:var(--encre)}
+.panneau h4{font-size:15px; font-weight:500; margin:18px 0 6px; color:var(--encre)}
+.panneau p{margin:0 0 12px; font-size:15px}
+.panneau a{color:var(--gris)}
+.fermer{
+  position:absolute; top:14px; right:16px; border:none; background:none;
+  font-size:22px; line-height:1; color:var(--pale); cursor:pointer; padding:6px;
+}
+
+.pied{padding:44px 0 64px; font-size:12px; color:var(--pale)}
+.pied p{margin:0 0 6px}
+
+.alarme{
+  margin:60px 0; padding:20px 24px; border:1px solid var(--ambre-trait);
+  background:var(--ambre-fond); border-radius:10px; color:var(--ambre);
+  font-size:14px; line-height:1.6;
+}
+.alarme code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px}
+
+@media (max-width:640px){
+  .enveloppe{padding:0 18px}
+  .chapeau{padding:40px 0 24px}
+  .chapeau h1{font-size:27px}
+  .millesime{font-size:26px}
+  .annee.ouverte .millesime{font-size:31px}
+  .densite{display:none}
+  .corps{padding-left:0}
+  .fiche{gap:13px}
+  .critique{padding-left:14px}
+  .panneau{padding:26px 22px; margin:12px auto}
+}
+</style>
+</head>
+<body>
+
+<main class="enveloppe">
+
+  <header class="chapeau">
+    <h1 id="titre"></h1>
+    <div class="chapo" id="chapo"></div>
+    <nav class="entrees">
+      <button id="btn-methode" hidden>Méthode</button>
+      <button id="btn-apropos" hidden>Qui suis-je</button>
+    </nav>
+  </header>
+
+  <noscript>
+    <div class="alarme">Cette page a besoin de JavaScript pour afficher la
+    chronologie. Les fiches sont également lisibles dans les fichiers sources
+    de la chronologie, année par année.</div>
+  </noscript>
+
+  <section id="timeline"></section>
+
+  <footer class="pied">
+    <div id="pied"></div>
+  </footer>
+
+</main>
+
+<div class="voile" id="voile">
+  <div class="panneau">
+    <button class="fermer" id="fermer" aria-label="Fermer">&times;</button>
+    <div id="panneau-corps"></div>
+  </div>
+</div>
+
+<script src="chronologie.js"></script>
+<script>
+(function(){
+"use strict";
+
+var MOIS_LONG = ["janvier","février","mars","avril","mai","juin","juillet",
+                 "août","septembre","octobre","novembre","décembre"];
+
+function ech(s){
+  return String(s == null ? "" : s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;");
+}
+
+/* --- markdown minimal, partage par le chapo, le pied et les panneaux --- */
+function md(texte){
+  return String(texte || "").split(/\n\n+/).map(function(b){
+    b = b.trim();
+    if (!b) return "";
+    var h = b.match(/^(#{1,3})\s+([\s\S]*)$/);
+    if (h){
+      var n = h[1].length + 1;
+      return "<h" + n + ">" + ech(h[2]) + "</h" + n + ">";
+    }
+    b = ech(b)
+      .replace(/\[(.+?)\]\((.+?)\)/g,
+               '<a href="$2" target="_blank" rel="noopener">$1</a>')
+      .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
+      .replace(/(^|[^*])\*([^*]+)\*/g, "$1<i>$2</i>")
+      .replace(/\n/g, "<br>");
+    return "<p>" + b + "</p>";
+  }).join("");
+}
+
+/* --- chargement : script local d'abord, fetch en secours --- */
+function charger(){
+  if (window.DONNEES) return Promise.resolve(window.DONNEES);
+  return fetch("chronologie.json").then(function(r){
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  });
+}
+
+charger().then(construire).catch(function(){
+  document.getElementById("timeline").innerHTML =
+    '<div class="alarme"><b>Les données ne se chargent pas.</b><br>' +
+    'Lance <code>python build_json.py</code> dans ce dossier pour générer ' +
+    '<code>chronologie.json</code> et <code>chronologie.js</code>, ' +
+    'puis recharge la page.</div>';
+});
+
+var D = null;
+
+function construire(donnees){
+  D = donnees;
+  var t = D.textes || {};
+
+  if (t.titre){
+    document.getElementById("titre").textContent = t.titre;
+    document.title = t.titre;
+  }
+  document.getElementById("chapo").innerHTML = md(t.chapo);
+  document.getElementById("pied").innerHTML =
+    md(t.pied) +
+    '<p>Généré le ' + ech(D.genere_le) +
+    " depuis les chronologies annuelles.</p>";
+
+  var maxi = 1;
+  D.annees.forEach(function(a){
+    a.densite.forEach(function(v){ if (v > maxi) maxi = v; });
+  });
+
+  document.getElementById("timeline").innerHTML =
+    D.annees.map(function(a){ return blocAnnee(a, maxi); }).join("");
+
+  brancher();
+  ouvrir(document.getElementById("a" + D.annees[0].annee), true);
+  pages();
+}
+
+function blocAnnee(a, maxi){
+  var barres = a.densite.map(function(v, i){
+    var h = v === 0 ? 2 : Math.max(4, Math.round(v / maxi * 20));
+    var cl = v === 0 ? "vide" : (v >= maxi * 0.66 ? "haut" : "");
+    return '<i class="' + cl + '" style="height:' + h + 'px" title="' +
+           MOIS_LONG[i] + " " + a.annee + " — " + v +
+           (v > 1 ? " fiches" : " fiche") + '"></i>';
+  }).join("");
+
+  var trans = a.fiches.filter(function(f){ return f.transverse; });
+  var flux  = a.fiches.filter(function(f){ return !f.transverse; });
+
+  var interieur = "";
+  if (trans.length){
+    interieur += '<div class="transverses"><p>' +
+      (trans.length > 1 ? "Fiches couvrant l'année entière ou davantage"
+                        : "Fiche couvrant l'année entière ou davantage") +
+      "</p>" + trans.map(blocFiche).join("") + "</div>";
+  }
+  interieur += flux.map(blocFiche).join("");
+
+  return '<section class="annee" id="a' + a.annee + '">' +
+    '<button class="tete" aria-expanded="false">' +
+      '<svg class="chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
+      '<path d="M6 3.5L10.5 8L6 12.5" stroke="currentColor" stroke-width="1.5" ' +
+      'stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+      '<span class="millesime">' + a.annee + '</span>' +
+      '<span class="resume"><b>' + a.total + " fiches</b>" +
+        (a.note ? "<span>" + ech(a.note) + "</span>" : "") +
+      '</span>' +
+      '<span class="densite">' + barres + '</span>' +
+    "</button>" +
+    '<div class="corps">' + interieur + "</div>" +
+  "</section>";
+}
+
+function blocFiche(f){
+  var etiq = "";
+  if (f.a_verifier){
+    etiq = '<span class="etiquette ambre" title="Fait non consolidé : ' +
+           'aucune source de référence indépendante trouvée">à vérifier</span>';
+  } else if (f.statut && f.statut.toLowerCase().indexOf("lecture") === 0){
+    etiq = '<span class="etiquette" title="Cette fiche est explicitement une ' +
+           'lecture critique, pas un fait daté">lecture politique</span>';
+  }
+
+  var factuel = f.factuel.split(/\n\n+/).map(function(p){
+    return "<p>" + ech(p) + "</p>";
+  }).join("");
+
+  return '<article class="fiche' + (f.a_verifier ? " alerte" : "") + '">' +
+    '<div class="axe"><span class="point"></span><span class="ligne"></span></div>' +
+    '<div class="contenu">' +
+      '<div class="entete"><span class="quand">' + ech(f.date_libelle) +
+        "</span>" + etiq + "</div>" +
+      '<h3 class="titre">' + ech(f.titre) + "</h3>" +
+      '<div class="factuel">' + factuel + "</div>" +
+      (f.critique ? '<p class="critique">' + ech(f.critique) + "</p>" : "") +
+      (f.lien
+        ? '<p class="source"><a href="' + ech(f.lien) +
+          '" target="_blank" rel="noopener">' + ech(f.source_nom) + "</a></p>"
+        : '<p class="source">' + ech(f.source_nom) + "</p>") +
+    "</div></article>";
+}
+
+/* ---------- interaction ---------- */
+function ouvrir(sec, oui){
+  sec.classList.toggle("ouverte", oui);
+  sec.querySelector(".tete").setAttribute("aria-expanded", oui ? "true" : "false");
+}
+
+function brancher(){
+  document.querySelectorAll(".annee").forEach(function(sec){
+    sec.querySelector(".tete").addEventListener("click", function(){
+      ouvrir(sec, !sec.classList.contains("ouverte"));
+    });
+  });
+}
+
+/* ---------- panneaux Methode / Qui suis-je ---------- */
+function pages(){
+  var voile = document.getElementById("voile");
+  var corps = document.getElementById("panneau-corps");
+
+  [["methode", "btn-methode"], ["apropos", "btn-apropos"]].forEach(function(p){
+    var contenu = D.pages && D.pages[p[0]];
+    if (!contenu) return;
+    var b = document.getElementById(p[1]);
+    b.hidden = false;
+    b.addEventListener("click", function(){
+      corps.innerHTML = md(contenu);
+      voile.classList.add("visible");
+      document.body.style.overflow = "hidden";
+    });
+  });
+
+  function fermer(){
+    voile.classList.remove("visible");
+    document.body.style.overflow = "";
+  }
+  document.getElementById("fermer").addEventListener("click", fermer);
+  voile.addEventListener("click", function(e){ if (e.target === voile) fermer(); });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape") fermer();
+  });
+}
+
+})();
+</script>
+</body>
+</html>
