@@ -114,6 +114,8 @@ body{
 .source{font-size:12px; color:var(--pale)}
 .source a{color:var(--pale); text-decoration:none; border-bottom:1px solid var(--trait-fort)}
 .source a:hover{color:var(--encre); border-bottom-color:var(--gris)}
+.source .sep{margin:0 7px; color:var(--trait-fort)}
+.source .etiq-src{margin-right:8px; letter-spacing:.04em; color:var(--trait-fort)}
 
 /* ---------- panneaux ---------- */
 .voile{
@@ -331,11 +333,21 @@ function blocFiche(f){
       '<h3 class="titre">' + ech(f.titre) + "</h3>" +
       '<div class="factuel">' + factuel + "</div>" +
       (f.critique ? '<p class="critique">' + ech(f.critique) + "</p>" : "") +
-      (f.lien
-        ? '<p class="source"><a href="' + ech(f.lien) +
-          '" target="_blank" rel="noopener">' + ech(f.source_nom) + "</a></p>"
-        : '<p class="source">' + ech(f.source_nom) + "</p>") +
+      blocSources(f.sources) +
     "</div></article>";
+}
+
+function blocSources(sources){
+  if (!sources || !sources.length) return "";
+  var liste = sources.map(function(s){
+    return s.lien
+      ? '<a href="' + ech(s.lien) + '" target="_blank" rel="noopener">' +
+        ech(s.nom) + "</a>"
+      : ech(s.nom);
+  }).join('<span class="sep">·</span>');
+  return '<p class="source">' +
+    (sources.length > 1 ? '<span class="etiq-src">Sources</span>' : "") +
+    liste + "</p>";
 }
 
 /* ---------- interaction ---------- */
