@@ -94,17 +94,13 @@ body{
 .fiche{display:flex; gap:18px}
 .axe{display:flex; flex-direction:column; align-items:center; padding-top:7px; flex:none}
 .point{width:8px; height:8px; border-radius:50%; background:var(--trait-fort)}
-.fiche.alerte .point{background:var(--ambre)}
 .ligne{width:1px; flex:1; background:var(--trait); margin-top:6px}
 .fiche:last-child .ligne{background:linear-gradient(var(--trait),transparent)}
 .contenu{min-width:0; padding-bottom:30px}
-.entete{display:flex; align-items:center; gap:9px; flex-wrap:wrap; margin-bottom:7px}
-.quand{font-size:12px; font-weight:500; letter-spacing:.03em; color:var(--gris)}
-.etiquette{
-  font-size:11px; font-weight:500; padding:2px 8px; border-radius:6px;
-  border:1px solid var(--trait-fort); color:var(--pale); white-space:nowrap;
+.quand{
+  display:block; font-size:12px; font-weight:500; letter-spacing:.03em;
+  color:var(--gris); margin-bottom:7px;
 }
-.etiquette.ambre{color:var(--ambre); background:var(--ambre-fond); border-color:var(--ambre-trait)}
 .titre{font-size:17px; font-weight:500; line-height:1.4; color:var(--encre); margin:0 0 10px}
 .factuel{margin:0 0 12px; font-size:15px; line-height:1.65}
 .factuel p{margin:0 0 9px}
@@ -331,24 +327,14 @@ function blocAnnee(a, maxi){
 }
 
 function blocFiche(f){
-  var etiq = "";
-  if (f.a_verifier){
-    etiq = '<span class="etiquette ambre" title="Fait non consolidé : ' +
-           'aucune source de référence indépendante trouvée">à vérifier</span>';
-  } else if (f.statut && f.statut.toLowerCase().indexOf("lecture") === 0){
-    etiq = '<span class="etiquette" title="Cette fiche est explicitement une ' +
-           'lecture critique, pas un fait daté">lecture politique</span>';
-  }
-
   var factuel = f.factuel.split(/\n\n+/).map(function(p){
     return "<p>" + ech(p) + "</p>";
   }).join("");
 
-  return '<article class="fiche' + (f.a_verifier ? " alerte" : "") + '">' +
+  return '<article class="fiche">' +
     '<div class="axe"><span class="point"></span><span class="ligne"></span></div>' +
     '<div class="contenu">' +
-      '<div class="entete"><span class="quand">' + ech(f.date_libelle) +
-        "</span>" + etiq + "</div>" +
+      '<span class="quand">' + ech(f.date_libelle) + "</span>" +
       '<h3 class="titre">' + ech(f.titre) + "</h3>" +
       '<div class="factuel">' + factuel + "</div>" +
       (f.critique ? '<p class="critique">' + ech(f.critique) + "</p>" : "") +
