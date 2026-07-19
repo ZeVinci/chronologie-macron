@@ -1333,7 +1333,7 @@
   },
   {
    "annee": 2020,
-   "note": "Description factuelle suivie d'une note restituant la critique de l'époque.",
+   "note": "Année marquée par la gestion calamiteuse du covid.",
    "total": 24,
    "densite": [
     2,
@@ -1838,7 +1838,7 @@
   },
   {
    "annee": 2021,
-   "note": "La fiche « lepénisation du débat » est explicitement une lecture critique et non un fait daté.",
+   "note": "Suite et fin de la gestion du covid, et début de la campagne.",
    "total": 18,
    "densite": [
     2,
@@ -1865,7 +1865,7 @@
      "transverse": false,
      "mois": 1,
      "factuel": "Malgré la flambée du variant Alpha, Macron décide en conseil de défense (29 janvier) de ne pas reconfiner, maintenant le couvre-feu — un « pari » assumé sur la responsabilité des Français. La décision, prise contre l'avis d'une partie des scientifiques, est présentée par l'entourage et la presse macroniste comme un coup de génie stratégique.",
-     "critique": "Choix politique plus que sanitaire, mis en scène comme l'audace d'un « Macron épidémiologiste » — dont l'étude du coût humain viendra plus tard.",
+     "critique": "Fait du prince où un seul décide en toute opacité.",
      "sources": [
       {
        "nom": "Le JDD",
@@ -1882,11 +1882,19 @@
      "precision": "mois",
      "transverse": false,
      "mois": 1,
-     "factuel": "Le gouvernement fait appel au cabinet de conseil américain McKinsey pour piloter la logistique de la campagne de vaccination. Trois marchés au moins sont identifiés : 3,2 M€ notifiés le 8 décembre 2020 (définition de la stratégie cible de distribution des vaccins), 169 000 € le 23 décembre, puis **605 000 € le 14 janvier 2021 pour la « tour de contrôle » stratégique installée à Santé publique France**. Au total, cinq versements entre décembre 2020 et mai 2021 représentent **9,56 millions d'euros** d'honoraires versés par le ministère de la Santé à McKinsey pour le déploiement de la vaccination. Le rôle des cabinets de conseil fera l'objet d'une commission d'enquête sénatoriale.",
+     "factuel": "Le gouvernement fait appel au cabinet de conseil américain McKinsey pour piloter la logistique de la campagne de vaccination. Cinq versements du ministère de la Santé entre décembre 2020 et mai 2021 totalisent 9,56 millions d'euros d'honoraires Le rôle des cabinets de conseil fera l'objet d'une commission d'enquête sénatoriale (voir 2022).",
      "critique": "Externalisation coûteuse d'une politique publique régalienne à un cabinet privé, symbole d'un État affaibli et de la « start-up nation ».",
      "sources": [
       {
-       "nom": "franceinfo",
+       "nom": "Consultor — « Stratégie vaccinale made in McKinsey : une facture à 10 millions d'euros » (28/09/2021, détail des cinq versements, documents Anticor/DGS)",
+       "lien": "https://www.consultor.fr/articles/info-consultor-strategie-vaccinale-made-in-mckinsey-une-facture-a-10-millions-d-euros"
+      },
+      {
+       "nom": "Consultor — « 2 ans, 7 missions, 11,6 millions d'euros d'honoraires : point final des missions covid de McKinsey en France »",
+       "lien": "https://www.consultor.fr/articles/2-ans-7-missions-11-6-millions-d-euros-d-honoraires-point-final-des-missions-covid-de-mckinsey-en-france"
+      },
+      {
+       "nom": "franceinfo — le rôle de McKinsey dans la campagne de vaccination",
        "lien": "https://www.franceinfo.fr/sante/maladie/coronavirus/vaccin/campagne-de-vaccination-contre-le-covid-19-quatre-questions-sur-le-role-joue-par-le-cabinet-de-conseil-americain-mckinsey_4246397.html"
       }
      ]
@@ -1900,12 +1908,16 @@
      "precision": "annee",
      "transverse": true,
      "mois": null,
-     "factuel": "Tout au long de l'année, le ministre de l'Éducation multiplie les protocoles sanitaires changeants et minimise la contamination à l'école (« on n'avait pas de contamination particulière à l'école »), attribuant la hausse des cas au surcroît de tests. Enseignants et parents dénoncent l'impréparation et le mépris.",
-     "critique": "Conflit permanent avec la profession enseignante (masques, protocoles, moyens), symbole d'un ministère géré par la communication.",
+     "factuel": "La ligne du ministre est fixée dès le 20 décembre 2020, sur Europe 1 : « La situation a démontré qu'on n'avait pas de contamination particulière à l'école », affirme Jean-Michel Blanquer, invoquant des études montrant qu'« en milieu scolaire, on réussissait à moins se contaminer qu'en dehors ». Les chiffres de son propre ministère, publiés la même semaine, disent l'inverse : 5 264 élèves contaminés sur les sept derniers jours, contre 4 548 la semaine précédente — une courbe qui remonte au moment même où le ministre la minimise.\n\nTout au long de 2021, la méthode reste la même : protocoles changeants, annoncés tard et par voie de presse. Le protocole de la rentrée de septembre 2021 — niveau 2 sur quatre — est dévoilé dans un entretien au Journal du Dimanche la veille de la rentrée. Dans une tribune au Monde, une trentaine d'enseignants et de médecins jugent « impensable » une rentrée à ce niveau alors que le taux d'incidence chez les 0-19 ans est cinq fois supérieur à celui de la rentrée 2020 ; Guislaine David (SNUipp-FSU) le juge « pas satisfaisant ». En novembre, plusieurs syndicats posent un ultimatum et menacent la grève faute de renforcement du protocole dans le second degré. Le 7 décembre, le ministère bascule du protocole 2 au protocole 3.",
+     "critique": "Conflit permanent avec la profession enseignante (masques, protocoles, moyens), symbole d'un ministère géré par la communication : les enseignants et les parents découvrent les règles dans les journaux, souvent la veille de leur entrée en vigueur.",
      "sources": [
       {
-       "nom": "Vie-publique.fr (interview J.-M. Blanquer)",
-       "lien": "https://www.vie-publique.fr/discours/282775-jean-michel-blanquer-07122021-protocole-sanitaire-3-ecoles-covid"
+       "nom": "Europe 1 — « Pour Jean-Michel Blanquer, décaler la rentrée de janvier n'est pas l'option privilégiée » (20/12/2020, verbatim de l'entretien)",
+       "lien": "https://www.europe1.fr/societe/pour-jean-michel-blanquer-decaler-la-rentree-de-janvier-nest-pas-loption-privilegiee-4013764"
+      },
+      {
+       "nom": "VousNousIls — reprise de l'entretien et chiffres de contamination du ministère (21/12/2020)",
+       "lien": "https://www.vousnousils.fr/2020/12/21/covid-19-faut-il-decaler-la-rentree-de-janvier-ce-nest-pas-loption-privilegiee-repond-blanquer-637939"
       }
      ]
     },
@@ -1918,12 +1930,20 @@
      "precision": "mois",
      "transverse": false,
      "mois": 3,
-     "factuel": "Après des attaques répétées contre son président Jean-Louis Bianco, l'Observatoire de la laïcité est supprimé (annonce le 31 mars, fin de mission le 4 avril) et remplacé par un comité interministériel de la laïcité placé sous tutelle gouvernementale (décret du 4 juin).",
-     "critique": "Mise au pas d'une instance indépendante jugée trop « ouverte », perçue comme une capitulation devant une conception offensive de la laïcité portée par l'extrême droite.",
+     "factuel": "Après des attaques répétées contre son président Jean-Louis Bianco, l'Observatoire de la laïcité — instance indépendante créée en 2013 et rattachée au Premier ministre — est supprimé. Marlène Schiappa en annonce la suppression devant le Sénat le 31 mars 2021; le mandat de Bianco prend fin le 4 avril.",
+     "critique": "Mise au pas d'une instance indépendante jugée trop « ouverte », perçue comme une capitulation devant une conception offensive de la laïcité portée par l'extrême droite. Le déplacement institutionnel dit l'essentiel : on passe d'un observatoire indépendant, doté d'une voix propre et d'une production autonome, à un comité gouvernemental réuni une fois l'an et dont le secrétariat est logé place Beauvau. La laïcité change de tutelle — d'un organe d'expertise vers le ministère chargé de l'ordre public.",
      "sources": [
       {
-       "nom": "IREV (centre de ressources)",
-       "lien": "https://www.irev.fr/actualites-0/lobservatoire-national-de-la-laicite-remplace-par-un-comite-interministeriel-de-la"
+       "nom": "Légifrance — décret n° 2021-716 du 4 juin 2021 instituant un comité interministériel de la laïcité",
+       "lien": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043604820"
+      },
+      {
+       "nom": "France 24 — « Fin annoncée de l'Observatoire de la laïcité, symbole d'une lutte entre deux visions de la laïcité »",
+       "lien": "https://www.france24.com/fr/france/20201215-fin-de-l-observatoire-de-la-la%C3%AFcit%C3%A9-symbole-d-une-lutte-entre-deux-visions-de-la-la%C3%AFcit%C3%A9"
+      },
+      {
+       "nom": "Observatoire de la laïcité (Wikipédia, sourcé)",
+       "lien": "https://fr.wikipedia.org/wiki/Observatoire_de_la_la%C3%AFcit%C3%A9"
       }
      ]
     },
@@ -1936,7 +1956,7 @@
      "precision": "jour",
      "transverse": false,
      "mois": 4,
-     "factuel": "La France franchit le cap des 100 000 morts du Covid le 15 avril. Selon une modélisation de l'épidémiologiste Pascal Crépey réalisée pour Le Monde, un confinement décidé en février plutôt qu'en avril aurait pu éviter près de 14 000 décès lors de la troisième vague. La méthode consiste à décaler de deux mois les courbes de décès, d'admissions en réanimation et d'hospitalisations observées après le confinement d'avril.\n\n*Précision — Crépey signale lui-même les limites de son calcul : modifier la situation épidémiologique aurait eu des conséquences prolongées difficiles à modéliser, et rien ne garantit qu'un niveau bas de circulation aurait tenu de mars à juin. Le titre d'Europe 1 retient « plus de 10 000 morts », chiffre plus prudent que les ~14 000 de l'estimation centrale — l'écart est un arrondi éditorial, pas une contradiction.*",
+     "factuel": "La France franchit le cap des 100 000 morts du Covid le 15 avril. Selon une modélisation de l'épidémiologiste Pascal Crépey réalisée pour Le Monde, un confinement décidé en février plutôt qu'en avril aurait pu éviter près de 14 000 décès lors de la troisième vague. La méthode consiste à décaler de deux mois les courbes de décès, d'admissions en réanimation et d'hospitalisations observées après le confinement d'avril.",
      "critique": "Chiffrage du coût humain du « pari » présidentiel de janvier (fiche 1) : le retard à confiner, choix politique assumé contre l'avis d'une partie du conseil scientifique, se paie en milliers de vies.",
      "sources": [
       {
@@ -1954,7 +1974,7 @@
      "precision": "mois",
      "transverse": false,
      "mois": 5,
-     "factuel": "Faute d'accord entre l'Assemblée (LREM) et le Sénat (droite), Macron abandonne le référendum sur l'inscription du climat dans la Constitution promis en décembre 2020 à la Convention citoyenne. Quant à la loi « Climat et résilience » (promulguée le 22 août 2021), le décompte des propositions effectivement reprises varie fortement selon la méthode retenue : **46 selon le gouvernement** (soit 30 % des mesures), **15 selon Reporterre**, **10 seulement selon franceinfo** si l'on s'en tient aux propositions transcrites « sans filtre », c'est-à-dire sans édulcoration. Le Monde relève qu'une majorité des 146 mesures ont été reprises partiellement et 28 écartées. En mars 2021, la Convention elle-même publie un avis très critique sur les réponses gouvernementales.",
+     "factuel": "Faute d'accord entre l'Assemblée (LREM) et le Sénat (droite), Macron abandonne le référendum sur l'inscription du climat dans la Constitution promis en décembre 2020 à la Convention citoyenne. Quant à la loi « Climat et résilience » (promulguée le 22 août 2021), le décompte des propositions effectivement reprises varie fortement selon la méthode retenue : 46 selon le gouvernement (soit 30 % des mesures), 15 selon Reporterre, 10 seulement selon franceinfo si l'on s'en tient aux propositions transcrites « sans filtre », c'est-à-dire sans édulcoration. En mars 2021, la Convention elle-même publie un avis très critique sur les réponses gouvernementales.",
      "critique": "Enterrement définitif de la Convention citoyenne : une démocratie participative de façade, dont les propositions sont largement édulcorées. L'écart entre 46 et 10 est en soi l'argument : il mesure exactement ce que « sans filtre » a fini par signifier.",
      "sources": [
       {
@@ -2035,7 +2055,7 @@
      "transverse": false,
      "mois": 7,
      "factuel": "Lors de son allocution du 12 juillet, Macron annonce l'extension du passe sanitaire (loisirs dès le 21 juillet, puis cafés, restaurants, transports longue distance) et l'obligation vaccinale des soignants (délai au 15 septembre), ainsi que la fin de la gratuité des tests PCR à l'automne.",
-     "critique": "Décision annoncée sans consultation du Conseil des ministres ni du Parlement (Mélenchon) : mesure de contrôle intrusive, perçue aussi comme l'aveu de l'échec d'un dépistage massif jamais organisé.",
+     "critique": "Décision annoncée sans consultation du Conseil des ministres ni du Parlement.",
      "sources": [
       {
        "nom": "franceinfo",
@@ -2070,16 +2090,20 @@
      "precision": "jour",
      "transverse": false,
      "mois": 9,
-     "factuel": "Recevant à l'Élysée les médaillés olympiques et paralympiques de Tokyo (33 médailles, contre 42 à Rio en 2016) pour leur remettre la Légion d'honneur ou l'ordre national du Mérite, Macron qualifie les résultats de décevants et exige de « faire beaucoup plus » à Paris 2024 : « ce sont nos Jeux, à la maison, on nous attend », avec un objectif de « top 5 ». Les sportifs répliquent en dénonçant le manque de moyens publics pour le sport.",
-     "critique": "Injonction à la performance sans les moyens, écho involontaire du « pognon de dingue » : renvoyer l'échec aux individus.",
+     "factuel": "Recevant à l'Élysée les 189 médaillés olympiques et paralympiques de Tokyo (33 médailles, contre 42 à Rio en 2016), Macron qualifie les résultats de décevants et exige de « faire beaucoup plus » à Paris 2024 : « ce sont nos Jeux, à la maison, on nous attend », avec un objectif de « top 5 ». Teddy Riner, présent pour la quatrième fois, reconnaît que « l'équilibre n'est pas tout à fait celui qu'on attendait » et prévient qu'atteindre 90 médailles en 2024 demanderait bien davantage d'efforts.\n\nSur les moyens, la réponse présidentielle tient en deux points : l'État « ne faiblira pas », mais la philosophie reste de concentrer les efforts sur les disciplines à fort potentiel — celles qui rapportent des médailles — et il faut « mieux associer les acteurs privés », notamment via le « pacte de performance » permettant à des entreprises de financer la préparation d'athlètes par mécénat.",
+     "critique": "Injonction à la performance dont le financement est renvoyé pour partie au privé et concentré sur les disciplines rentables en médailles : les sports à faible rendement olympique font implicitement les frais de l'objectif « top 5 ».",
      "sources": [
       {
        "nom": "franceinfo — « Faire beaucoup plus aux JO de Paris 2024 »",
        "lien": "https://www.franceinfo.fr/les-jeux-olympiques/tokyo-2020/emmanuel-macron-aux-medailles-de-tokyo-faire-beaucoup-plus-aux-jo-de-paris-2024_4770163.html"
       },
       {
-       "nom": "France Bleu — réception des médaillés à l'Élysée",
-       "lien": "https://www.francebleu.fr/sports/tous-les-sports/images-les-medailles-de-tokyo-recus-a-l-elysee-1631561956"
+       "nom": "franceinfo — reportage au cœur du rassemblement des médaillés à l'Élysée (réactions des athlètes, réponse sur les moyens)",
+       "lien": "https://www.franceinfo.fr/les-jeux-olympiques/paris-2024/reportage-honneur-fierte-plaisir-au-coeur-du-rassemblement-inedit-des-medailles-olympiques-et-paralympiques-a-l-elysee_4770185.html"
+      },
+      {
+       "nom": "Élysée — cérémonie en l'honneur des médaillés de Tokyo (13/09/2021)",
+       "lien": "https://www.elysee.fr/emmanuel-macron/2021/09/13/ceremonie-en-lhonneur-des-medailles-olympiques-et-paralympiques-aux-jeux-de-tokyo-2020"
       }
      ]
     },
@@ -2128,8 +2152,8 @@
      "precision": "mois",
      "transverse": false,
      "mois": 10,
-     "factuel": "Les nouvelles règles de calcul du salaire journalier de référence entrent en vigueur le 1er octobre (après une première suspension par le Conseil d'État) : la durée et le montant des droits intègrent désormais les périodes non travaillées. L'Unédic évalue à **environ 1,1 million d'allocataires** ceux dont le niveau d'indemnisation est affecté, avec une allocation journalière inférieure d'environ **16 %** à celle qui aurait été servie avant la réforme — soit près de 6 euros par jour. Sont particulièrement touchés les salariés à parcours fragmenté : fins de CDD, intérim, jeunes, moins diplômés. En parallèle, la majorité LREM refuse à l'Assemblée la déconjugalisation de l'AAH, réclamée par toutes les oppositions et votée par le Sénat le 12 octobre.",
-     "critique": "Double coup social : durcissement pour les précaires de l'emploi et maintien de la dépendance financière des personnes handicapées à leur conjoint.",
+     "factuel": "Les nouvelles règles de calcul du salaire journalier de référence entrent en vigueur le 1er octobre (après une première suspension par le Conseil d'État) : la durée et le montant des droits intègrent désormais les périodes non travaillées. L'Unédic évalue à environ 1,1 million d'allocataires ceux dont le niveau d'indemnisation est affecté, avec une allocation journalière inférieure d'environ 16 % à celle qui aurait été servie avant la réforme — soit près de 6 euros par jour. Sont particulièrement touchés les salariés à parcours fragmenté : fins de CDD, intérim, jeunes, moins diplômés. En parallèle le gouvernement refuse déconjugalisation de l'AAH malgré le fait que la revendication a fait l'objet de la première pétition à dépasser 100 000 signatures sur la plateforme du Sénat.",
+     "critique": "Double coup social : durcissement pour les précaires de l'emploi et maintien de la dépendance financière des personnes handicapées à leur conjoint. Le vote du 12 octobre est l'illustration la plus nette de l'isolement du camp présidentiel sur ce dossier : au Sénat, **tous les groupes votent pour, sauf le sien**. La mesure finira par être adoptée en 2022, après la présidentielle, pour une entrée en vigueur à l'automne 2023 — soit deux ans de perdus.",
      "sources": [
       {
        "nom": "Vie-publique.fr",
@@ -2142,6 +2166,14 @@
       {
        "nom": "Unédic — ce qui entre en vigueur au 1er octobre",
        "lien": "https://www.unedic.org/espace-presse/actualites/assurance-chomage-ce-qui-entre-en-vigueur-au-1er-octobre"
+      },
+      {
+       "nom": "Handicap.fr / AFP — « AAH : le Sénat persiste et signe pour sa déconjugalisation » (12/10/2021, détail du vote par groupe)",
+       "lien": "https://informations.handicap.fr/a-aah-senat-deconjugalisation-31645.php"
+      },
+      {
+       "nom": "LCP — « L'Assemblée repousse une nouvelle fois la déconjugalisation de l'AAH »",
+       "lien": "https://lcp.fr/actualites/handicap-l-assemblee-repousse-une-nouvelle-fois-la-deconjugalisation-de-l-aah-92085"
       }
      ]
     },
@@ -2190,7 +2222,7 @@
      "precision": "jour",
      "transverse": false,
      "mois": 11,
-     "factuel": "Une étude de l'Institut des politiques publiques (IPP), qui découpe la population en centiles plutôt qu'en déciles pour affiner l'analyse, mesure l'effet des mesures socio-fiscales du quinquennat. Résultat : **tous les ménages voient leur niveau de vie progresser, sauf les 5 % les plus pauvres** (−0,5 % en moyenne). Le gain est maximal au sommet : **+2,8 % pour les 1 % les plus riches**, et **environ +4 % pour les 0,1 %**. Au total, les ménages ont bénéficié de 28,1 milliards d'euros de baisses de prélèvements (impôt sur le revenu, taxe d'habitation, remplacement de l'ISF par l'IFI…).\n\n*⚠️ Correction — La version précédente affirmait que « les ménages les plus modestes ont été pénalisés par les hausses de fiscalité (énergie, tabac) ». C'est trop large : l'étude ne constate une perte que pour les **5 % les plus pauvres**, les déciles intermédiaires étant gagnants. Le raccourci affaiblissait la fiche en la rendant réfutable, alors que le contraste 0,1 % (+4 %) / 5 % les plus pauvres (−0,5 %) se suffit à lui-même.*",
+     "factuel": "Une étude de l'Institut des politiques publiques (IPP), mesure l'effet des mesures socio-fiscales du quinquennat. Résultat : tous les ménages voient leur niveau de vie progresser, sauf les 5 % les plus pauvres (−0,5 % en moyenne). Le gain est maximal au sommet : +2,8 % pour les 1 % les plus riches, et environ +4 % pour les 0,1 %.",
      "critique": "Confirmation chiffrée et indépendante du « président des riches », à quelques mois de la présidentielle : le quinquennat n'a pas appauvri la majorité, il a asymétriquement enrichi le sommet tout en laissant décrocher les plus pauvres.",
      "sources": [
       {
