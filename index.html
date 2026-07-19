@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deux quinquennats sous Macron</title>
+<title>Machronologie</title>
 <meta name="description" content="Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. Les descriptions factuelles et sourcées sont suivies de…">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Deux quinquennats sous Macron">
+<meta property="og:title" content="Machronologie">
 <meta property="og:description" content="Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. Les descriptions factuelles et sourcées sont suivies de…">
 <style>
 :root{
@@ -40,6 +40,8 @@ body{
   font-size:34px; font-weight:500; letter-spacing:-.022em;
   line-height:1.15; margin:0 0 16px; color:var(--encre);
 }
+.chapeau h1 .encre{color:var(--encre)}
+.chapeau h1 .estompe{color:var(--pale)}
 .chapeau .chapo{margin:0; font-size:16px; color:var(--gris); max-width:52ch}
 .chapeau .chapo p{margin:0 0 10px}
 .chapeau .chapo p:last-child{margin:0}
@@ -229,6 +231,23 @@ function md(texte){
   }).join("");
 }
 
+/* --- titre : ce qui est entre ** passe en encre foncee, le reste en gris.
+       Sans aucun **, le titre reste uniformement en encre foncee. --- */
+function titreHtml(brut){
+  var t = String(brut || "");
+  if (t.indexOf("**") === -1) return ech(t);
+  var re = /\*\*([\s\S]+?)\*\*/g, sortie = "", i = 0, m;
+  while ((m = re.exec(t)) !== null){
+    if (m.index > i)
+      sortie += '<span class="estompe">' + ech(t.slice(i, m.index)) + "</span>";
+    sortie += '<span class="encre">' + ech(m[1]) + "</span>";
+    i = re.lastIndex;
+  }
+  if (i < t.length)
+    sortie += '<span class="estompe">' + ech(t.slice(i)) + "</span>";
+  return sortie;
+}
+
 /* --- chargement : script local d'abord, fetch en secours --- */
 function charger(){
   if (window.DONNEES) return Promise.resolve(window.DONNEES);
@@ -253,7 +272,7 @@ function construire(donnees){
   var t = D.textes || {};
 
   if (t.titre){
-    document.getElementById("titre").textContent = t.titre;
+    document.getElementById("titre").innerHTML = titreHtml(t.titre_balise || t.titre);
     document.title = t.titre;
   }
   document.getElementById("chapo").innerHTML = md(t.chapo);

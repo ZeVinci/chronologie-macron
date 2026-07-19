@@ -1,8 +1,9 @@
 {
- "genere_le": "2026-07-18",
- "total_fiches": 182,
+ "genere_le": "2026-07-19",
+ "total_fiches": 180,
  "textes": {
-  "titre": "Deux quinquennats sous Macron",
+  "titre": "Machronologie",
+  "titre_balise": "**Mac**h**ron**ologie",
   "chapo": "Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. \nLes descriptions factuelles et sourcées sont suivies de commentaires critiques; le lecteur peut toutefois facilement séparer les unes et les autres.",
   "pied": "Sélection subjective assumée de faits vérifiés et sourcés"
  },
@@ -534,7 +535,7 @@
   },
   {
    "annee": 2018,
-   "note": "Les affaires Benalla et Gilets jaunes sont ventilées en trois fiches chacune.",
+   "note": "Année cruciale pour les gilets jaunes et les affaires Benalla.",
    "total": 20,
    "densite": [
     2,
@@ -1003,8 +1004,8 @@
   },
   {
    "annee": 2019,
-   "note": "Le thème des violences policières, dominant cette année-là, est ventilé en huit fiches réparties dans le fil chronologique.",
-   "total": 23,
+   "note": "Le thème des violences policières est dominant cette année-là.",
+   "total": 21,
    "densite": [
     3,
     2,
@@ -1015,8 +1016,8 @@
     2,
     0,
     0,
-    2,
-    5,
+    1,
+    4,
     3
    ],
    "fiches": [
@@ -1049,7 +1050,7 @@
      "precision": "periode",
      "transverse": false,
      "mois": 1,
-     "factuel": "En réponse aux Gilets jaunes, Macron lance le Grand Débat national (15 janvier – 15 mars), multipliant les marathons de plusieurs heures où il occupe l'essentiel de la parole. Les quelque 19 000 cahiers de doléances remplis en mairie, dont la mise en ligne avait été promise, ne seront jamais publiés. Numérisés avec le concours de la BnF, ils sont déposés aux Archives nationales et départementales : consultables sur demande et autorisation pour les chercheurs, ils ne font l'objet d'aucune publication en ligne. La numérisation elle-même est lacunaire — certains cahiers n'ont pas été traités, d'autres l'ont été en double.",
+     "factuel": "En réponse aux Gilets jaunes, Macron lance le Grand Débat national (15 janvier – 15 mars), multipliant les marathons de plusieurs heures où il occupe l'essentiel de la parole. Les quelque 19 000 cahiers de doléances remplis en mairie, dont la mise en ligne avait été promise, ne seront jamais publiés.",
      "critique": "Perçu comme une vaste opération de communication où le président soliloque, et où la parole citoyenne recueillie est finalement enterrée. Nuance : les cahiers n'ont pas été « confisqués » au sens strict, ils sont archivés et consultables ; c'est la promesse de publication qui n'a pas été tenue, et l'accès reste assez lourd pour équivaloir en pratique à une mise sous le boisseau.",
      "sources": [
       {
@@ -1109,7 +1110,7 @@
      "precision": "mois",
      "transverse": false,
      "mois": 2,
-     "factuel": "Après avoir qualifié en 2017 de « crime contre l'humanité » l'esclavage des migrants en Libye, la France continue de soutenir matériellement les garde-côtes libyens qui interceptent et renvoient les migrants vers des centres de détention aux conditions dénoncées (Human Rights Watch, 13 mars 2019). Médecins du Monde résume la contradiction le 23 février.",
+     "factuel": "Après avoir qualifié en 2017 de « crime contre l'humanité » l'esclavage des migrants en Libye, la France continue de soutenir matériellement les garde-côtes libyens qui interceptent et renvoient les migrants vers des centres de détention aux conditions dénoncées par les organisations humnitaires.",
      "critique": "Illustration du « en même temps » migratoire : indignation morale affichée, complicité pratique dans les refoulements.",
      "sources": [
       {
@@ -1169,8 +1170,8 @@
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "À Nice, Geneviève Legay, militante d'Attac de 73 ans, est grièvement blessée lors d'une charge policière : fractures multiples du crâne, hématomes sous-duraux, hémorragie interne et fracture du coccyx. Le procureur de Nice Jean-Michel Prêtre affirme d'abord qu'aucun policier ne l'a touchée et qu'elle aurait heurté une borne — version dont il devra se départir ; on apprendra en juillet qu'il avait suivi toute l'opération depuis le Centre de supervision urbain, et l'enquête sera dépaysée à Lyon. Macron, sur place pour recevoir Xi Jinping, déclare à Nice-Matin lui souhaiter « un prompt rétablissement et peut-être une forme de sagesse », ajoutant : « Quand on est fragile et qu'on risque de se faire bousculer, on ne se rend pas dans des lieux qui sont interdits et on ne se met pas dans une situation comme celle-là. »",
-     "critique": "Réponse présidentielle jugée méprisante, la seconde phrase déplaçant la responsabilité sur la victime ; Legay rétorque que « Macron n'est pas un exemple de sagesse mais de mépris et de violence ». Le dépaysement de l'enquête et la position du procureur pendant l'opération alimentent la critique d'une justice juge et partie.",
+     "factuel": "À Nice, Geneviève Legay, militante d'Attac de 73 ans, est grièvement blessée lors d'une charge policière. Le procureur de Nice Jean-Michel Prêtre affirme d'abord qu'aucun policier ne l'a touchée et qu'elle aurait heurté une borne — version dont il devra se départir. Macron déclare à Nice-Matin lui souhaiter « un prompt rétablissement et peut-être une forme de sagesse », ajoutant : « Quand on est fragile et qu'on risque de se faire bousculer, on ne se rend pas dans des lieux qui sont interdits et on ne se met pas dans une situation comme celle-là. »",
+     "critique": "Réponse présidentielle jugée méprisante, la seconde phrase déplaçant la responsabilité sur la victime ; Legay rétorque que « Macron n'est pas un exemple de sagesse mais de mépris et de violence ».",
      "sources": [
       {
        "nom": "Europe 1",
@@ -1190,7 +1191,7 @@
      "transverse": false,
      "mois": 5,
      "factuel": "Le journaliste David Dufresne recense et documente sur Mediapart, depuis novembre 2018, les cas de violences policières via son signal « Allô @Place_Beauvau, c'est pour un signalement ». Chaque cas exige une pièce justificative : photo, vidéo, certificat médical, imagerie ou plainte. Son bilan à six mois (17 mai 2019) fait état de 788 signalements, tirés de 2 308 courriels reçus : 1 mort, des centaines de blessures à la tête, 24 mutilations graves et 5 mains arrachées par des grenades GLI-F4. Le collectif Désarmons-les met ces 24 mutilations en regard des 36 recensées lors des vingt années précédentes. Le décompte final du projet, arrêté en 2020, atteindra 993 signalements dont 353 blessures à la tête, 30 éborgnés et 6 mains arrachées.",
-     "critique": "Recensement méthodique, primé au Grand Prix des Assises du journalisme 2019, qui documente une répression d'une ampleur inédite — autant de mutilations en six mois qu'en vingt ans — et contredit frontalement le déni présidentiel de la fiche 6.",
+     "critique": "Recensement méthodique, primé au Grand Prix des Assises du journalisme 2019, qui documente une répression d'une ampleur inédite — autant de mutilations en six mois qu'en vingt ans — et contredit frontalement le déni présidentiel.",
      "sources": [
       {
        "nom": "David Dufresne — « Six mois d'Allo Place Beauvau : chronique d'un projet à part »",
@@ -1217,8 +1218,8 @@
      "precision": "jour",
      "transverse": false,
      "mois": 5,
-     "factuel": "Aux élections européennes, la liste Rassemblement national arrive en tête avec 23,3 % des voix, devançant la liste Renaissance (LREM) à 22,4 %, dans un mouchoir de poche (moins d'un point d'écart).",
-     "critique": "Deux ans après 2017, l'échec à contenir le RN, présenté comme adversaire structurant, plutôt qu'à le faire reculer.",
+     "factuel": "Aux élections européennes, la liste Rassemblement national arrive en tête avec 23,3 % des voix, devançant la liste Renaissance (LREM) à 22,4 %.",
+     "critique": "Deux ans après 2017, l'échec à contenir le RN est patent.",
      "sources": [
       {
        "nom": "Touteleurope.eu",
@@ -1277,8 +1278,8 @@
      "precision": "mois",
      "transverse": false,
      "mois": 7,
-     "factuel": "Faute de renouvellement du contrat par SNCF Fret, le « train des primeurs » Perpignan-Rungis cesse de circuler le 15 juillet 2019 — malgré une promesse de maintien du ministère des Transports en mai. Le service assurait l'équivalent de 20 000 à 25 000 camions par an épargnés aux routes. Il restera à l'arrêt en 2019 et 2020, avant d'être relancé en 2021 avec une aide publique.",
-     "critique": "Contradiction directe avec les engagements climatiques : un report modal du rail vers la route au moment où le gouvernement invoque l'écologie. La relance de 2021, sous subvention, confirme rétrospectivement que l'arrêt n'était pas une fatalité économique mais un arbitrage — et que cet arbitrage a d'abord été rendu dans l'autre sens.",
+     "factuel": "Faute de renouvellement du contrat par SNCF Fret, le « train des primeurs » Perpignan-Rungis cesse de circuler le 15 juillet 2019 — malgré une promesse de maintien du ministère des Transports en mai. Le service assurait l'équivalent de 20 000 à 25 000 camions par an. Il restera à l'arrêt en 2019 et 2020, avant d'être relancé en 2021 avec une aide publique.",
+     "critique": "Contradiction directe avec les engagements climatiques : un report du rail vers la route au moment où le gouvernement invoque l'écologie. La relance de 2021, sous subvention, confirme rétrospectivement que l'arrêt n'était pas une fatalité économique mais un arbitrage.",
      "sources": [
       {
        "nom": "franceinfo",
@@ -1290,50 +1291,6 @@
     },
     {
      "n": 14,
-     "titre": "Les plus aisés, grands gagnants des réformes fiscales du capital",
-     "date_libelle": "novembre 2019",
-     "debut": "2019-11-01",
-     "fin": "2019-11-30",
-     "precision": "mois",
-     "transverse": false,
-     "mois": 11,
-     "factuel": "Le couple ISF→IFI et « flat tax » sur les revenus du capital concentre ses gains au sommet de la distribution : les 10 % les plus aisés captent **79 % du total des gains de niveau de vie** issus de ces deux réformes, laissant 21 % aux 90 % restants — l'effet étant lui-même très concentré au sein de ce dernier décile.\n\n*⚠️ Précision méthodologique importante — Il faut distinguer deux choses souvent confondues. Sur le seul millésime 2019, l'INSEE (France, portrait social, novembre 2019) constate que les réformes de l'année profitent d'abord aux **niveaux de vie intermédiaires** (300 à 340 € par an pour les 3e-8e déciles, contre 160 à 280 € pour les ménages modestes), du fait de la taxe d'habitation, de la CSG des retraités et de la défiscalisation des heures supplémentaires. La concentration au sommet concerne spécifiquement le couple ISF/flat tax de 2018, pas le paquet 2019. La fiche a été recentrée en conséquence : elle citait l'étude 2019 à l'appui d'une conclusion que cette étude ne porte pas.*",
-     "critique": "Cœur de la critique du « président des riches », étayée par les chiffres officiels ; Piketty y voit « une faute morale, économique et historique ».",
-     "sources": [
-      {
-       "nom": "INSEE — Les réformes socio-fiscales de 2019 (France, portrait social, novembre 2019)",
-       "lien": "https://www.insee.fr/fr/statistiques/4797668?sommaire=4928952"
-      },
-      {
-       "nom": "Analyse de la répartition des gains ISF/flat tax",
-       "lien": "https://www.economiematin.fr/news-flat-tax-ifi-revenus-gains-reforme-riche-inegalites"
-      }
-     ],
-     "statut": "Vérifié",
-     "a_verifier": false
-    },
-    {
-     "n": 15,
-     "titre": "Violences policières (6) : un pompier blessé au LBD, puis suspendu",
-     "date_libelle": "15-22/10/2019",
-     "debut": "2019-10-15",
-     "fin": "2019-10-22",
-     "precision": "periode",
-     "transverse": false,
-     "mois": 10,
-     "factuel": "Le 15 octobre, lors de la manifestation nationale des pompiers à Paris, Nicolas B. est touché à la cuisse par un tir de LBD40 alors qu'il porte secours à un collègue. Le 22 octobre, il est suspendu à titre conservatoire par sa hiérarchie ; il porte plainte pour « violences volontaires par personne dépositaire de l'autorité publique ».",
-     "critique": "Double peine emblématique : la victime d'un tir policier sanctionnée, illustration de l'impunité dénoncée dans le maintien de l'ordre.",
-     "sources": [
-      {
-       "nom": "StreetPress",
-       "lien": "https://www.streetpress.com/1571737319-pompier-blesse-par-la-police-suspendu-par-sa-hierarchie/"
-      }
-     ],
-     "statut": "Vérifié",
-     "a_verifier": false
-    },
-    {
-     "n": 16,
      "titre": "Interview à Valeurs actuelles",
      "date_libelle": "30/10/2019",
      "debut": "2019-10-30",
@@ -1353,7 +1310,7 @@
      "a_verifier": false
     },
     {
-     "n": 17,
+     "n": 15,
      "titre": "Durcissement de l'assurance-chômage",
      "date_libelle": "01/11/2019",
      "debut": "2019-11-01",
@@ -1361,7 +1318,7 @@
      "precision": "jour",
      "transverse": false,
      "mois": 11,
-     "factuel": "La réforme de l'assurance-chômage (décret n° 2019-797 du 26 juillet 2019, pris faute d'accord entre partenaires sociaux) entre en vigueur au 1er novembre : il faut désormais avoir travaillé 6 mois sur 24 (au lieu de 4 sur 28) pour ouvrir des droits — les 53 ans et plus étant exemptés. L'étude d'impact de l'Unédic chiffre l'effet : environ **710 000 personnes concernées dès la première année**, dont 200 000 qui n'ouvriront plus aucun droit et 210 000 qui en ouvriront un avec cinq mois de retard en moyenne. Cumulées sur 2019-2021, les dépenses d'indemnisation baissent de 3,4 milliards d'euros, dont 3,2 milliards imputables à cette mesure et à la refonte du salaire de référence (avril 2020).",
+     "factuel": "La réforme de l'assurance-chômage entre en vigueur au 1er novembre : il faut désormais avoir travaillé 6 mois sur 24 (au lieu de 4 sur 28) pour ouvrir des droits — les 53 ans et plus étant exemptés. L'étude d'impact de l'Unédic chiffre l'effet : environ 710 000 personnes concernées dès la première année, dont 200 000 qui n'ouvriront plus aucun droit. Cumulées sur 2019-2021, les dépenses d'indemnisation baissent de 3,4 milliards d'euros, dont 3,2 milliards imputables à cette mesure et à la refonte du salaire de référence (avril 2020).",
      "critique": "Durcissement des conditions d'indemnisation touchant particulièrement les travailleurs précaires et les contrats courts — « ne soyez pas au chômage ». L'économie de 3,4 Md€ est à mettre en regard des baisses de fiscalité du capital consenties sans condition sur la même période.",
      "sources": [
       {
@@ -1381,7 +1338,7 @@
      "a_verifier": false
     },
     {
-     "n": 18,
+     "n": 16,
      "titre": "Absorption des observatoires indépendants",
      "date_libelle": "12/11/2019",
      "debut": "2019-11-12",
@@ -1401,7 +1358,7 @@
      "a_verifier": false
     },
     {
-     "n": 19,
+     "n": 17,
      "titre": "Privatisation de la Française des Jeux",
      "date_libelle": "21/11/2019",
      "debut": "2019-11-21",
@@ -1421,15 +1378,15 @@
      "a_verifier": false
     },
     {
-     "n": 20,
-     "titre": "Violences policières (7) : l'État recommande son arsenal de LBD40",
+     "n": 18,
+     "titre": "Violences policières (6) : l'État recommande son arsenal de LBD40",
      "date_libelle": "27/11/2019",
      "debut": "2019-11-27",
      "fin": "2019-11-27",
      "precision": "jour",
      "transverse": false,
      "mois": 11,
-     "factuel": "Deux marchés publics publiés au BOAMP le 27 novembre : Alsetex (groupe Étienne Lacroix, usine sarthoise) fournira **1 280 lanceurs LBD40 mono-coup pour 1,64 M€** ; Rivolier fournira des lanceurs multi-coups — 180 six-coups pour 727 000 €, plus 270 quatre-coups. Soit de l'ordre de 1 700 armes au total, Beauvau changeant au passage de fournisseur principal. *(Reporterre a titré sur « 1 400 nouveaux LBD » ; le détail des lots donne un total supérieur — le chiffre de 1 280 retenu ici est celui du seul lot mono-coup Alsetex.)*",
+     "factuel": "Deux marchés publics publiés au BOAMP le 27 novembre : Alsetex fournira 1 280 lanceurs LBD40 mono-coup pour 1,64 M€ ; Rivolier fournira des lanceurs multi-coups — 180 six-coups pour 727 000 €, plus 270 quatre-coups. Soit de l'ordre de 1 700 armes au total.*",
      "critique": "Réarmement en LBD en pleine polémique sur les mutilations, signe d'un maintien assumé de la doctrine contestée.",
      "sources": [
       {
@@ -1441,7 +1398,7 @@
      "a_verifier": false
     },
     {
-     "n": 21,
+     "n": 19,
      "titre": "Retraites (1) : la grève interprofessionnelle du 5 décembre",
      "date_libelle": "05/12/2019",
      "debut": "2019-12-05",
@@ -1461,7 +1418,7 @@
      "a_verifier": false
     },
     {
-     "n": 22,
+     "n": 20,
      "titre": "Retraites (2) : système à points et « âge pivot » à 64 ans",
      "date_libelle": "11/12/2019",
      "debut": "2019-12-11",
@@ -1481,7 +1438,7 @@
      "a_verifier": false
     },
     {
-     "n": 23,
+     "n": 21,
      "titre": "Retraites (3) : la démission de Delevoye pour conflit d'intérêts",
      "date_libelle": "16/12/2019",
      "debut": "2019-12-16",
@@ -1510,7 +1467,7 @@
     2,
     1,
     6,
-    0,
+    1,
     0,
     3,
     2,
@@ -1518,7 +1475,7 @@
     0,
     1,
     2,
-    5
+    4
    ],
    "fiches": [
     {
@@ -1590,11 +1547,15 @@
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "Le 6 mars, Emmanuel et Brigitte Macron se rendent au Théâtre Antoine pour inciter les Français à sortir malgré l'épidémie naissante. Selon le directeur du théâtre, le président déclare : « La vie continue. Il n'y a aucune raison, mis à part pour les populations fragilisées, de modifier nos habitudes de sortie. »",
-     "critique": "Onze jours avant le confinement : symbole rétrospectif de la minimisation initiale du danger, en écho au discours officiel (« le masque ne sert à rien »).",
+     "factuel": "Le vendredi 6 mars au soir, Emmanuel et Brigitte Macron assistent au Théâtre Antoine à la pièce « Par le bout du nez », avec François Berléand et François-Xavier Demaison. Le déplacement est compris comme un geste délibéré destiné à montrer que la vie sociale peut continuer.",
+     "critique": "Onze jours avant le confinement : symbole rétrospectif de la minimisation initiale du danger, en écho au discours officiel de la même période sur l'inutilité du masque.",
      "sources": [
       {
-       "nom": "franceinfo (exercice du pouvoir face à la pandémie)",
+       "nom": "Jean-Marc Dumontet — tweet du 7 mars 2020 (source primaire, compte rendu de la soirée)",
+       "lien": "https://x.com/Jmdumontet/status/1236257657243217920"
+      },
+      {
+       "nom": "franceinfo — l'exercice du pouvoir présidentiel à l'épreuve de la pandémie (mise en perspective rétrospective)",
        "lien": "https://www.franceinfo.fr/sante/maladie/coronavirus/confinement/covid-19-lexercice-du-pouvoir-presidentiel-a-lepreuve-de-la-pandemie_4332991.html"
       }
      ],
@@ -1610,7 +1571,7 @@
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "Malgré le passage au stade 3 de l'épidémie la veille, le gouvernement maintient le premier tour des élections municipales le 15 mars. L'abstention atteint un record absolu pour un scrutin municipal sous la Ve République : **55,3 % des inscrits** selon les résultats définitifs (les estimations du soir circulaient entre 53,5 % et 54,5 %, chiffres encore souvent repris). De nombreux responsables politiques seront contaminés dans la foulée.",
+     "factuel": "Malgré le passage au stade 3 de l'épidémie la veille, le gouvernement maintient le premier tour des élections municipales le 15 mars. L'abstention atteint un record absolu pour un scrutin municipal sous la Ve République : 55,3 % des inscrits selon les résultats définitifs.",
      "critique": "Décision jugée « aberrante » jusque dans la majorité sénatoriale : tenir un scrutin national à la veille du confinement, au mépris du risque sanitaire.",
      "sources": [
       {
@@ -1631,7 +1592,7 @@
      "transverse": false,
      "mois": 3,
      "factuel": "Lors d'une allocution suivie par plus de 35 millions de téléspectateurs, Macron répète six fois « nous sommes en guerre » et annonce le confinement général et le report du second tour des municipales.",
-     "critique": "Rhétorique guerrière et verticale, critiquée (Merkel « explique » quand Macron « fait la guerre » et culpabilise), qui masque l'impréparation matérielle.",
+     "critique": "Rhétorique guerrière et verticale, qui masque l'impréparation matérielle.",
      "sources": [
       {
        "nom": "Élysée — Adresse aux Français, 16 mars 2020 (texte intégral)",
@@ -1655,7 +1616,7 @@
      "transverse": false,
      "mois": 3,
      "factuel": "Le confinement entre en vigueur le 17 mars à 12 h : déplacements soumis à une attestation dérogatoire, amende portée à 135 € (décret du 18 mars), fermeture des forêts, plages et parcs. Les décisions sont de plus en plus prises en conseil de défense sanitaire, secret et sans compte rendu.",
-     "critique": "Dispositif restrictif et opaque : critiques sur l'infantilisation (« 135 € la remontrance »), la verticalité et l'absence de transparence des arbitrages présidentiels.",
+     "critique": "Si la décision d'un confinement maximaliste se comprend à cette date, il a rapidement été établi scientifiquement que le maintien d'interdictions fortes en extérieur était contre-productif. En outre, on retrouve l'appétence macroniste pour des amendes très élevées.",
      "sources": [
       {
        "nom": "Préfecture du Rhône (services de l'État)",
@@ -1675,7 +1636,7 @@
      "transverse": false,
      "mois": 3,
      "factuel": "Face à la pénurie, la porte-parole Sibeth Ndiaye affirme le 20 mars « je ne sais pas utiliser un masque », prolongeant le discours officiel selon lequel le masque serait inutile — bientôt renié. En cause : le stock stratégique national (plus d'un milliard de masques après le H1N1) non renouvelé et laissé se périmer depuis le début des années 2010.",
-     "critique": "Contradiction dénoncée en boucle : nier l'utilité du masque pour masquer la pénurie, avant de le rendre obligatoire.",
+     "critique": "Nier l'utilité du masque pour masquer la pénurie, avant de le rendre obligatoire. Exemple parfait de ce qu'il ne faut pas faire en situation de crise: décrédibiliser la parole officielle.",
      "sources": [
       {
        "nom": "Vie-publique.fr (déclaration S. Ndiaye)",
@@ -1694,7 +1655,7 @@
      "precision": "periode",
      "transverse": false,
      "mois": 3,
-     "factuel": "Déposé le 18 mars, le projet de loi d'urgence pour faire face à l'épidémie de Covid-19 est examiné en procédure accélérée, adopté définitivement le 22 mars et promulgué le 23 (loi n° 2020-290). Il crée le régime juridique de l'« état d'urgence sanitaire », habilite le gouvernement à légiférer par ordonnances dans un champ très large et reporte le second tour des municipales. Le 20 mars, le groupe La France insoumise avait rendu publiques onze mesures d'urgence qu'il souhaitait voir intégrées, portant notamment sur les moyens hospitaliers et le dépistage ; elles n'ont pas été retenues.\n\n*⚠️ Correction — La version précédente de cette fiche affirmait, sur la seule foi d'une page de La France insoumise, que la majorité aurait rejeté un « plan d'urgence de 6 milliards d'euros pour l'hôpital ». **Je n'ai trouvé aucune source permettant d'étayer ce montant**, et le lien cité renvoyait à une page de mai 2020 sans rapport avec l'examen du 22 mars. Le chiffre a été retiré. Ce qui est vérifiable — les onze propositions LFI du 20 mars non retenues — est conservé, sans chiffrage. La fiche a été recentrée sur son objet réellement documentable : le contenu et la procédure de la loi elle-même.*",
+     "factuel": "Déposé le 18 mars, le projet de loi d'urgence pour faire face à l'épidémie de Covid-19 est examiné en procédure accélérée, adopté définitivement le 22 mars et promulgué le 23. Il crée le régime juridique de l'« état d'urgence sanitaire », habilite le gouvernement à légiférer par ordonnances dans un champ très large et reporte le second tour des municipales.",
      "critique": "Concentration exceptionnelle de pouvoirs entre les mains de l'exécutif, votée en quelques jours, avec un recours massif aux ordonnances qui vide en pratique le débat parlementaire de sa substance.",
      "sources": [
       {
@@ -1704,10 +1665,6 @@
       {
        "nom": "Assemblée nationale — adoption des projets de loi d'urgence",
        "lien": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/crise-du-coronavirus-covid19-adoption-des-projets-de-loi-sur-les-mesures-d-urgence"
-      },
-      {
-       "nom": "La France insoumise — propositions pendant la crise (source partisane, citée comme telle)",
-       "lien": "https://lafranceinsoumise.fr/coronavirus-actions-propositions-france-insoumise-crise/"
       }
      ],
      "statut": "À vérifier",
@@ -1715,6 +1672,34 @@
     },
     {
      "n": 10,
+     "titre": "Macron rend visite à Didier Raoult à Marseille",
+     "date_libelle": "09/04/2020",
+     "debut": "2020-04-09",
+     "fin": "2020-04-09",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 4,
+     "factuel": "En pleine première vague et en plein confinement, Emmanuel Macron se rend le 9 avril à l'IHU Méditerranée Infection de Marseille pour y rencontrer le professeur Didier Raoult. Le microbiologiste est alors au sommet de sa popularité et promet de soigner le Covid-19 par l'hydroxychloroquine.",
+     "critique": "La visite est lue comme une caution présidentielle à un protocole déjà contesté par une large part du monde médical : « quelque part, il a validé la conduite thérapeutique de l'IHU ». Le contraste est relevé sur place — des services de réanimation saturés et des patients morts du Covid à quelques centaines de mètres. Une partie de la classe politique salue à l'inverse un président venu écouter « sans intermédiaire ni filtre ».",
+     "sources": [
+      {
+       "nom": "franceinfo — « Quelque part, il a validé la conduite thérapeutique de l'IHU » : quand Macron rendait visite à Didier Raoult",
+       "lien": "https://www.franceinfo.fr/sante/maladie/coronavirus/chloroquine/video-quelque-part-il-a-valide-la-conduite-therapeutique-de-l-ihu-quand-le-president-macron-rendait-visite-a-didier-raoult-en-avril-2020_5480211.html"
+      },
+      {
+       "nom": "Gomet' — « La longue visite surprise d'Emmanuel Macron à l'IHU de Didier Raoult » (récit local, 09/04/2020)",
+       "lien": "https://gomet.net/la-longue-visite-demmanuel-macron-a-lihu-de-didier-raoult/"
+      },
+      {
+       "nom": "franceinfo — Didier Raoult interdit d'exercer la médecine pendant deux ans",
+       "lien": "https://www.franceinfo.fr/sante/maladie/coronavirus/chloroquine/covid-19-le-professeur-didier-raoult-interdit-d-exercer-la-medecine-pendant-deux-ans_6815933.html"
+      }
+     ],
+     "statut": "Vérifié",
+     "a_verifier": false
+    },
+    {
+     "n": 11,
      "titre": "Violences policières : la manifestation Adama/Floyd",
      "date_libelle": "02/06/2020",
      "debut": "2020-06-02",
@@ -1722,7 +1707,7 @@
      "precision": "jour",
      "transverse": false,
      "mois": 6,
-     "factuel": "Le 2 juin, au moins 20 000 personnes **selon le décompte de la préfecture de police elle-même** manifestent devant le tribunal de grande instance de Paris, malgré l'interdiction, à l'appel du comité « La Vérité pour Adama » (Adama Traoré, mort en 2016 après son interpellation) et en écho à la mort de George Floyd aux États-Unis (25 mai). Le rassemblement coïncide avec la publication d'une nouvelle expertise, demandée par la famille, mettant en cause les gendarmes dans la mort du jeune homme. Il s'achève par des heurts avec les forces de l'ordre.",
+     "factuel": "Le 2 juin, au moins 20 000 personnes (selon le décompte de la préfecture de police elle-même) manifestent devant le tribunal de grande instance de Paris, malgré l'interdiction, à l'appel du comité « La Vérité pour Adama » (Adama Traoré, mort en 2016 après son interpellation) et en écho à la mort de George Floyd aux États-Unis (25 mai). Le rassemblement coïncide avec la publication d'une nouvelle expertise, demandée par la famille, mettant en cause les gendarmes dans la mort du jeune homme. Il s'achève par des heurts avec les forces de l'ordre.",
      "critique": "Mobilisation historique contre les violences policières et le racisme, à laquelle Macron répondra par le registre du « séparatisme » et du « communautarisme ». Le chiffre de 20 000 étant celui de la préfecture, il constitue un plancher et non une estimation militante.",
      "sources": [
       {
@@ -1738,7 +1723,7 @@
      "a_verifier": false
     },
     {
-     "n": 11,
+     "n": 12,
      "titre": "Manifestations interdites au nom du sanitaire",
      "date_libelle": "13/06/2020",
      "debut": "2020-06-13",
@@ -1746,19 +1731,23 @@
      "precision": "jour",
      "transverse": false,
      "mois": 6,
-     "factuel": "Le 13 juin, la préfecture interdit le rassemblement contre les violences policières place de la République (motif sanitaire) ; des milliers de personnes s'y retrouvent malgré tout. Le fil relève le deux poids-deux mesures avec des policiers ayant manifesté sans autorisation près de l'Élysée quelques jours plus tôt.",
-     "critique": "Usage sélectif de l'argument sanitaire pour restreindre le droit de manifester, dénoncé comme une atteinte aux libertés publiques.",
+     "factuel": "Le 13 juin, la préfecture interdit pour motif sanitaire le rassemblement contre les violences policières place de la République ; des milliers de personnes s'y retrouvent malgré tout.\n\n**La veille**, le 12 juin, environ 200 policiers venus de toute la France défilent en civil sur les Champs-Élysées, accompagnés d'une cinquantaine de véhicules, pour protester contre les annonces de Christophe Castaner sur le racisme dans la police et l'interdiction de la clé d'étranglement. Le cortège, non déclaré à la préfecture, s'achève devant les grilles de la place Beauvau — le ministère de l'Intérieur, mitoyen de l'Élysée. Loin d'être dispersé, il est salué par les policiers en service à coups de klaxons et de sirènes. Le soir même du 13 juin, une seconde action nocturne, elle aussi non autorisée, rassemble de nombreux véhicules de police au pied de l'Arc de Triomphe : elle est également tolérée.",
+     "critique": "Usage sélectif de l'argument sanitaire pour restreindre le droit de manifester, dénoncé comme une atteinte aux libertés publiques. La comparaison ne porte pas sur des événements distants : à vingt-quatre heures d'intervalle et dans le même arrondissement, un rassemblement contre les violences policières est interdit au nom de l'épidémie tandis qu'un cortège de policiers non déclaré est escorté et salué par ses collègues en service.",
      "sources": [
       {
-       "nom": "France Bleu / ICI",
+       "nom": "France Bleu / ICI — la préfecture interdit le rassemblement place de la République",
        "lien": "https://www.francebleu.fr/infos/faits-divers-justice/marche-pour-adama-traore-la-prefecture-interdit-un-rassemblement-place-de-la-republique-a-paris-8937566"
+      },
+      {
+       "nom": "Europe 1 — « À Paris, 200 policiers manifestent sur les Champs-Élysées » (12/06/2020)",
+       "lien": "https://www.europe1.fr/societe/on-en-a-ras-le-bol-a-paris-200-policiers-manifestent-sur-les-champs-elysees-3974489"
       }
      ],
      "statut": "Vérifié",
      "a_verifier": false
     },
     {
-     "n": 12,
+     "n": 13,
      "titre": "Convention citoyenne pour le climat : « 146 des 149 »",
      "date_libelle": "29/06/2020",
      "debut": "2020-06-29",
@@ -1782,7 +1771,7 @@
      "a_verifier": false
     },
     {
-     "n": 13,
+     "n": 14,
      "titre": "Remaniement Castex : le virage à droite",
      "date_libelle": "03-06/07/2020",
      "debut": "2020-07-03",
@@ -1790,7 +1779,7 @@
      "precision": "periode",
      "transverse": false,
      "mois": 7,
-     "factuel": "Édouard Philippe démissionne ; Jean Castex, haut fonctionnaire issu de la droite sarkozyste (« Monsieur T2A »), devient Premier ministre le 3 juillet. Le gouvernement se droitise : Gérald Darmanin à l'Intérieur — alors qu'il est visé par une plainte pour viol — et Éric Dupond-Moretti à la Justice (nominations du 6 juillet).",
+     "factuel": "Édouard Philippe démissionne ; Jean Castex, haut fonctionnaire issu de la droite sarkozyste, devient Premier ministre le 3 juillet. Le gouvernement se droitise : Gérald Darmanin à l'Intérieur — alors qu'il est visé par une plainte pour viol — et Éric Dupond-Moretti à la Justice (nominations du 6 juillet).",
      "critique": "Droitisation assumée et nomination contestée de Darmanin, maintenu au gouvernement malgré la procédure judiciaire le concernant.",
      "sources": [
       {
@@ -1802,7 +1791,7 @@
      "a_verifier": false
     },
     {
-     "n": 14,
+     "n": 15,
      "titre": "Ségur de la santé : revalorisations jugées insuffisantes",
      "date_libelle": "13/07/2020",
      "debut": "2020-07-13",
@@ -1822,7 +1811,7 @@
      "a_verifier": false
     },
     {
-     "n": 15,
+     "n": 16,
      "titre": "Beyrouth : la séquence internationale contestée",
      "date_libelle": "06/08/2020",
      "debut": "2020-08-06",
@@ -1842,7 +1831,7 @@
      "a_verifier": false
     },
     {
-     "n": 16,
+     "n": 17,
      "titre": "Réautorisation des néonicotinoïdes",
      "date_libelle": "août–déc. 2020",
      "debut": "2020-08-01",
@@ -1862,7 +1851,7 @@
      "a_verifier": false
     },
     {
-     "n": 17,
+     "n": 18,
      "titre": "Deuxième vague : état d'urgence, couvre-feu, reconfinement",
      "date_libelle": "14 & 28/10/2020",
      "debut": "2020-10-14",
@@ -1886,7 +1875,7 @@
      "a_verifier": false
     },
     {
-     "n": 18,
+     "n": 19,
      "titre": "Loi « Sécurité globale » et article 24",
      "date_libelle": "24/11/2020",
      "debut": "2020-11-24",
@@ -1914,7 +1903,7 @@
      "a_verifier": false
     },
     {
-     "n": 19,
+     "n": 20,
      "titre": "Violences policières : le passage à tabac de Michel Zecler",
      "date_libelle": "21-26/11/2020",
      "debut": "2020-11-21",
@@ -1934,7 +1923,7 @@
      "a_verifier": false
     },
     {
-     "n": 20,
+     "n": 21,
      "titre": "Dissolution du CCIF",
      "date_libelle": "02/12/2020",
      "debut": "2020-12-02",
@@ -1948,26 +1937,6 @@
       {
        "nom": "Légifrance (décret du 2 décembre 2020)",
        "lien": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042602019"
-      }
-     ],
-     "statut": "Vérifié",
-     "a_verifier": false
-    },
-    {
-     "n": 21,
-     "titre": "Macron et le déni des « violences policières »",
-     "date_libelle": "04/12/2020",
-     "debut": "2020-12-04",
-     "fin": "2020-12-04",
-     "precision": "jour",
-     "transverse": false,
-     "mois": 12,
-     "factuel": "Dans une interview au média Brut (4 décembre), Macron admet du bout des lèvres l'existence de violences policières mais dénonce l'expression devenue selon lui « un slogan », en distinguant « les individus » de « l'institution ».",
-     "critique": "Reformulation du déni de 2019 (« des mots inacceptables ») : reconnaître à demi-mot tout en délégitimant la critique.",
-     "sources": [
-      {
-       "nom": "France 24",
-       "lien": "https://www.france24.com/fr/france/20201204-emmanuel-macron-admet-des-violences-polici%C3%A8res-dans-une-interview-au-m%C3%A9dia-brut"
       }
      ],
      "statut": "Vérifié",
@@ -2022,11 +1991,19 @@
      "precision": "mois",
      "transverse": false,
      "mois": 12,
-     "factuel": "À la sortie du reconfinement (15 décembre), le couvre-feu à 20 h remplace le confinement ; bars, restaurants, cinémas et théâtres restent fermés. Les fêtes sont encadrées (exception le 24 décembre, recommandation de six adultes maximum à table, aucune dérogation le 31). Macron, testé positif le 17 décembre, est révélé avoir multiplié les déjeuners à plusieurs.",
+     "factuel": "À la sortie du reconfinement (15 décembre), le couvre-feu à 20 h remplace le confinement ; bars, restaurants, cinémas et théâtres restent fermés. Les fêtes sont encadrées : exception le 24 décembre, recommandation de six adultes maximum à table, aucune dérogation le 31.\n\nMacron est testé positif le 17 décembre. On apprend alors que la veille au soir, il a dîné à l'Élysée avec onze convives — douze personnes à table, soit le double de la consigne gouvernementale. La veille encore, le 15 décembre, Macron avait déjeuné avec Ferrand et les présidents de groupe de l'Assemblée ; Castaner reconnaîtra avoir partagé deux repas avec le président dans la même semaine. Macron évoquera dans une vidéo « sans doute un moment de négligence, un moment de pas de chance aussi ».",
      "critique": "Incohérences et culpabilisation des repas de famille, contrastant avec les pratiques du sommet de l'État.",
      "sources": [
       {
-       "nom": "France Bleu / ICI",
+       "nom": "La Libre — « Que sait-on du dîner polémique d'Emmanuel Macron, positif au Covid-19 ? » (18/12/2020, liste nominative des convives et justifications de l'Élysée)",
+       "lien": "https://www.lalibre.be/international/europe/2020/12/18/que-sait-on-du-diner-polemique-demmanuel-macron-positif-au-covid-19-BTS4HFJ3VRBBVBHCGKFOW6NHY4/"
+      },
+      {
+       "nom": "Public Sénat — Macron positif, Castex cas contact",
+       "lien": "https://www.publicsenat.fr/article/politique/covid-19-emmanuel-macron-diagnostique-positif-jean-castex-cas-contact-186244"
+      },
+      {
+       "nom": "France Bleu / ICI — retour du couvre-feu à 20 h",
        "lien": "https://www.francebleu.fr/infos/sante-sciences/coronavirus-retour-du-couvre-feu-des-20-heures-jusqu-a-la-fin-de-l-annee-sauf-le-soir-de-noel-1607621526"
       }
      ],
