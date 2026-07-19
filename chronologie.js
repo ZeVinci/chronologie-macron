@@ -1,6 +1,6 @@
 window.DONNEES = {
  "genere_le": "2026-07-19",
- "total_fiches": 180,
+ "total_fiches": 179,
  "textes": {
   "titre": "Machronologie",
   "titre_balise": "**Mac**h**ron**ologie",
@@ -2243,8 +2243,8 @@ window.DONNEES = {
   },
   {
    "annee": 2022,
-   "note": "Année de la présidentielle et des législatives.",
-   "total": 18,
+   "note": "Présidentielles et perte de majorité, menant à un autoritarisme à nu.",
+   "total": 17,
    "densite": [
     1,
     0,
@@ -2255,7 +2255,7 @@ window.DONNEES = {
     3,
     0,
     1,
-    4,
+    3,
     0,
     1
    ],
@@ -2269,7 +2269,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 1,
-     "factuel": "Dans un entretien au Parisien (4 janvier), en plein débat sur le passe vaccinal, Macron déclare : « Les non-vaccinés, j'ai très envie de les emmerder [...] jusqu'au bout. » Il assumera « totalement » ses propos le 7 janvier ; le 8, plus de 100 000 personnes manifestent contre le passe.\n\n*Note de sourçage — La source primaire est l'entretien accordé aux lecteurs du Parisien-Aujourd'hui en France le 4 janvier 2022 au matin, depuis le jardin d'hiver de l'Élysée. Cet entretien n'est pas repris sur elysee.fr ni sur vie-publique.fr (ce n'était pas un discours officiel) et l'original du Parisien est payant : l'article encyclopédique dédié, qui compile la revue de presse, reste ici la meilleure référence librement consultable.*",
+     "factuel": "Dans un entretien au Parisien (4 janvier), en plein débat sur le passe vaccinal, Macron déclare : « Les non-vaccinés, j'ai très envie de les emmerder [...] jusqu'au bout. » Il assumera « totalement » ses propos le 7 janvier.",
      "critique": "Brutalité assumée d'une stratégie de division, érigeant la contrainte en méthode de gouvernement — « emmerder » les citoyens plutôt que convaincre.",
      "sources": [
       {
@@ -2287,7 +2287,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "Le rapport de la commission d'enquête sénatoriale, « Un phénomène tentaculaire : l'influence croissante des cabinets de conseil sur les politiques publiques », est présenté le 17 mars par la rapporteure Éliane Assassi. Il établit, documents du ministère des Finances à l'appui, que la filiale française de McKinsey affiche des résultats fiscaux négatifs depuis une dizaine d'années et n'a donc pas payé d'impôt sur les sociétés. Or Karim Tadjeddine, directeur associé chargé du secteur public chez McKinsey France, avait assuré le contraire sous serment lors de son audition du 18 janvier. Le **25 mars**, le Sénat annonce saisir la justice pour soupçon de faux témoignage. Le Parquet national financier ouvrira ensuite une enquête pour « blanchiment aggravé de fraude fiscale ».",
+     "factuel": "Le rapport de la commission d'enquête sénatoriale, « Un phénomène tentaculaire : l'influence croissante des cabinets de conseil sur les politiques publiques », est présenté le 17 mars par la rapporteure Éliane Assassi. Il établit, documents du ministère des Finances à l'appui, que la filiale française de McKinsey affiche des résultats fiscaux négatifs depuis une dizaine d'années et n'a donc pas payé d'impôt sur les sociétés. Or Karim Tadjeddine, directeur associé chargé du secteur public chez McKinsey France, avait assuré le contraire sous serment lors de son audition du 18 janvier. Le 25 mars, le Sénat annonce saisir la justice pour soupçon de faux témoignage. Le Parquet national financier ouvrira ensuite une enquête pour « blanchiment aggravé de fraude fiscale ».",
      "critique": "Scandale au cœur de la campagne : externalisation coûteuse de l'action publique à un cabinet privé pratiquant l'optimisation fiscale. La saisine pour faux témoignage ajoute une dimension institutionnelle — c'est le Parlement lui-même qui estime avoir été trompé sous serment.",
      "sources": [
       {
@@ -2331,7 +2331,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 4,
-     "factuel": "À trois jours du second tour (interview franceinfo du 15 avril), Macron se dit prêt à « bouger » sur la déconjugalisation de l'AAH, qu'il juge « guillotine absurde » — alors que sa majorité avait refusé à plusieurs reprises cette mesure sous le quinquennat précédent.",
+     "factuel": "À trois jours du second tour (interview franceinfo du 15 avril), Macron se dit prêt à « bouger » sur la déconjugalisation de l'AAH, qu'il juge un « couperet absurde » — alors que sa majorité avait refusé à plusieurs reprises cette mesure sous le quinquennat précédent.",
      "critique": "Retournement électoral opportuniste sur une revendication combattue pendant cinq ans par le camp présidentiel.",
      "sources": [
       {
@@ -2342,18 +2342,22 @@ window.DONNEES = {
     },
     {
      "n": 5,
-     "titre": "Réélection sans adhésion",
+     "titre": "Réélection sans adhésion : « leur vote m'oblige »",
      "date_libelle": "24/04/2022",
      "debut": "2022-04-24",
      "fin": "2022-04-24",
      "precision": "jour",
      "transverse": false,
      "mois": 4,
-     "factuel": "Macron est réélu avec 58,55 % des suffrages exprimés contre Marine Le Pen (41,46 %). Mais l'abstention atteint 28 % et, blancs et nuls compris, il ne rassemble qu'environ 38 % des inscrits. La fracture générationnelle et sociale est marquée (jeunes et classes populaires votant à gauche ou pour l'abstention).",
-     "critique": "Victoire de barrage plus que d'adhésion, aussitôt réinterprétée en mandat par l'Élysée — « ce vote m'oblige », mais pas un plébiscite.",
+     "factuel": "Macron est réélu avec 58,55 % des suffrages exprimés contre Marine Le Pen (41,46 %). Mais l'abstention atteint 28 % et, blancs et nuls compris, il ne rassemble qu'environ 38 % des inscrits. La fracture générationnelle et sociale est marquée (jeunes et classes populaires votant à gauche ou pour l'abstention).\n\nLe soir même, au Champ-de-Mars, le président réélu prend acte de la nature de sa victoire : « Je sais que nombre de nos compatriotes ont voté ce jour pour moi, non pour soutenir les idées que je porte, mais pour faire barrage à celles de l'extrême droite. Je veux ici les remercier et leur dire que j'ai conscience que leur vote m'oblige pour les années à venir. »",
+     "critique": "Victoire de barrage plus que d'adhésion, et le président le reconnaît explicitement le soir même. C'est ce qui rend la suite du quinquennat d'autant plus contestable : l'engagement pris devant les électeurs de barrage — « leur vote m'oblige » — sera opposé au pouvoir à chaque passage en force ultérieur, du 49.3 des retraites à la loi immigration votée avec les voix du RN.",
      "sources": [
       {
-       "nom": "Ministère de l'Intérieur (résultats officiels)",
+       "nom": "Vie-publique.fr — déclaration d'Emmanuel Macron du 24 avril 2022 (transcription officielle)",
+       "lien": "https://www.vie-publique.fr/discours/284950-emmanuel-macron-24042022-presidence-de-la-republique"
+      },
+      {
+       "nom": "Ministère de l'Intérieur — résultats officiels du second tour",
        "lien": "https://www.archives-resultats-elections.interieur.gouv.fr/resultats/presidentielle-2022/FE.php"
       }
      ]
@@ -2385,12 +2389,36 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 5,
-     "factuel": "La finale de Ligue des champions (Liverpool-Real Madrid) tourne au chaos : goulots d'étranglement, gazage des supporters, agressions et vols aux abords du stade. Darmanin et le préfet Lallement accusent d'emblée les supporters de Liverpool et une « fraude massive » aux faux billets — thèse démentie par toutes les images. Darmanin présentera ses excuses des mois plus tard.",
-     "critique": "Mensonge d'État réflexe pour couvrir un échec du maintien de l'ordre, unanimement dénoncé à l'étranger — répétition du schéma Benalla/Gilets jaunes.",
+     "factuel": "La finale de Ligue des champions (Liverpool-Real Madrid) tourne au chaos : goulots d'étranglement, gazage des supporters, agressions et vols aux abords du stade.\n\nGérald Darmanin présente immédiatement « une fraude massive, industrielle et organisée de faux billets » comme la cause première du retard du coup d'envoi, et avance que « 30 000 à 40 000 supporters anglais se sont retrouvés au Stade de France, soit sans billet, soit avec des billets falsifiés ». Il réitère devant le Sénat le 1er juin. Plus tard, les rapporteurs du Sénat dénombreront 2 471 faux billets effectivement scannés.\n\nQuant au comportement policier, le préfet Lallement dira que « les décisions prises étaient les seules qui pouvaient garantir l'intégrité physique des personnes » lors de son audition au Sénat. Le rapport des Sénateurs du 13 juillet 2022 conclut à « un fiasco évitable » et impute les incidents à des défaillances d'organisation, non à une fraude de masse.",
+     "critique": "Mensonge d'État réflexe pour couvrir un échec du maintien de l'ordre, unanimement dénoncé à l'étranger — répétition du schéma Benalla/Gilets jaunes. L'écart entre les 30 000 à 40 000 faux billets annoncés et les 2 471 effectivement constatés — un facteur supérieur à dix — n'a jamais été comblé par le moindre élément de preuve, et le Sénat a explicitement écarté la thèse de la fraude massive au profit des défaillances d'organisation.",
      "sources": [
       {
-       "nom": "France 24",
-       "lien": "https://www.france24.com/en/live-news/20230525-one-year-on-paris-champions-league-final-chaos-leaves-scars"
+       "nom": "Europe 1 — « Darmanin dénonce une \"fraude massive\" portant sur \"30 à 40 000 billets\" »",
+       "lien": "https://www.europe1.fr/societe/stade-de-france-darmanin-denonce-une-fraude-massive-portant-sur-30-a-40000-billets-4114547"
+      },
+      {
+       "nom": "Vie-publique.fr — déclaration de G. Darmanin devant le Sénat, 1er juin 2022 (transcription)",
+       "lien": "https://www.vie-publique.fr/discours/285357-gerald-darmanin-01062022-incidents-au-stade-de-france-le-28-mai-2022"
+      },
+      {
+       "nom": "Public Sénat — audition de Didier Lallement, 9 juin 2022 (verbatim du préfet)",
+       "lien": "https://www.publicsenat.fr/actualites/politique/incidents-au-stade-de-france-le-prefet-lallement-assume-en-totalite-la-gestion"
+      },
+      {
+       "nom": "Public Sénat — « Un fiasco évitable : le rapport au vitriol du Sénat » (13/07/2022, décompte des 2 471 faux billets)",
+       "lien": "https://www.publicsenat.fr/actualites/societe/un-fiasco-evitable-le-rapport-au-vitriol-du-senat-sur-les-violences-au-stade"
+      },
+      {
+       "nom": "Le JDD — ce qu'il faut retenir du rapport du Sénat",
+       "lien": "https://www.lejdd.fr/politique/ce-quil-faut-retenir-du-rapport-du-senat-sur-les-incidents-au-stade-de-france-175"
+      },
+      {
+       "nom": "Public Sénat — « On s'est servi des fans de Liverpool comme boucs émissaires » (Steve Rotheram)",
+       "lien": "https://www.publicsenat.fr/actualites/politique/incidents-au-stade-de-france-on-s-est-servi-des-fans-de-liverpool-comme-boucs"
+      },
+      {
+       "nom": "France 24 — « Je m'excuse auprès des supporters de Liverpool » (05/05/2025)",
+       "lien": "https://www.france24.com/fr/sports/20250505-excuses-liverpool-darmanin-admet-fiasco-du-stade-de-france-2022-real-madrid"
       }
      ]
     },
@@ -2421,12 +2449,20 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 6,
-     "factuel": "Au second tour (19 juin), la coalition présidentielle Ensemble ! (245 sièges) perd la majorité absolue — il lui manque 44 sièges. La NUPES devient le premier bloc d'opposition avec 151 sièges cumulés et le RN réalise une percée historique de 89 députés, passant de 8 à 89 malgré un mode de scrutin qui lui est défavorable. Les Républicains perdent la moitié de leur représentation. Jean-Michel Blanquer est battu.",
-     "critique": "Le fil impute la percée du RN à la stratégie du « ni-ni » : en renvoyant dos à dos NUPES et extrême droite et en refusant les consignes de barrage dans les duels NUPES/RN, la majorité a de fait enterré le front républicain qu'elle invoquait.",
+     "factuel": "Au second tour (19 juin), la coalition présidentielle Ensemble ! (245 sièges) perd la majorité absolue — il lui manque 44 sièges. La NUPES devient le premier bloc d'opposition avec 151 sièges cumulés et le RN réalise une percée historique de 89 députés, passant de 8 à 89 malgré un mode de scrutin qui lui est défavorable. Les Républicains perdent la moitié de leur représentation. Jean-Michel Blanquer est battu.\n\nEntre les deux tours, 58 circonscriptions opposent la NUPES au RN. La majorité présidentielle refuse d'y donner une consigne de barrage claire. Gabriel Attal estime d'emblée qu'il faut « étudier chaque candidat en lice localement » ; Renaissance confirme à l'AFP qu'il n'y aura pas de mot d'ordre national, seulement du « cas par cas ». Élisabeth Borne renvoie dos à dos « les extrêmes » le dimanche soir, avant de préciser sa doctrine le lundi dans le Calvados : « Notre position, c'est aucune voix pour le Front national » — mais, ajoute-t-elle, « concernant les candidats NUPES, si on a affaire à une personne qui ne respecte pas les valeurs républicaines, qui insulte nos policiers, qui demande de ne plus soutenir l'Ukraine, qui veut sortir de l'Europe, nous n'allons pas voter pour lui ».",
+     "critique": "La symétrie est explicite dans les mots eux-mêmes : le RN se voit opposer un refus de principe, la NUPES un refus conditionnel assorti d'une liste de critères. Poser des conditions à l'une et pas à l'autre revient à traiter l'extrême droite comme un bloc et la gauche comme un ensemble à trier — l'inverse exact de ce qu'implique un front républicain. En renonçant à la consigne de barrage dans les 58 duels NUPES/RN, la majorité a de fait enterré le principe qu'elle invoquait six semaines plus tôt pour sa propre réélection.",
      "sources": [
       {
-       "nom": "France 24",
+       "nom": "Public Sénat — « Législatives : les consignes de vote pour le second tour » (13/06/2022, verbatims Attal, Borne, Grégoire, Bregeon, Pintus, Larcher)",
+       "lien": "https://www.publicsenat.fr/actualites/politique/legislatives-quelles-consignes-de-vote-pour-le-second-tour-213217"
+      },
+      {
+       "nom": "France 24 — résultats du second tour",
        "lien": "https://www.france24.com/fr/france/20220619-%C3%A9lections-l%C3%A9gislatives-ce-qu-il-faut-retenir-des-r%C3%A9sultats-du-second-tour"
+      },
+      {
+       "nom": "LCP — Ensemble loin de la majorité absolue, le RN crée la surprise",
+       "lien": "https://lcp.fr/actualites/legislatives-2022-ensemble-loin-de-la-majorite-absolue-le-rn-cree-la-surprise-la-nupes"
       }
      ]
     },
@@ -2479,7 +2515,7 @@ window.DONNEES = {
      "precision": "mois",
      "transverse": false,
      "mois": 7,
-     "factuel": "TotalEnergies publie fin juillet des résultats record pour le premier semestre 2022 : **18,8 milliards de dollars de résultat net ajusté** (soit environ 18,4 Md€), et 10,2 milliards de dollars de bénéfice net au sens comptable strict. Dans le même temps, le groupe reconnaît dans son propre rapport de mars 2022 **n'avoir payé aucun impôt sur les sociétés en France en 2020 ni en 2021**, invoquant des pertes structurelles dans le raffinage — la France étant un pays où il raffine et distribue mais n'extrait pas. Le gouvernement, à la demande de Bruno Le Maire, refuse toute taxe sur les superprofits. Le 24 août, en conseil des ministres, Macron annonce la « fin de l'abondance » et appelle à la sobriété.\n\n*⚠️ Correction — La version précédente indiquait « 17,7 Mds € de bénéfices ». Ce chiffre circule largement dans la presse militante mais ne correspond exactement à aucune des deux mesures publiées par l'entreprise. Les chiffres officiels sont donnés ci-dessus, avec leur définition — la distinction entre résultat net ajusté et bénéfice net est précisément le terrain sur lequel l'entreprise conteste les critiques.*",
+     "factuel": "TotalEnergies publie fin juillet des résultats record pour le premier semestre 2022 : **18,8 milliards de dollars de résultat net ajusté** (soit environ 18,4 Md€), et 10,2 milliards de dollars de bénéfice net au sens comptable strict. Dans le même temps, le groupe reconnaît dans son propre rapport de mars 2022 **n'avoir payé aucun impôt sur les sociétés en France en 2020 ni en 2021**, invoquant des pertes structurelles dans le raffinage — la France étant un pays où il raffine et distribue mais n'extrait pas. Le gouvernement, à la demande de Bruno Le Maire, refuse toute taxe sur les superprofits. Le 24 août, en conseil des ministres, Macron annonce la « fin de l'abondance » et appelle à la sobriété.",
      "critique": "Double discours frappant : austérité et sobriété prêchées aux citoyens, cadeau fiscal maintenu aux profiteurs de crise. L'argument du raffinage déficitaire est l'angle mort du débat : il rend l'absence d'impôt légalement justifiable tout en laissant entière la question politique de savoir pourquoi un groupe engrangeant 18 Md€ en six mois ne contribue pas au budget du pays où il a son siège.",
      "sources": [
       {
@@ -2523,7 +2559,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 10,
-     "factuel": "Le 3 octobre, Alexis Kohler, secrétaire général de l'Élysée et bras droit de Macron, est mis en examen pour « prise illégale d'intérêts » et placé sous statut de témoin assisté pour « trafic d'influence ». Il lui est reproché d'avoir, alors qu'il était au cabinet du ministre de l'Économie et siégeait à l'Agence des participations de l'État, favorisé l'armateur MSC, fondé et dirigé par des cousins de sa mère. L'information judiciaire avait été ouverte le 23 juin 2020 après une plainte d'Anticor. **Il reste en poste.** Le même jour, le garde des Sceaux Éric Dupond-Moretti est renvoyé devant la Cour de justice de la République pour prise illégale d'intérêts — l'équivalent d'une ordonnance de mise en accusation. Il reste également en fonction.\n\n*⚠️ Correction — La version précédente reprenait du fil l'affirmation d'un gouvernement « dont 30 % est impliqué dans des affaires ». Ce ratio ne repose sur aucun décompte sourcé et dépend entièrement de ce qu'on entend par « impliqué » (mise en examen ? enquête préliminaire ? simple citation dans une procédure ?). Il a été retiré. Les deux cas documentés du 3 octobre se suffisent.*",
+     "factuel": "Le 3 octobre, Alexis Kohler, secrétaire général de l'Élysée et bras droit de Macron, est mis en examen pour « prise illégale d'intérêts » et placé sous statut de témoin assisté pour « trafic d'influence ». Il lui est reproché d'avoir, alors qu'il était au cabinet du ministre de l'Économie et siégeait à l'Agence des participations de l'État, favorisé l'armateur MSC, fondé et dirigé par des cousins de sa mère. L'information judiciaire avait été ouverte le 23 juin 2020 après une plainte d'Anticor. Il reste en poste. Le même jour, le garde des Sceaux Éric Dupond-Moretti est renvoyé devant la Cour de justice de la République pour prise illégale d'intérêts — l'équivalent d'une ordonnance de mise en accusation. Il reste également en fonction.",
      "critique": "Concentration inédite d'affaires au cœur du pouvoir, sans démission ni retrait : la « République exemplaire » de 2017 réduite à néant. Le cas Dupond-Moretti est singulier — un ministre de la Justice renvoyé devant une juridiction pour des faits commis dans l'exercice de ses fonctions, tout en continuant de diriger le ministère qui exerce la tutelle sur les magistrats concernés.",
      "sources": [
       {
@@ -2563,9 +2599,21 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 10,
-     "factuel": "Privé de majorité absolue, le gouvernement Borne engage sa responsabilité via l'article 49.3 dès le 19 octobre pour adopter le budget 2023 sans vote, puis le réutilise à répétition sur l'ensemble des textes budgétaires (PLF, PLFSS) — une dizaine de fois durant l'automne-hiver.",
-     "critique": "Contournement systématique du Parlement pour gouverner sans majorité : « un parfum d'autoritarisme » qui préfigure le 49.3 des retraites.",
+     "factuel": "Privé de majorité absolue, le gouvernement Borne engage sa responsabilité via l'article 49.3 dès le 19 octobre — « J'engage la responsabilité de mon gouvernement pour la première partie du projet de loi de finances pour 2023 » — puis le réutilise à répétition sur les textes budgétaires (PLF, PLFSS). Le 15 décembre 2022, c'est le dixième recours, sur la lecture définitive du budget.",
+     "critique": "Contournement systématique du Parlement pour gouverner sans majorité. Le chiffre de Dharréville est le plus parlant : les députés ont pu examiner 9 articles examinés sur 53. Ce n'est pas un débat écourté, c'est un débat qui n'a pas eu lieu à 83 %. Et la mécanique est assumée : l'exception budgétaire au plafonnement du 49.3 devient le mode de gouvernement ordinaire, avant d'être utilisée en 2023 pour faire passer une réforme des retraites qui n'a de budgétaire que le véhicule.",
      "sources": [
+      {
+       "nom": "CNews — « Borne actionne le 49.3 pour la dixième fois » (15/12/2022, verbatims Borne, Coquerel, Panot)",
+       "lien": "https://www.cnews.fr/france/2022-12-15/budget-2023-elisabeth-borne-actionne-le-493-pour-la-dixieme-fois-1301104"
+      },
+      {
+       "nom": "France 24 — premier recours du 19 octobre et réactions des oppositions",
+       "lien": "https://amp.france24.com/fr/info-en-continu/20221019-%F0%9F%94%B4-budget-%C3%A9lisabeth-borne-engage-la-responsabilit%C3%A9-du-gouvernement-en-recourant-%C3%A0-l-article-49-3"
+      },
+      {
+       "nom": "Vie-publique.fr — déclaration d'Élisabeth Borne du 19 octobre 2022 (transcription)",
+       "lien": "https://www.vie-publique.fr/discours/286831-elisabeth-borne-19102022-engagement-responsabilite-493-pjl-finances"
+      },
       {
        "nom": "franceinfo",
        "lien": "https://www.franceinfo.fr/economie/budget/direct-budget-le-couperet-du-49-3-attendu-dans-la-journee-a-l-assemblee-nationale_5426953.html"
@@ -2574,24 +2622,6 @@ window.DONNEES = {
     },
     {
      "n": 17,
-     "titre": "Les recasages de la Macronie",
-     "date_libelle": "oct.–nov. 2022",
-     "debut": "2022-10-01",
-     "fin": "2022-11-30",
-     "precision": "mois",
-     "transverse": false,
-     "mois": 10,
-     "factuel": "Jean Castex, ex-Premier ministre, est nommé à la tête de la RATP (validé en novembre), malgré les réserves de la HATVP sur les conflits d'intérêts. Le fil recense d'autres « recasages » d'anciens ministres (Agnès Buzyn à la Cour des comptes, Jean-Michel Blanquer, etc.).",
-     "critique": "Entre-soi et récompenses institutionnelles pour les fidèles, symbole d'une caste dirigeante qui se protège.",
-     "sources": [
-      {
-       "nom": "Public Sénat",
-       "lien": "https://www.publicsenat.fr/actualites/politique/jean-castex-reconduit-a-la-tete-de-la-ratp-apres-la-validation-du-parlement"
-      }
-     ]
-    },
-    {
-     "n": 18,
      "titre": "Assurance-chômage : l'indemnisation amputée",
      "date_libelle": "déc. 2022",
      "debut": "2022-12-01",
