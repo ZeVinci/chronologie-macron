@@ -1,0 +1,40 @@
+# ─────────────────────────────────────────────────────────────
+#  Ce dépôt est PUBLIC. Tout ce qui n'est pas ignoré ici finit
+#  en ligne — et reste dans l'historique git même si on le
+#  supprime plus tard. Dans le doute, ignorer.
+# ─────────────────────────────────────────────────────────────
+
+# Archives personnelles de réseaux sociaux — ne doivent jamais être publiées.
+bluesky_export.*
+Chronologie_Macron_corpus.xlsx
+Chronologie_Macron_apercu.md
+Your archive.html
+assets/
+data/
+
+# Notes de travail, écrites sans intention de publication.
+Synthese_*.md
+PASSATION_timeline.md
+Complement_Economique_Social_propositions.md
+
+# Anciens .xlsx : plus lus par build_json.py depuis le retrait des statuts,
+# et désynchronisés des .md. Conservés en local comme archive.
+sources/*.xlsx
+Bilan_chiffre_2017-2026.xlsx
+
+# Ancien dossier de publication, remplacé par docs/.
+site/
+
+# Artefacts de build : régénérés à chaque exécution et déjà présents
+# dans docs/. Les versionner en double alourdirait l'historique pour rien.
+/chronologie.json
+/chronologie.js
+
+# Mémo de publication personnel, pas une documentation pour les lecteurs.
+PUBLIER.md
+
+# Divers
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
