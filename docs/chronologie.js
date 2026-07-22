@@ -1,6 +1,6 @@
 window.DONNEES = {
  "genere_le": "2026-07-22",
- "total_fiches": 192,
+ "total_fiches": 196,
  "textes": {
   "titre": "Machronologie",
   "titre_balise": "**Mac**h**ron**ologie",
@@ -1678,7 +1678,7 @@ window.DONNEES = {
   {
    "annee": 2020,
    "note": "Année marquée par la gestion calamiteuse du covid.",
-   "total": 24,
+   "total": 27,
    "densite": [
     2,
     1,
@@ -1688,7 +1688,7 @@ window.DONNEES = {
     3,
     2,
     2,
-    0,
+    3,
     1,
     2,
     4
@@ -1757,11 +1757,15 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "Le vendredi 6 mars au soir, Emmanuel et Brigitte Macron assistent au Théâtre Antoine à la pièce « Par le bout du nez », avec François Berléand et François-Xavier Demaison. Le déplacement est compris comme un geste délibéré destiné à montrer que la vie sociale peut continuer.",
+     "factuel": "Le vendredi 6 mars au soir, Emmanuel et Brigitte Macron assistent au Théâtre Antoine à la pièce « Par le bout du nez », avec François Berléand et François-Xavier Demaison — deux jours après le décret interdisant les rassemblements de plus de 5 000 personnes en milieu clos (4 mars). Le déplacement est compris comme un geste délibéré destiné à montrer que la vie sociale peut continuer ; il s'inscrit dans une séquence de réassurance assumée, puisque le couple présidentiel se montre encore main dans la main sur les Champs-Élysées le 8 mars « pour envoyer un message de confiance à l'économie française ».",
      "critique": "Onze jours avant le confinement : symbole rétrospectif de la minimisation initiale du danger, en écho au discours officiel de la même période sur l'inutilité du masque.",
      "sources": [
       {
-       "nom": "Jean-Marc Dumontet — tweet du 7 mars 2020 (source primaire, compte rendu de la soirée)",
+       "nom": "Euronews — « Coronavirus: Macron strolls Champs Elysées in \"message of confidence\" » (09/03/2020)",
+       "lien": "https://www.euronews.com/2020/03/09/macron-strolls-champs-elysees-in-message-of-confidence-amid-coronavirus"
+      },
+      {
+       "nom": "Jean-Marc Dumontet — tweet du 7 mars 2020 (compte rendu de la soirée)",
        "lien": "https://x.com/Jmdumontet/status/1236257657243217920"
       },
       {
@@ -1790,16 +1794,20 @@ window.DONNEES = {
     },
     {
      "n": 6,
-     "titre": "« Nous sommes en guerre »",
-     "date_libelle": "16/03/2020",
-     "debut": "2020-03-16",
+     "titre": "« Quoi qu'il en coûte » et « nous sommes en guerre »",
+     "date_libelle": "12 & 16/03/2020",
+     "debut": "2020-03-12",
      "fin": "2020-03-16",
-     "precision": "jour",
+     "precision": "periode",
      "transverse": false,
      "mois": 3,
-     "factuel": "Lors d'une allocution suivie par plus de 35 millions de téléspectateurs, Macron répète six fois « nous sommes en guerre » et annonce le confinement général et le report du second tour des municipales.",
-     "critique": "Rhétorique guerrière et verticale, qui masque l'impréparation matérielle.",
+     "factuel": "Le 12 mars, dans sa première allocution consacrée à l'épidémie, Macron annonce la fermeture des crèches, écoles, collèges, lycées et universités et promet de soutenir l'économie « quoi qu'il en coûte » — la formule, répétée trois fois, donnera son nom à toute la politique économique de la crise. Le 16 mars, lors d'une allocution suivie par plus de 35 millions de téléspectateurs, il répète six fois « nous sommes en guerre » et annonce le confinement général et le report du second tour des municipales.",
+     "critique": "Rhétorique guerrière et verticale, qui masque l'impréparation matérielle. Le « quoi qu'il en coûte », assumé comme choix protecteur, servira ensuite de repoussoir : c'est au nom de son coût que sera justifiée l'austérité des années suivantes.",
      "sources": [
+      {
+       "nom": "Élysée — Adresse aux Français, 12 mars 2020 (texte intégral)",
+       "lien": "https://www.elysee.fr/emmanuel-macron/2020/03/12/adresse-aux-francais"
+      },
       {
        "nom": "Élysée — Adresse aux Français, 16 mars 2020 (texte intégral)",
        "lien": "https://www.elysee.fr/emmanuel-macron/2020/03/16/adresse-aux-francais-covid19"
@@ -1819,12 +1827,20 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "Le confinement entre en vigueur le 17 mars à 12 h : déplacements soumis à une attestation dérogatoire, amende portée à 135 € (décret du 18 mars), fermeture des forêts, plages et parcs. Les décisions sont de plus en plus prises en conseil de défense sanitaire, secret et sans compte rendu.",
+     "factuel": "Le confinement entre en vigueur le 17 mars à 12 h : déplacements soumis à une attestation dérogatoire, amende portée à 135 € (décret du 18 mars). À partir du 19-20 mars, les préfectures interdisent par arrêté, département par département, l'accès aux plages de tout le littoral (méditerranéen, atlantique, Corse) ainsi qu'aux parcs, jardins, promenades, forêts et berges. Les décisions sont de plus en plus prises en conseil de défense sanitaire, secret et sans compte rendu.",
      "critique": "Si la décision d'un confinement maximaliste se comprend à cette date, il a rapidement été établi scientifiquement que le maintien d'interdictions fortes en extérieur était contre-productif. En outre, on retrouve l'appétence macroniste pour des amendes très élevées.",
      "sources": [
       {
        "nom": "Préfecture du Rhône (services de l'État)",
        "lien": "https://www.rhone.gouv.fr/Actualites/Archives-des-actualites/2020-Actualites/COVID-19-dispositif-de-confinement-et-derogations-de-circulation"
+      },
+      {
+       "nom": "franceinfo — « Confinement : les plages fermées et les contrôles renforcés »",
+       "lien": "https://www.franceinfo.fr/sante/maladie/coronavirus/confinement-les-plages-fermees-et-les-controles-renforces_3877269.html"
+      },
+      {
+       "nom": "Préfecture d'Eure-et-Loir — arrêté du 20 mars 2020 portant interdiction d'accès aux parcs, jardins, promenades, forêts et berges",
+       "lien": "https://www.eure-et-loir.gouv.fr/Publications/Recueil-des-actes-administratifs/Recueil-des-actes-administratifs-2020/Mars/Arrete-20-mars-portant-interdiction-d-acces-au-public-aux-parcs-jardins-promenades-forets-berges"
       }
      ]
     },
@@ -1837,12 +1853,20 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 3,
-     "factuel": "Face à la pénurie, la porte-parole Sibeth Ndiaye affirme le 20 mars « je ne sais pas utiliser un masque », prolongeant le discours officiel selon lequel le masque serait inutile — bientôt renié. En cause : le stock stratégique national (plus d'un milliard de masques après le H1N1) non renouvelé et laissé se périmer depuis le début des années 2010.",
-     "critique": "Nier l'utilité du masque pour masquer la pénurie, avant de le rendre obligatoire. Exemple parfait de ce qu'il ne faut pas faire en situation de crise: décrédibiliser la parole officielle.",
+     "factuel": "Face à la pénurie, la porte-parole Sibeth Ndiaye affirme le 20 mars « je ne sais pas utiliser un masque », prolongeant le discours officiel selon lequel le masque serait inutile — bientôt renié. En cause : le stock stratégique national, porté après le H1N1 à un objectif d'un milliard de masques chirurgicaux (et 600 à 700 millions de FFP2), que l'Etat a laissé se périmer. D'environ 1,7 milliard de masques en 2009, il ne reste qu'une centaine de millions d'unités valides au début de la crise Covid.",
+     "critique": "Nier l'utilité du masque pour masquer la pénurie, avant de le rendre obligatoire. Exemple parfait de ce qu'il ne faut pas faire en situation de crise: décrédibiliser la parole officielle. La pénurie n'est pas une fatalité mais le résultat de choix d'économies budgétaires étalés sur une décennie, sous des gouvernements successifs.",
      "sources": [
       {
        "nom": "Vie-publique.fr (déclaration S. Ndiaye)",
        "lien": "https://www.vie-publique.fr/discours/274873-sibeth-ndiaye-20032020-coronavirus-masques-chomage-partiel"
+      },
+      {
+       "nom": "Sénat — rapport de la commission d'enquête « Santé publique : pour un nouveau départ. Leçons de l'épidémie de covid-19 » (2020, gestion des stocks de masques)",
+       "lien": "https://www.senat.fr/rap/r20-199-1/r20-199-17.html"
+      },
+      {
+       "nom": "Wikipédia — « Gestion des masques de protection en France » (sourcé : notes DGS, doctrine SGDSN de mai 2013)",
+       "lien": "https://fr.wikipedia.org/wiki/Gestion_des_masques_de_protection_en_France"
       }
      ]
     },
@@ -1878,7 +1902,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 4,
      "factuel": "En pleine première vague et en plein confinement, Emmanuel Macron se rend le 9 avril à l'IHU Méditerranée Infection de Marseille pour y rencontrer le professeur Didier Raoult. Le microbiologiste est alors au sommet de sa popularité et promet de soigner le Covid-19 par l'hydroxychloroquine.",
-     "critique": "La visite est lue comme une caution présidentielle à un protocole déjà contesté par une large part du monde médical : « quelque part, il a validé la conduite thérapeutique de l'IHU ». Le contraste est relevé sur place — des services de réanimation saturés et des patients morts du Covid à quelques centaines de mètres. Une partie de la classe politique salue à l'inverse un président venu écouter « sans intermédiaire ni filtre ».",
+     "critique": "La visite est lue comme une caution présidentielle à un protocole déjà contesté par une large part du monde médical. Le contraste est relevé sur place — des services de réanimation saturés et des patients morts du Covid à quelques centaines de mètres.",
      "sources": [
       {
        "nom": "franceinfo — « Quelque part, il a validé la conduite thérapeutique de l'IHU » : quand Macron rendait visite à Didier Raoult",
@@ -1925,8 +1949,8 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 6,
-     "factuel": "Le 13 juin, la préfecture interdit pour motif sanitaire le rassemblement contre les violences policières place de la République ; des milliers de personnes s'y retrouvent malgré tout.\n\n**La veille**, le 12 juin, environ 200 policiers venus de toute la France défilent en civil sur les Champs-Élysées, accompagnés d'une cinquantaine de véhicules, pour protester contre les annonces de Christophe Castaner sur le racisme dans la police et l'interdiction de la clé d'étranglement. Le cortège, non déclaré à la préfecture, s'achève devant les grilles de la place Beauvau — le ministère de l'Intérieur, mitoyen de l'Élysée. Loin d'être dispersé, il est salué par les policiers en service à coups de klaxons et de sirènes. Le soir même du 13 juin, une seconde action nocturne, elle aussi non autorisée, rassemble de nombreux véhicules de police au pied de l'Arc de Triomphe : elle est également tolérée.",
-     "critique": "Usage sélectif de l'argument sanitaire pour restreindre le droit de manifester, dénoncé comme une atteinte aux libertés publiques. La comparaison ne porte pas sur des événements distants : à vingt-quatre heures d'intervalle et dans le même arrondissement, un rassemblement contre les violences policières est interdit au nom de l'épidémie tandis qu'un cortège de policiers non déclaré est escorté et salué par ses collègues en service.",
+     "factuel": "Le 13 juin, la préfecture interdit pour motif sanitaire le rassemblement contre les violences policières place de la République ; des milliers de personnes s'y retrouvent malgré tout.\n\nLa veille, le 12 juin, environ 200 policiers venus de toute la France défilent en civil sur les Champs-Élysées, accompagnés d'une cinquantaine de véhicules, pour protester contre les annonces de Christophe Castaner sur le racisme dans la police et l'interdiction de la clé d'étranglement. Le cortège, non déclaré à la préfecture, s'achève devant les grilles de la place Beauvau — le ministère de l'Intérieur, mitoyen de l'Élysée. Loin d'être dispersé, il est salué par les policiers en service à coups de klaxons et de sirènes. Le soir même du 13 juin, une seconde action nocturne, elle aussi non autorisée, rassemble de nombreux véhicules de police au pied de l'Arc de Triomphe : elle est également tolérée.",
+     "critique": "Usage sélectif de l'argument sanitaire pour restreindre le droit de manifester, dénoncé comme une atteinte aux libertés publiques. La comparaison ne porte pas sur des événements distants : ils ont lieu e heures d'intervalle et dans le même arrondissement.",
      "sources": [
       {
        "nom": "France Bleu / ICI — la préfecture interdit le rassemblement place de la République",
@@ -1962,7 +1986,7 @@ window.DONNEES = {
     },
     {
      "n": 14,
-     "titre": "Remaniement Castex : le virage à droite",
+     "titre": "Remaniement Castex : toujours plus clairement à droite",
      "date_libelle": "03-06/07/2020",
      "debut": "2020-07-03",
      "fin": "2020-07-06",
@@ -2034,6 +2058,68 @@ window.DONNEES = {
     },
     {
      "n": 18,
+     "titre": "« France Relance » : 100 milliards, dont 10 de baisse pérenne des impôts de production",
+     "date_libelle": "03/09/2020",
+     "debut": "2020-09-03",
+     "fin": "2020-09-03",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 9,
+     "factuel": "Jean Castex présente le 3 septembre « France Relance », plan de 100 milliards d'euros sur deux ans en trois volets : compétitivité (35 Md€), transition écologique (30 Md€), cohésion sociale et territoriale (35 Md€). Il comporte notamment une baisse pérenne de 10 Md€ par an des impôts de production, sans contreparties exigées des entreprises bénéficiaires.",
+     "critique": "La mesure la plus massive et la seule pérenne du plan est un nouvel allègement fiscal pour les entreprises, dans la continuité de l'ISF, du PFU, de l'IS et du CICE ; syndicats et gauche dénoncent l'absence de conditions d'emploi ou d'écologie attachées aux aides.",
+     "sources": [
+      {
+       "nom": "France 24 — « Plan de relance : les principales mesures décidées par Jean Castex » (03/09/2020)",
+       "lien": "https://www.france24.com/fr/20200903-plan-de-relance-les-principales-mesures-d%C3%A9cid%C3%A9es-par-jean-castex"
+      },
+      {
+       "nom": "Wikipédia — Plan de relance économique de la France de 2020-2022 (sourcé)",
+       "lien": "https://fr.wikipedia.org/wiki/Plan_de_relance_%C3%A9conomique_de_la_France_de_2020-2022"
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "titre": "5G : « le modèle amish » et « la lampe à huile »",
+     "date_libelle": "14/09/2020",
+     "debut": "2020-09-14",
+     "fin": "2020-09-14",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 9,
+     "factuel": "Devant les entrepreneurs du numérique réunis à l'Élysée, au lendemain d'une demande de moratoire sur la 5G signée par 70 élus de gauche et écologistes, Macron ironise : « J'entends beaucoup de voix qui s'élèvent pour nous expliquer qu'il faudrait relever la complexité des problèmes contemporains en revenant à la lampe à huile. Je ne crois pas au modèle amish. » L'attribution des fréquences est lancée dès la fin septembre, sans le débat réclamé.",
+     "critique": "Mépris des interrogations écologiques et démocratiques, cette fois dirigé contre des élus : nouvelle pièce de la série des petites phrases (fainéants, Gaulois réfractaire, pognon de dingue).",
+     "sources": [
+      {
+       "nom": "Euronews — « Macron torpille la demande de moratoire sur la 5G en France » (15/09/2020, citations intégrales)",
+       "lien": "https://fr.euronews.com/2020/09/15/macron-torpille-la-demande-de-moratoire-sur-la-5g-en-france"
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "titre": "Le Schéma national du maintien de l'ordre vise les journalistes",
+     "date_libelle": "16/09/2020",
+     "debut": "2020-09-16",
+     "fin": "2020-09-16",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 9,
+     "factuel": "Le 16 septembre, le ministre de l'Intérieur Gérald Darmanin publie le Schéma national du maintien de l'ordre, doctrine applicable à toutes les manifestations : il consacre la technique de l'encerclement (« nasse ») et impose aux journalistes de s'éloigner en cas d'ordre de dispersion et de disposer d'une accréditation pour accéder aux informations en temps réel. Saisi par la CGT, la Ligue des droits de l'Homme, le Syndicat de la magistrature et le Syndicat national des journalistes, le Conseil d'État annulera ces quatre points le 10 juin 2021, y voyant notamment une atteinte « disproportionnée » à la liberté de la presse.",
+     "critique": "La doctrine officialise la nasse et traite la presse en auxiliaire à accréditer : prolongement du fil des libertés publiques (loi anti-casseurs 2019, article 24 de la loi Sécurité globale).",
+     "sources": [
+      {
+       "nom": "Conseil d'État — communiqué du 10 juin 2021 (annulation de plusieurs points du SNMO)",
+       "lien": "https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre"
+      },
+      {
+       "nom": "Wikipédia — Schéma national du maintien de l'ordre (sourcé)",
+       "lien": "https://fr.wikipedia.org/wiki/Sch%C3%A9ma_national_du_maintien_de_l%27ordre"
+      }
+     ]
+    },
+    {
+     "n": 21,
      "titre": "Deuxième vague : état d'urgence, couvre-feu, reconfinement",
      "date_libelle": "14 & 28/10/2020",
      "debut": "2020-10-14",
@@ -2055,7 +2141,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 19,
+     "n": 22,
      "titre": "Loi « Sécurité globale » et article 24",
      "date_libelle": "24/11/2020",
      "debut": "2020-11-24",
@@ -2063,7 +2149,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 11,
-     "factuel": "L'Assemblée adopte la proposition de loi « Sécurité globale » le 24 novembre (article 24 voté le 20). L'article 24 pénalise la diffusion d'images des forces de l'ordre dans l'intention de porter atteinte à leur intégrité « physique ou psychique ». Il est dénoncé par le Défenseur des droits ; le 3 décembre, cinq rapporteurs spéciaux de l'ONU adressent à la France une lettre jugeant l'ensemble du texte incompatible avec le droit international des droits humains ; le 9 décembre, la Haute-Commissaire Michelle Bachelet demande explicitement le retrait de l'article 24.",
+     "factuel": "L'Assemblée adopte la proposition de loi « Sécurité globale » le 24 novembre. L'article 24 pénalise la diffusion d'images des forces de l'ordre dans l'intention de porter atteinte à leur intégrité « physique ou psychique ». Il est dénoncé par le Défenseur des droits ; le 3 décembre, cinq rapporteurs spéciaux de l'ONU adressent à la France une lettre jugeant l'ensemble du texte incompatible avec le droit international des droits humains ; le 9 décembre, la Haute-Commissaire Michelle Bachelet demande explicitement le retrait de l'article 24.",
      "critique": "Atteinte à la liberté de la presse et d'informer, dans un contexte de « dérive autoritaire » pointée par la presse étrangère.",
      "sources": [
       {
@@ -2081,7 +2167,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 20,
+     "n": 23,
      "titre": "Violences policières : le passage à tabac de Michel Zecler",
      "date_libelle": "21-26/11/2020",
      "debut": "2020-11-21",
@@ -2099,7 +2185,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 21,
+     "n": 24,
      "titre": "Dissolution du CCIF",
      "date_libelle": "02/12/2020",
      "debut": "2020-12-02",
@@ -2117,7 +2203,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 22,
+     "n": 25,
      "titre": "Grand-Croix de la Légion d'honneur à al-Sissi",
      "date_libelle": "07-09/12/2020",
      "debut": "2020-12-07",
@@ -2135,7 +2221,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 23,
+     "n": 26,
      "titre": "Projet de loi « séparatisme »",
      "date_libelle": "09/12/2020",
      "debut": "2020-12-09",
@@ -2153,7 +2239,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 24,
+     "n": 27,
      "titre": "Fêtes sous restrictions et incohérences",
      "date_libelle": "décembre 2020",
      "debut": "2020-12-01",
@@ -2182,11 +2268,11 @@ window.DONNEES = {
   },
   {
    "annee": 2021,
-   "note": "Suite et fin de la gestion du covid, et début de la campagne.",
-   "total": 18,
+   "note": "Suite et fin de la gestion du covid, et toujours libéralisme et autoritarisme.",
+   "total": 19,
    "densite": [
     2,
-    0,
+    2,
     1,
     1,
     2,
@@ -2194,7 +2280,7 @@ window.DONNEES = {
     2,
     0,
     3,
-    3,
+    2,
     1,
     0
    ],
@@ -2208,12 +2294,16 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 1,
-     "factuel": "Malgré la flambée du variant Alpha, Macron décide en conseil de défense (29 janvier) de ne pas reconfiner, maintenant le couvre-feu — un « pari » assumé sur la responsabilité des Français. La décision, prise contre l'avis d'une partie des scientifiques, est présentée par l'entourage et la presse macroniste comme un coup de génie stratégique.",
+     "factuel": "Malgré la flambée du variant Alpha, Macron décide en conseil de défense (29 janvier) de ne pas reconfiner, maintenant le couvre-feu — un « pari » assumé sur la responsabilité des Français. La décision, prise contre l'avis d'une partie des scientifiques, est présentée par l'entourage et la presse macroniste comme un coup de génie stratégique.\n\n*Note de sourçage (22/07/2026) — Le lien Le JDD a été remplacé, à la demande de Vincent, par deux sources mainstream contemporaines : franceinfo (détail des mesures du conseil de défense du 29 janvier — pas de reconfinement, fermeture des frontières hors UE, jauges renforcées) et France 24 (déclaration de Castex « nous pouvons nous donner encore une chance d'éviter le confinement »). Le fait — décision de ne pas reconfiner alors qu'un troisième confinement semblait acquis — est ainsi documenté hors JDD.*",
      "critique": "Fait du prince où un seul décide en toute opacité.",
      "sources": [
       {
-       "nom": "Le JDD",
-       "lien": "https://www.lejdd.fr/Politique/reconfinement-pourquoi-emmanuel-macron-a-dit-non-4022045"
+       "nom": "franceinfo — « Covid-19 : ce qu'il faut retenir des nouvelles restrictions annoncées par Jean Castex » (29/01/2021)",
+       "lien": "https://www.franceinfo.fr/sante/maladie/coronavirus/covid-19-ce-qu-il-faut-retenir-des-nouvelles-restrictions-annoncees-par-jean-castex_4276783.html"
+      },
+      {
+       "nom": "France 24 — « \"Nous pouvons nous donner encore une chance d'éviter le confinement\", annonce Jean Castex » (29/01/2021)",
+       "lien": "https://www.france24.com/fr/info-en-continu/20210129-covid-19-nous-pouvons-nous-donner-encore-une-chance-d-%C3%A9viter-le-confinement-annonce-jean-castex"
       }
      ]
     },
@@ -2252,7 +2342,7 @@ window.DONNEES = {
      "precision": "annee",
      "transverse": true,
      "mois": null,
-     "factuel": "La ligne du ministre est fixée dès le 20 décembre 2020, sur Europe 1 : « La situation a démontré qu'on n'avait pas de contamination particulière à l'école », affirme Jean-Michel Blanquer, invoquant des études montrant qu'« en milieu scolaire, on réussissait à moins se contaminer qu'en dehors ». Les chiffres de son propre ministère, publiés la même semaine, disent l'inverse : 5 264 élèves contaminés sur les sept derniers jours, contre 4 548 la semaine précédente — une courbe qui remonte au moment même où le ministre la minimise.\n\nTout au long de 2021, la méthode reste la même : protocoles changeants, annoncés tard et par voie de presse. Le protocole de la rentrée de septembre 2021 — niveau 2 sur quatre — est dévoilé dans un entretien au Journal du Dimanche la veille de la rentrée. Dans une tribune au Monde, une trentaine d'enseignants et de médecins jugent « impensable » une rentrée à ce niveau alors que le taux d'incidence chez les 0-19 ans est cinq fois supérieur à celui de la rentrée 2020 ; Guislaine David (SNUipp-FSU) le juge « pas satisfaisant ». En novembre, plusieurs syndicats posent un ultimatum et menacent la grève faute de renforcement du protocole dans le second degré. Le 7 décembre, le ministère bascule du protocole 2 au protocole 3.",
+     "factuel": "La ligne du ministre est fixée dès le 20 décembre 2020, sur Europe 1 : « La situation a démontré qu'on n'avait pas de contamination particulière à l'école », affirme Jean-Michel Blanquer, invoquant des études montrant qu'« en milieu scolaire, on réussissait à moins se contaminer qu'en dehors ». Les chiffres de son propre ministère, publiés la même semaine, disent l'inverse : 5 264 élèves contaminés sur les sept derniers jours, contre 4 548 la semaine précédente — une courbe qui remonte au moment même où le ministre la minimise.\n\nTout au long de 2021, la méthode reste la même : protocoles changeants, annoncés tard et par voie de presse. Le protocole de la rentrée de septembre 2021 — niveau 2 sur quatre — est dévoilé dans un entretien au Journal du Dimanche la veille de la rentrée. La fin d'année est dominée par la cinquième vague : le SNES-FSU dénonce des collèges et lycées « loin d'être sanctuarisés » (28 décembre 2021) et un protocole tenant du « protocole fantôme ». La rentrée de janvier 2022 vire à la confrontation ouverte — protocole modifié à plusieurs reprises en une semaine, dénonciation de l'« incurie de Jean-Michel Blanquer » — et débouche sur une grève intersyndicale le 13 janvier 2022, majoritaire dans le second degré (62 % de grévistes selon le SNES-FSU).",
      "critique": "Conflit permanent avec la profession enseignante (masques, protocoles, moyens), symbole d'un ministère géré par la communication : les enseignants et les parents découvrent les règles dans les journaux, souvent la veille de leur entrée en vigueur.",
      "sources": [
       {
@@ -2262,11 +2352,67 @@ window.DONNEES = {
       {
        "nom": "VousNousIls — reprise de l'entretien et chiffres de contamination du ministère (21/12/2020)",
        "lien": "https://www.vousnousils.fr/2020/12/21/covid-19-faut-il-decaler-la-rentree-de-janvier-ce-nest-pas-loption-privilegiee-repond-blanquer-637939"
+      },
+      {
+       "nom": "SNES-FSU — « Grève majoritaire dans les collèges et les lycées » (62 % de grévistes le 13 janvier 2022)",
+       "lien": "https://www.snes.edu/article/greve-majoritaire-dans-les-colleges-et-les-lycees/"
+      },
+      {
+       "nom": "SNES-FSU — dossier Covid-19 (chronologie des communiqués, fin 2021-début 2022)",
+       "lien": "https://www.snes.edu/dossiers/covid-19/"
       }
      ]
     },
     {
      "n": 4,
+     "titre": "Darmanin à Le Pen : « Il faut prendre des vitamines »",
+     "date_libelle": "11/02/2021",
+     "debut": "2021-02-11",
+     "fin": "2021-02-11",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 2,
+     "factuel": "Lors d'un débat face à Marine Le Pen sur France 2, le ministre de l'Intérieur Gérald Darmanin reproche à la présidente du RN sa « mollesse » sur l'islam : dans sa « stratégie de dédiabolisation », elle en viendrait « à être presque un peu dans la mollesse — il faut prendre des vitamines ». La séquence intervient en pleine promotion du projet de loi « séparatisme », dont Darmanin est le porteur.",
+     "critique": "Un ministre de l'Intérieur disputant à l'extrême droite le monopole de la fermeté sur l'islam : marqueur de la droitisation du quinquennat et de la banalisation du RN, régulièrement recité ensuite comme moment de bascule.",
+     "sources": [
+      {
+       "nom": "franceinfo — « Marine Le Pen-Gérald Darmanin : l'islam radical au cœur du débat » (12/02/2021)",
+       "lien": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-gerald-darmanin-lislam-radical-au-coeur-du-debat_4294311.html"
+      },
+      {
+       "nom": "LINFO.re — « Gérald Darmanin face à Marine Le Pen : \"Il faut prendre des vitamines\" »",
+       "lien": "https://www.linfo.re/france/politique/gerald-darmanin-face-a-marine-le-pen-il-faut-prendre-des-vitamines"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "titre": "Vidal et l'« islamo-gauchisme » qui « gangrène la société »",
+     "date_libelle": "14-17/02/2021",
+     "debut": "2021-02-14",
+     "fin": "2021-02-17",
+     "precision": "periode",
+     "transverse": false,
+     "mois": 2,
+     "factuel": "Le 14 février sur CNews, la ministre de l'Enseignement supérieur Frédérique Vidal déclare : « L'islamo-gauchisme gangrène la société dans son ensemble et l'université n'est pas imperméable », puis annonce vouloir demander au CNRS « une enquête sur l'ensemble des courants de recherche sur ces sujets dans l'université, de manière à ce qu'on puisse distinguer ce qui relève de la recherche académique de ce qui relève justement du militantisme et de l'opinion » — annonce confirmée à l'Assemblée le 16. Le CNRS répond le 17 par communiqué que l'« islamogauchisme », « slogan politique », « ne correspond à aucune réalité scientifique », et condamne les tentatives de délégitimation de champs entiers de recherche (études postcoloniales, intersectionnalité, travaux sur le mot « race ») ; une pétition demandant la démission de la ministre dépasse 15 000 signatures. L'« enquête » ne verra jamais le jour.",
+     "critique": "Une ministre de la Recherche reprenant un mot d'ordre d'extrême droite pour mettre en cause les sciences sociales : épisode central de la mise au pas du débat académique, dans la ligne de la dissolution de l'Observatoire de la laïcité (fiche 6).",
+     "sources": [
+      {
+       "nom": "The Sound of Science — verbatim intégral de l'entretien du 14/02/2021 (avec vidéo)",
+       "lien": "https://www.soundofscience.fr/2648"
+      },
+      {
+       "nom": "CNRS — communiqué « L'\"islamo-gauchisme\" n'est pas une réalité scientifique » (17/02/2021)",
+       "lien": "https://www.cnrs.fr/en/press/islamo-leftism-not-scientific-reality"
+      },
+      {
+       "nom": "franceinfo — la réponse du CNRS à Frédérique Vidal",
+       "lien": "https://www.franceinfo.fr/societe/islamo-gauchisme-a-l-universite-le-cnrs-condamne-l-utilisation-d-un-terme-qui-ne-correspond-a-aucune-realite-scientifique_4300847.html"
+      }
+     ]
+    },
+    {
+     "n": 6,
      "titre": "Dissolution de l'Observatoire de la laïcité",
      "date_libelle": "mars–juin 2021",
      "debut": "2021-03-01",
@@ -2292,7 +2438,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 5,
+     "n": 7,
      "titre": "100 000 morts et le coût du confinement retardé",
      "date_libelle": "15/04/2021",
      "debut": "2021-04-15",
@@ -2301,7 +2447,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 4,
      "factuel": "La France franchit le cap des 100 000 morts du Covid le 15 avril. Selon une modélisation de l'épidémiologiste Pascal Crépey réalisée pour Le Monde, un confinement décidé en février plutôt qu'en avril aurait pu éviter près de 14 000 décès lors de la troisième vague. La méthode consiste à décaler de deux mois les courbes de décès, d'admissions en réanimation et d'hospitalisations observées après le confinement d'avril.",
-     "critique": "Chiffrage du coût humain du « pari » présidentiel de janvier (fiche 1) : le retard à confiner, choix politique assumé contre l'avis d'une partie du conseil scientifique, se paie en milliers de vies.",
+     "critique": "Chiffrage du coût humain du « pari » présidentiel de janvier : le retard à confiner, choix politique assumé contre l'avis d'une partie du conseil scientifique, se paie en milliers de vies.",
      "sources": [
       {
        "nom": "Europe 1 (citant Le Monde)",
@@ -2310,7 +2456,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 6,
+     "n": 8,
      "titre": "Le référendum climat enterré",
      "date_libelle": "mai 2021",
      "debut": "2021-05-01",
@@ -2319,7 +2465,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 5,
      "factuel": "Faute d'accord entre l'Assemblée (LREM) et le Sénat (droite), Macron abandonne le référendum sur l'inscription du climat dans la Constitution promis en décembre 2020 à la Convention citoyenne. Quant à la loi « Climat et résilience » (promulguée le 22 août 2021), le décompte des propositions effectivement reprises varie fortement selon la méthode retenue : 46 selon le gouvernement (soit 30 % des mesures), 15 selon Reporterre, 10 seulement selon franceinfo si l'on s'en tient aux propositions transcrites « sans filtre », c'est-à-dire sans édulcoration. En mars 2021, la Convention elle-même publie un avis très critique sur les réponses gouvernementales.",
-     "critique": "Enterrement définitif de la Convention citoyenne : une démocratie participative de façade, dont les propositions sont largement édulcorées. L'écart entre 46 et 10 est en soi l'argument : il mesure exactement ce que « sans filtre » a fini par signifier.",
+     "critique": "Enterrement définitif de la Convention citoyenne : une démocratie participative de façade, dont les propositions sont largement édulcorées.",
      "sources": [
       {
        "nom": "Le JDD — abandon du référendum",
@@ -2336,7 +2482,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 7,
+     "n": 9,
      "titre": "Un ministre de l'Intérieur manifeste avec la police",
      "date_libelle": "19/05/2021",
      "debut": "2021-05-19",
@@ -2345,7 +2491,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 5,
      "factuel": "Gérald Darmanin participe, devant l'Assemblée nationale, à un rassemblement des syndicats de police réclamant des peines planchers pour les agresseurs de policiers. Situation qualifiée d'« inédite » : un ministre défilant pour faire pression sur le pouvoir législatif et judiciaire.",
-     "critique": "Confusion des pouvoirs et alignement du pouvoir sur les revendications syndicales policières, dans le prolongement du fil des violences policières (BRAV-M, nasses).",
+     "critique": "Confusion des pouvoirs et alignement sur les revendications syndicales policières, dans le prolongement du fil des violences policières (BRAV-M, nasses).",
      "sources": [
       {
        "nom": "franceinfo",
@@ -2354,7 +2500,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 8,
+     "n": 10,
      "titre": "Roland-Garros : le couvre-feu levé pour les privilégiés",
      "date_libelle": "11/06/2021",
      "debut": "2021-06-11",
@@ -2363,7 +2509,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 6,
      "factuel": "En pleine période de couvre-feu (23 h), les spectateurs de la demi-finale Nadal-Djokovic sont exceptionnellement autorisés à rester jusqu'au bout « en accord avec les autorités » ; le public entonne « Merci Macron ». Au même moment, la police évacuait des jeunes de l'esplanade des Invalides.",
-     "critique": "Deux poids, deux mesures : dérogation pour un public aisé, répression pour la jeunesse — « clientélisme élitiste ».",
+     "critique": "Deux poids, deux mesures : dérogation pour un public aisé, répression pour la jeunesse.",
      "sources": [
       {
        "nom": "franceinfo",
@@ -2372,7 +2518,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 9,
+     "n": 11,
      "titre": "Régionales : abstention record et double échec",
      "date_libelle": "27/06/2021",
      "debut": "2021-06-27",
@@ -2390,7 +2536,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 10,
+     "n": 12,
      "titre": "Passe sanitaire et obligation vaccinale des soignants",
      "date_libelle": "12/07/2021",
      "debut": "2021-07-12",
@@ -2408,7 +2554,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 11,
+     "n": 13,
      "titre": "Le procès des chômeurs « qui gagneraient plus »",
      "date_libelle": "12/07/2021",
      "debut": "2021-07-12",
@@ -2426,7 +2572,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 12,
+     "n": 14,
      "titre": "Le mépris envers les athlètes olympiques",
      "date_libelle": "13/09/2021",
      "debut": "2021-09-13",
@@ -2434,7 +2580,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 9,
-     "factuel": "Recevant à l'Élysée les 189 médaillés olympiques et paralympiques de Tokyo (33 médailles, contre 42 à Rio en 2016), Macron qualifie les résultats de décevants et exige de « faire beaucoup plus » à Paris 2024 : « ce sont nos Jeux, à la maison, on nous attend », avec un objectif de « top 5 ». Teddy Riner, présent pour la quatrième fois, reconnaît que « l'équilibre n'est pas tout à fait celui qu'on attendait » et prévient qu'atteindre 90 médailles en 2024 demanderait bien davantage d'efforts.\n\nSur les moyens, la réponse présidentielle tient en deux points : l'État « ne faiblira pas », mais la philosophie reste de concentrer les efforts sur les disciplines à fort potentiel — celles qui rapportent des médailles — et il faut « mieux associer les acteurs privés », notamment via le « pacte de performance » permettant à des entreprises de financer la préparation d'athlètes par mécénat.",
+     "factuel": "Recevant à l'Élysée les 189 médaillés olympiques et paralympiques de Tokyo (33 médailles, contre 42 à Rio en 2016), Macron qualifie les résultats de décevants et exige de « faire beaucoup plus » à Paris 2024 : « ce sont nos Jeux, à la maison, on nous attend », avec un objectif de « top 5 ». Teddy Riner, présent pour la quatrième fois, reconnaît que « l'équilibre n'est pas tout à fait celui qu'on attendait » et prévient qu'atteindre 90 médailles en 2024 demanderait bien davantage d'efforts. (Ils en gagneront finalement 64, bilan record tout à fait honorable).\n\nSur les moyens, la réponse présidentielle tient en deux points : l'État « restera présent à vos côtés » et renforcera son engagement, mais la philosophie reste de « concentrer [les] efforts sur les profils et disciplines à fort potentiel » — celles qui rapportent des médailles — et de « mieux associer des acteurs privés », notamment via le « pacte de performance qui permet à des entreprises d'accompagner financièrement des athlètes dans leur préparation au travers du mécénat ».",
      "critique": "Injonction à la performance dont le financement est renvoyé pour partie au privé et concentré sur les disciplines rentables en médailles : les sports à faible rendement olympique font implicitement les frais de l'objectif « top 5 ».",
      "sources": [
       {
@@ -2452,7 +2598,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 13,
+     "n": 15,
      "titre": "Le camouflet des sous-marins (AUKUS)",
      "date_libelle": "15-16/09/2021",
      "debut": "2021-09-15",
@@ -2470,7 +2616,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 14,
+     "n": 16,
      "titre": "La brouille algérienne : la « rente mémorielle »",
      "date_libelle": "30/09–02/10/2021",
      "debut": "2021-09-30",
@@ -2488,7 +2634,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 15,
+     "n": 17,
      "titre": "Assurance-chômage durcie, AAH non déconjugalisée",
      "date_libelle": "octobre 2021",
      "debut": "2021-10-01",
@@ -2522,7 +2668,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 16,
+     "n": 18,
      "titre": "La suppression de l'ISF sans effet prouvé (France Stratégie)",
      "date_libelle": "octobre 2021",
      "debut": "2021-10-01",
@@ -2540,25 +2686,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 17,
-     "titre": "Lepénisation du débat et surexposition de Zemmour",
-     "date_libelle": "automne 2021",
-     "debut": "2021-10-01",
-     "fin": "2021-12-31",
-     "precision": "mois",
-     "transverse": false,
-     "mois": 10,
-     "factuel": "À l'approche de la présidentielle, le polémiste d'extrême droite Éric Zemmour bénéficie d'une surexposition médiatique massive (au moins cinq Unes de Valeurs actuelles en 2021, plateaux permanents) avant même sa candidature (30 novembre). Le débat public se droitise, la gauche est marginalisée médiatiquement.",
-     "critique": "Lecture critique du fil : configuration favorable à la stratégie prêtée à la Macronie — invisibiliser la gauche pour se poser en seul « rempart » face à l'extrême droite, « faire barrage » recyclé cinq ans après 2017.",
-     "sources": [
-      {
-       "nom": "Acrimed",
-       "lien": "https://www.acrimed.org/Zemmour-un-artefact-mediatique-a-la-Une"
-      }
-     ]
-    },
-    {
-     "n": 18,
+     "n": 19,
      "titre": "Les plus riches, grands gagnants du quinquennat (IPP)",
      "date_libelle": "17/11/2021",
      "debut": "2021-11-17",

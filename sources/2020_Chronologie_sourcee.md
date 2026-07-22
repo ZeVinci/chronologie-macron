@@ -3,6 +3,8 @@
 
 *Deuxième passe de vérification (18/07/2026) : chaque source a été rouverte et confrontée à la description. 9 fiches corrigées, 15 confirmées en l'état. La fiche 9, précédemment signalée « à vérifier », a été recentrée sur son objet documentable — le chiffre invérifiable qu'elle portait a été retiré. Détail dans `RAPPORT_verification_2020.md`.*
 
+*Mise à jour (22/07/2026) : à la demande de Vincent, la fiche 6 a été élargie au « quoi qu'il en coûte » du 12 mars, et trois fiches ont été ajoutées — plan France Relance (18), « modèle amish » (19), Schéma national du maintien de l'ordre (20) — avec renumérotation des fiches suivantes. Total : 27 fiches. Détail dans le rapport.*
+
 ---
 
 ## 1. Légion d'honneur au patron de BlackRock France
@@ -35,11 +37,12 @@ Source : [franceinfo](https://www.franceinfo.fr/economie/retraite/reforme-des-re
 ## 4. « La vie continue » : Macron au théâtre
 **Date : 06/03/2020**
 
-Le vendredi 6 mars au soir, Emmanuel et Brigitte Macron assistent au Théâtre Antoine à la pièce « Par le bout du nez », avec François Berléand et François-Xavier Demaison. Le déplacement est compris comme un geste délibéré destiné à montrer que la vie sociale peut continuer.
+Le vendredi 6 mars au soir, Emmanuel et Brigitte Macron assistent au Théâtre Antoine à la pièce « Par le bout du nez », avec François Berléand et François-Xavier Demaison — deux jours après le décret interdisant les rassemblements de plus de 5 000 personnes en milieu clos (4 mars). Le déplacement est compris comme un geste délibéré destiné à montrer que la vie sociale peut continuer ; il s'inscrit dans une séquence de réassurance assumée, puisque le couple présidentiel se montre encore main dans la main sur les Champs-Élysées le 8 mars « pour envoyer un message de confiance à l'économie française ».
 
 *Prisme critique — Onze jours avant le confinement : symbole rétrospectif de la minimisation initiale du danger, en écho au discours officiel de la même période sur l'inutilité du masque.*
 
-Sources : [Jean-Marc Dumontet — tweet du 7 mars 2020 (source primaire, compte rendu de la soirée)](https://x.com/Jmdumontet/status/1236257657243217920) · [franceinfo — l'exercice du pouvoir présidentiel à l'épreuve de la pandémie (mise en perspective rétrospective)](https://www.franceinfo.fr/sante/maladie/coronavirus/confinement/covid-19-lexercice-du-pouvoir-presidentiel-a-lepreuve-de-la-pandemie_4332991.html)
+Sources : [Euronews — « Coronavirus: Macron strolls Champs Elysées in "message of confidence" » (09/03/2020)](https://www.euronews.com/2020/03/09/macron-strolls-champs-elysees-in-message-of-confidence-amid-coronavirus) · [Jean-Marc Dumontet — tweet du 7 mars 2020 (compte rendu de la soirée)](https://x.com/Jmdumontet/status/1236257657243217920) · [franceinfo — l'exercice du pouvoir présidentiel à l'épreuve de la pandémie (mise en perspective rétrospective)](https://www.franceinfo.fr/sante/maladie/coronavirus/confinement/covid-19-lexercice-du-pouvoir-presidentiel-a-lepreuve-de-la-pandemie_4332991.html)
+
 
 ## 5. Premier tour des municipales maintenu
 **Date : 15/03/2020**
@@ -50,32 +53,32 @@ Malgré le passage au stade 3 de l'épidémie la veille, le gouvernement maintie
 
 Source : [Vie-publique.fr](https://www.vie-publique.fr/en-bref/273913-elections-municipales-2020-1er-tour-maintenu-le-15-mars)
 
-## 6. « Nous sommes en guerre »
-**Date : 16/03/2020**
+## 6. « Quoi qu'il en coûte » et « nous sommes en guerre »
+**Date : 12 & 16/03/2020**
 
-Lors d'une allocution suivie par plus de 35 millions de téléspectateurs, Macron répète six fois « nous sommes en guerre » et annonce le confinement général et le report du second tour des municipales.
+Le 12 mars, dans sa première allocution consacrée à l'épidémie, Macron annonce la fermeture des crèches, écoles, collèges, lycées et universités et promet de soutenir l'économie « quoi qu'il en coûte » — la formule, répétée trois fois, donnera son nom à toute la politique économique de la crise. Le 16 mars, lors d'une allocution suivie par plus de 35 millions de téléspectateurs, il répète six fois « nous sommes en guerre » et annonce le confinement général et le report du second tour des municipales.
 
-*Prisme critique — Rhétorique guerrière et verticale, qui masque l'impréparation matérielle.*
+*Prisme critique — Rhétorique guerrière et verticale, qui masque l'impréparation matérielle. Le « quoi qu'il en coûte », assumé comme choix protecteur, servira ensuite de repoussoir : c'est au nom de son coût que sera justifiée l'austérité des années suivantes.*
 
-Sources : [Élysée — Adresse aux Français, 16 mars 2020 (texte intégral)](https://www.elysee.fr/emmanuel-macron/2020/03/16/adresse-aux-francais-covid19) · [franceinfo](https://www.franceinfo.fr/sante/maladie/coronavirus/coronavirus-nous-sommes-enguerre_3871885.html)
+Sources : [Élysée — Adresse aux Français, 12 mars 2020 (texte intégral)](https://www.elysee.fr/emmanuel-macron/2020/03/12/adresse-aux-francais) · [Élysée — Adresse aux Français, 16 mars 2020 (texte intégral)](https://www.elysee.fr/emmanuel-macron/2020/03/16/adresse-aux-francais-covid19) · [franceinfo](https://www.franceinfo.fr/sante/maladie/coronavirus/coronavirus-nous-sommes-enguerre_3871885.html)
 
 ## 7. Confinement : attestation, amende de 135 € et pouvoirs d'exception
 **Date : 17/03/2020**
 
-Le confinement entre en vigueur le 17 mars à 12 h : déplacements soumis à une attestation dérogatoire, amende portée à 135 € (décret du 18 mars), fermeture des forêts, plages et parcs. Les décisions sont de plus en plus prises en conseil de défense sanitaire, secret et sans compte rendu.
+Le confinement entre en vigueur le 17 mars à 12 h : déplacements soumis à une attestation dérogatoire, amende portée à 135 € (décret du 18 mars). À partir du 19-20 mars, les préfectures interdisent par arrêté, département par département, l'accès aux plages de tout le littoral (méditerranéen, atlantique, Corse) ainsi qu'aux parcs, jardins, promenades, forêts et berges. Les décisions sont de plus en plus prises en conseil de défense sanitaire, secret et sans compte rendu.
 
 *Prisme critique — Si la décision d'un confinement maximaliste se comprend à cette date, il a rapidement été établi scientifiquement que le maintien d'interdictions fortes en extérieur était contre-productif. En outre, on retrouve l'appétence macroniste pour des amendes très élevées.*
 
-Source : [Préfecture du Rhône (services de l'État)](https://www.rhone.gouv.fr/Actualites/Archives-des-actualites/2020-Actualites/COVID-19-dispositif-de-confinement-et-derogations-de-circulation)
+Sources : [Préfecture du Rhône (services de l'État)](https://www.rhone.gouv.fr/Actualites/Archives-des-actualites/2020-Actualites/COVID-19-dispositif-de-confinement-et-derogations-de-circulation) · [franceinfo — « Confinement : les plages fermées et les contrôles renforcés »](https://www.franceinfo.fr/sante/maladie/coronavirus/confinement-les-plages-fermees-et-les-controles-renforces_3877269.html) · [Préfecture d'Eure-et-Loir — arrêté du 20 mars 2020 portant interdiction d'accès aux parcs, jardins, promenades, forêts et berges](https://www.eure-et-loir.gouv.fr/Publications/Recueil-des-actes-administratifs/Recueil-des-actes-administratifs-2020/Mars/Arrete-20-mars-portant-interdiction-d-acces-au-public-aux-parcs-jardins-promenades-forets-berges)
 
 ## 8. Masques : le mensonge d'État et le stock disparu
 **Date : 20/03/2020**
 
-Face à la pénurie, la porte-parole Sibeth Ndiaye affirme le 20 mars « je ne sais pas utiliser un masque », prolongeant le discours officiel selon lequel le masque serait inutile — bientôt renié. En cause : le stock stratégique national (plus d'un milliard de masques après le H1N1) non renouvelé et laissé se périmer depuis le début des années 2010.
+Face à la pénurie, la porte-parole Sibeth Ndiaye affirme le 20 mars « je ne sais pas utiliser un masque », prolongeant le discours officiel selon lequel le masque serait inutile — bientôt renié. En cause : le stock stratégique national, porté après le H1N1 à un objectif d'un milliard de masques chirurgicaux (et 600 à 700 millions de FFP2), que l'Etat a laissé se périmer. D'environ 1,7 milliard de masques en 2009, il ne reste qu'une centaine de millions d'unités valides au début de la crise Covid.
 
-*Prisme critique — Nier l'utilité du masque pour masquer la pénurie, avant de le rendre obligatoire. Exemple parfait de ce qu'il ne faut pas faire en situation de crise: décrédibiliser la parole officielle.*
+*Prisme critique — Nier l'utilité du masque pour masquer la pénurie, avant de le rendre obligatoire. Exemple parfait de ce qu'il ne faut pas faire en situation de crise: décrédibiliser la parole officielle. La pénurie n'est pas une fatalité mais le résultat de choix d'économies budgétaires étalés sur une décennie, sous des gouvernements successifs.*
 
-Source : [Vie-publique.fr (déclaration S. Ndiaye)](https://www.vie-publique.fr/discours/274873-sibeth-ndiaye-20032020-coronavirus-masques-chomage-partiel)
+Sources : [Vie-publique.fr (déclaration S. Ndiaye)](https://www.vie-publique.fr/discours/274873-sibeth-ndiaye-20032020-coronavirus-masques-chomage-partiel) · [Sénat — rapport de la commission d'enquête « Santé publique : pour un nouveau départ. Leçons de l'épidémie de covid-19 » (2020, gestion des stocks de masques)](https://www.senat.fr/rap/r20-199-1/r20-199-17.html) · [Wikipédia — « Gestion des masques de protection en France » (sourcé : notes DGS, doctrine SGDSN de mai 2013)](https://fr.wikipedia.org/wiki/Gestion_des_masques_de_protection_en_France)
 
 ## 9. La loi d'urgence sanitaire adoptée en procédure accélérée
 **Date : 18-23/03/2020**
@@ -91,7 +94,7 @@ Sources : [Assemblée nationale — dossier législatif « Loi d'urgence pour fa
 
 En pleine première vague et en plein confinement, Emmanuel Macron se rend le 9 avril à l'IHU Méditerranée Infection de Marseille pour y rencontrer le professeur Didier Raoult. Le microbiologiste est alors au sommet de sa popularité et promet de soigner le Covid-19 par l'hydroxychloroquine.
 
-*Prisme critique — La visite est lue comme une caution présidentielle à un protocole déjà contesté par une large part du monde médical : « quelque part, il a validé la conduite thérapeutique de l'IHU ». Le contraste est relevé sur place — des services de réanimation saturés et des patients morts du Covid à quelques centaines de mètres. Une partie de la classe politique salue à l'inverse un président venu écouter « sans intermédiaire ni filtre ».*
+*Prisme critique — La visite est lue comme une caution présidentielle à un protocole déjà contesté par une large part du monde médical. Le contraste est relevé sur place — des services de réanimation saturés et des patients morts du Covid à quelques centaines de mètres.*
 
 Sources : [franceinfo — « Quelque part, il a validé la conduite thérapeutique de l'IHU » : quand Macron rendait visite à Didier Raoult](https://www.franceinfo.fr/sante/maladie/coronavirus/chloroquine/video-quelque-part-il-a-valide-la-conduite-therapeutique-de-l-ihu-quand-le-president-macron-rendait-visite-a-didier-raoult-en-avril-2020_5480211.html) · [Gomet' — « La longue visite surprise d'Emmanuel Macron à l'IHU de Didier Raoult » (récit local, 09/04/2020)](https://gomet.net/la-longue-visite-demmanuel-macron-a-lihu-de-didier-raoult/) · [franceinfo — Didier Raoult interdit d'exercer la médecine pendant deux ans](https://www.franceinfo.fr/sante/maladie/coronavirus/chloroquine/covid-19-le-professeur-didier-raoult-interdit-d-exercer-la-medecine-pendant-deux-ans_6815933.html)
 
@@ -109,9 +112,9 @@ Sources : [franceinfo — « Paris : 20 000 personnes demandent justice pour Ada
 
 Le 13 juin, la préfecture interdit pour motif sanitaire le rassemblement contre les violences policières place de la République ; des milliers de personnes s'y retrouvent malgré tout.
 
-**La veille**, le 12 juin, environ 200 policiers venus de toute la France défilent en civil sur les Champs-Élysées, accompagnés d'une cinquantaine de véhicules, pour protester contre les annonces de Christophe Castaner sur le racisme dans la police et l'interdiction de la clé d'étranglement. Le cortège, non déclaré à la préfecture, s'achève devant les grilles de la place Beauvau — le ministère de l'Intérieur, mitoyen de l'Élysée. Loin d'être dispersé, il est salué par les policiers en service à coups de klaxons et de sirènes. Le soir même du 13 juin, une seconde action nocturne, elle aussi non autorisée, rassemble de nombreux véhicules de police au pied de l'Arc de Triomphe : elle est également tolérée.
+La veille, le 12 juin, environ 200 policiers venus de toute la France défilent en civil sur les Champs-Élysées, accompagnés d'une cinquantaine de véhicules, pour protester contre les annonces de Christophe Castaner sur le racisme dans la police et l'interdiction de la clé d'étranglement. Le cortège, non déclaré à la préfecture, s'achève devant les grilles de la place Beauvau — le ministère de l'Intérieur, mitoyen de l'Élysée. Loin d'être dispersé, il est salué par les policiers en service à coups de klaxons et de sirènes. Le soir même du 13 juin, une seconde action nocturne, elle aussi non autorisée, rassemble de nombreux véhicules de police au pied de l'Arc de Triomphe : elle est également tolérée.
 
-*Prisme critique — Usage sélectif de l'argument sanitaire pour restreindre le droit de manifester, dénoncé comme une atteinte aux libertés publiques. La comparaison ne porte pas sur des événements distants : à vingt-quatre heures d'intervalle et dans le même arrondissement, un rassemblement contre les violences policières est interdit au nom de l'épidémie tandis qu'un cortège de policiers non déclaré est escorté et salué par ses collègues en service.*
+*Prisme critique — Usage sélectif de l'argument sanitaire pour restreindre le droit de manifester, dénoncé comme une atteinte aux libertés publiques. La comparaison ne porte pas sur des événements distants : ils ont lieu e heures d'intervalle et dans le même arrondissement.*
 
 Sources : [France Bleu / ICI — la préfecture interdit le rassemblement place de la République](https://www.francebleu.fr/infos/faits-divers-justice/marche-pour-adama-traore-la-prefecture-interdit-un-rassemblement-place-de-la-republique-a-paris-8937566) · [Europe 1 — « À Paris, 200 policiers manifestent sur les Champs-Élysées » (12/06/2020)](https://www.europe1.fr/societe/on-en-a-ras-le-bol-a-paris-200-policiers-manifestent-sur-les-champs-elysees-3974489)
 
@@ -124,7 +127,7 @@ Macron reçoit les 150 citoyens et annonce retenir 146 de leurs 149 propositions
 
 Sources : [Élysée — Réponse aux 150 citoyens de la Convention, 29 juin 2020](https://www.elysee.fr/emmanuel-macron/2020/06/29/le-president-emmanuel-macron-repond-aux-150-citoyens-de-la-convention-citoyenne-pour-le-climat) · [franceinfo — évolution du discours présidentiel](https://www.franceinfo.fr/environnement/crise-climatique/convention-citoyenne-sur-le-climat/convention-citoyenne-pour-le-climat-comment-le-discours-d-emmanuel-macron-sur-les-propositions-a-t-il-evolue_4209195.html)
 
-## 14. Remaniement Castex : le virage à droite
+## 14. Remaniement Castex : toujours plus clairement à droite
 **Date : 03-06/07/2020**
 
 Édouard Philippe démissionne ; Jean Castex, haut fonctionnaire issu de la droite sarkozyste, devient Premier ministre le 3 juillet. Le gouvernement se droitise : Gérald Darmanin à l'Intérieur — alors qu'il est visé par une plainte pour viol — et Éric Dupond-Moretti à la Justice (nominations du 6 juillet).
@@ -160,7 +163,34 @@ Source : [France 24](https://www.france24.com/fr/20200806-emmanuel-macron-en-d%C
 
 Source : [Vie-publique.fr](https://www.vie-publique.fr/loi/276032-loi-14-decembre-2020-derogation-utilisation-neonicotinoides-betteraves)
 
-## 18. Deuxième vague : état d'urgence, couvre-feu, reconfinement
+## 18. « France Relance » : 100 milliards, dont 10 de baisse pérenne des impôts de production
+**Date : 03/09/2020**
+
+Jean Castex présente le 3 septembre « France Relance », plan de 100 milliards d'euros sur deux ans en trois volets : compétitivité (35 Md€), transition écologique (30 Md€), cohésion sociale et territoriale (35 Md€). Il comporte notamment une baisse pérenne de 10 Md€ par an des impôts de production, sans contreparties exigées des entreprises bénéficiaires.
+
+*Prisme critique — La mesure la plus massive et la seule pérenne du plan est un nouvel allègement fiscal pour les entreprises, dans la continuité de l'ISF, du PFU, de l'IS et du CICE ; syndicats et gauche dénoncent l'absence de conditions d'emploi ou d'écologie attachées aux aides.*
+
+Sources : [France 24 — « Plan de relance : les principales mesures décidées par Jean Castex » (03/09/2020)](https://www.france24.com/fr/20200903-plan-de-relance-les-principales-mesures-d%C3%A9cid%C3%A9es-par-jean-castex) · [Wikipédia — Plan de relance économique de la France de 2020-2022 (sourcé)](https://fr.wikipedia.org/wiki/Plan_de_relance_%C3%A9conomique_de_la_France_de_2020-2022)
+
+## 19. 5G : « le modèle amish » et « la lampe à huile »
+**Date : 14/09/2020**
+
+Devant les entrepreneurs du numérique réunis à l'Élysée, au lendemain d'une demande de moratoire sur la 5G signée par 70 élus de gauche et écologistes, Macron ironise : « J'entends beaucoup de voix qui s'élèvent pour nous expliquer qu'il faudrait relever la complexité des problèmes contemporains en revenant à la lampe à huile. Je ne crois pas au modèle amish. » L'attribution des fréquences est lancée dès la fin septembre, sans le débat réclamé.
+
+*Prisme critique — Mépris des interrogations écologiques et démocratiques, cette fois dirigé contre des élus : nouvelle pièce de la série des petites phrases (fainéants, Gaulois réfractaire, pognon de dingue).*
+
+Source : [Euronews — « Macron torpille la demande de moratoire sur la 5G en France » (15/09/2020, citations intégrales)](https://fr.euronews.com/2020/09/15/macron-torpille-la-demande-de-moratoire-sur-la-5g-en-france)
+
+## 20. Le Schéma national du maintien de l'ordre vise les journalistes
+**Date : 16/09/2020**
+
+Le 16 septembre, le ministre de l'Intérieur Gérald Darmanin publie le Schéma national du maintien de l'ordre, doctrine applicable à toutes les manifestations : il consacre la technique de l'encerclement (« nasse ») et impose aux journalistes de s'éloigner en cas d'ordre de dispersion et de disposer d'une accréditation pour accéder aux informations en temps réel. Saisi par la CGT, la Ligue des droits de l'Homme, le Syndicat de la magistrature et le Syndicat national des journalistes, le Conseil d'État annulera ces quatre points le 10 juin 2021, y voyant notamment une atteinte « disproportionnée » à la liberté de la presse.
+
+*Prisme critique — La doctrine officialise la nasse et traite la presse en auxiliaire à accréditer : prolongement du fil des libertés publiques (loi anti-casseurs 2019, article 24 de la loi Sécurité globale).*
+
+Sources : [Conseil d'État — communiqué du 10 juin 2021 (annulation de plusieurs points du SNMO)](https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre) · [Wikipédia — Schéma national du maintien de l'ordre (sourcé)](https://fr.wikipedia.org/wiki/Sch%C3%A9ma_national_du_maintien_de_l%27ordre)
+
+## 21. Deuxième vague : état d'urgence, couvre-feu, reconfinement
 **Date : 14 & 28/10/2020**
 
 Débordé par la seconde vague, l'exécutif rétablit l'état d'urgence sanitaire par décret (14 octobre), instaure un couvre-feu, puis annonce le 28 octobre un reconfinement (30 octobre – 1er décembre) — écoles et une partie de l'économie restant ouvertes. Dans son allocution, Macron déclare : « Nous avons tous été surpris par l'accélération soudaine de l'épidémie », puis élargit : « Nous sommes tous, en Europe, surpris par l'évolution du virus […] tous, nous en sommes au même point : débordés par une deuxième vague qui, nous le savons désormais, sera, sans doute, plus dure et plus meurtrière que la première. »
@@ -169,16 +199,16 @@ Débordé par la seconde vague, l'exécutif rétablit l'état d'urgence sanitair
 
 Sources : [Élysée — Adresse aux Français, 28 octobre 2020 (texte intégral)](https://www.elysee.fr/emmanuel-macron/2020/10/28/adresse-aux-francais-28-octobre) · [franceinfo](https://www.franceinfo.fr/sante/maladie/coronavirus/confinement/covid-19-confinement-ecoles-ouvertes-teletravail-ce-qu-il-faut-retenir-des-annonces-d-emmanuel-macron_4159463.html)
 
-## 19. Loi « Sécurité globale » et article 24
+## 22. Loi « Sécurité globale » et article 24
 **Date : 24/11/2020**
 
-L'Assemblée adopte la proposition de loi « Sécurité globale » le 24 novembre (article 24 voté le 20). L'article 24 pénalise la diffusion d'images des forces de l'ordre dans l'intention de porter atteinte à leur intégrité « physique ou psychique ». Il est dénoncé par le Défenseur des droits ; le 3 décembre, cinq rapporteurs spéciaux de l'ONU adressent à la France une lettre jugeant l'ensemble du texte incompatible avec le droit international des droits humains ; le 9 décembre, la Haute-Commissaire Michelle Bachelet demande explicitement le retrait de l'article 24.
+L'Assemblée adopte la proposition de loi « Sécurité globale » le 24 novembre. L'article 24 pénalise la diffusion d'images des forces de l'ordre dans l'intention de porter atteinte à leur intégrité « physique ou psychique ». Il est dénoncé par le Défenseur des droits ; le 3 décembre, cinq rapporteurs spéciaux de l'ONU adressent à la France une lettre jugeant l'ensemble du texte incompatible avec le droit international des droits humains ; le 9 décembre, la Haute-Commissaire Michelle Bachelet demande explicitement le retrait de l'article 24.
 
 *Prisme critique — Atteinte à la liberté de la presse et d'informer, dans un contexte de « dérive autoritaire » pointée par la presse étrangère.*
 
 Sources : [franceinfo](https://www.franceinfo.fr/faits-divers/police/violences-policieres/loi-securite-globale-larticle-24-adopte-a-lassemblee-nationale_4190329.html) · [France 24 — « L'ONU demande le retrait de l'article 24 » (09/12/2020)](https://www.france24.com/fr/france/20201209-l-onu-demande-le-retrait-de-l-article-24-de-la-loi-s%C3%A9curit%C3%A9-globale-en-france) · [ONU Info — lettre des cinq rapporteurs (03/12/2020)](https://news.un.org/fr/story/2020/12/1083642)
 
-## 20. Violences policières : le passage à tabac de Michel Zecler
+## 23. Violences policières : le passage à tabac de Michel Zecler
 **Date : 21-26/11/2020**
 
 Le 21 novembre, le producteur de musique Michel Zecler est roué de coups par des policiers dans le hall de son studio à Paris. La vidéo, diffusée par Loopsider le 26 novembre, provoque un choc national. Quatre policiers sont suspendus puis mis en examen le 30 novembre, deux écroués.
@@ -187,7 +217,7 @@ Le 21 novembre, le producteur de musique Michel Zecler est roué de coups par de
 
 Source : [Europe 1](https://www.europe1.fr/faits-divers/la-video-dun-producteur-roue-de-coups-par-des-policiers-a-paris-fait-polemique-4008249)
 
-## 21. Dissolution du CCIF
+## 24. Dissolution du CCIF
 **Date : 02/12/2020**
 
 Par décret en conseil des ministres (2 décembre), le gouvernement dissout le Collectif contre l'islamophobie en France (CCIF), accusé de « propagande islamiste » par Gérald Darmanin, après l'assassinat de Samuel Paty — le collectif ayant lui-même annoncé son auto-dissolution. L'association BarakaCity avait été dissoute le 28 octobre.
@@ -196,7 +226,7 @@ Par décret en conseil des ministres (2 décembre), le gouvernement dissout le C
 
 Source : [Légifrance (décret du 2 décembre 2020)](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042602019)
 
-## 22. Grand-Croix de la Légion d'honneur à al-Sissi
+## 25. Grand-Croix de la Légion d'honneur à al-Sissi
 **Date : 07-09/12/2020**
 
 Lors de la visite d'État du président égyptien Abdel Fattah al-Sissi à Paris (7-9 décembre), Macron lui remet la Grand-Croix de la Légion d'honneur, plus haute distinction française, sans que la séquence soit ouverte à la presse française — des images finiront par fuiter. Les associations estiment à environ 60 000 le nombre de prisonniers politiques dans les geôles égyptiennes. Amnesty International, la FIDH, la LDH et quatorze autres organisations condamnent la visite. En signe de protestation, plusieurs personnalités italiennes décorées de la Légion d'honneur rendent la leur, dont le journaliste et écrivain Corrado Augias, l'ancien maire de Bologne Sergio Cofferati et l'ancienne ministre de la Culture Giovanna Melandri.
@@ -205,7 +235,7 @@ Lors de la visite d'État du président égyptien Abdel Fattah al-Sissi à Paris
 
 Source : [France 24](https://www.france24.com/fr/france/20201215-une-l%C3%A9gion-d-honneur-au-mar%C3%A9chal-sissi-en-catimini-qui-finit-par-faire-du-bruit)
 
-## 23. Projet de loi « séparatisme »
+## 26. Projet de loi « séparatisme »
 **Date : 09/12/2020**
 
 Présenté en conseil des ministres le 9 décembre (jour anniversaire de la loi de 1905), le projet de loi « confortant le respect des principes de la République », porté par Darmanin et Schiappa, vise l'« islamisme radical ». Il sera adopté définitivement en août 2021.
@@ -214,7 +244,7 @@ Présenté en conseil des ministres le 9 décembre (jour anniversaire de la loi 
 
 Source : [Vie-publique.fr](https://www.vie-publique.fr/loi/277621-loi-separatisme-respect-des-principes-de-la-republique)
 
-## 24. Fêtes sous restrictions et incohérences
+## 27. Fêtes sous restrictions et incohérences
 **Date : décembre 2020**
 
 À la sortie du reconfinement (15 décembre), le couvre-feu à 20 h remplace le confinement ; bars, restaurants, cinémas et théâtres restent fermés. Les fêtes sont encadrées : exception le 24 décembre, recommandation de six adultes maximum à table, aucune dérogation le 31.
