@@ -1,5 +1,5 @@
 # 2025 — Chronologie sourcée des actions et annonces de Macron et son gouvernement
-*Points retenus au prisme du fil Bluesky de Vincent (posts personnels lus intégralement ; le contenu des reposts n'a pas pu être résolu, l'API bloquant les requêtes de résolution). Chaque événement est daté et adossé à une source solide. Les notes citent tes propres formulations.*
+*Points retenus au prisme du fil Bluesky de Vincent (posts personnels lus intégralement ; le contenu des reposts n'a pas pu être résolu, l'API bloquant les requêtes de résolution). Chaque événement est daté et adossé à une source solide. Bayrou et Lecornu, une farce aux effets dévastateurs bien réels.*
 
 *Deuxième passe de vérification (18/07/2026) : chaque source a été rouverte et confrontée à la description. 8 fiches corrigées ou complétées, 14 confirmées en l'état. Plusieurs événements ont connu des suites après la rédaction initiale — elles ont été intégrées. Détail dans `RAPPORT_verification_2025.md`.*
 

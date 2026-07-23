@@ -134,3 +134,37 @@ Aucun fait erroné trouvé — les deux affirmations tiennent, elles manquaient 
 Signalée par Vincent : la citation « ils nous ont frappés, traînés au sol, bandé les yeux, attaché les mains et les pieds, mis en cage » attribuée à des militants déportés n'avait aucune source dédiée (la seule source de la fiche, France 24, ne la couvre pas).
 
 Vérification : quatre des cinq éléments de la citation sont solidement attestés par un témoignage recueilli par la télévision publique espagnole RTVE auprès d'activistes espagnols expulsés, rapporté par Infobae le 7 octobre 2025 : « nos golpearon, nos arrastraron, nos inmovilizaron de pies y manos, nos cubrieron los ojos » (frappés, traînés, mains et pieds immobilisés, yeux couverts). Ce récit est recoupé par les témoignages de militants belges recueillis par la RTBF le même jour (traînée au sol, menottée, privation de sommeil, traitement assimilé à de la torture). En revanche, je n'ai trouvé aucune source, française ou étrangère, corroborant l'élément « mis en cage » pour cet épisode d'octobre 2025 (attention : plusieurs articles sur une flottille distincte, en mai 2026, décrivent un « bateau-tortionnaire » avec cages de conteneurs — à ne pas confondre). J'ai donc retiré ce dernier élément de la citation et sourcé le reste, qui est bien attesté.
+
+---
+
+## F bis. Correction ponctuelle (22/07/2026) — fiche 1 (non-censure du PS)
+
+Signalé par Vincent : la phrase « le Parti socialiste renonce à voter la censure au nom de la "stabilité" » n'était pas sourcée (la fiche ne citait que Touteleurope pour le rejet de la motion). Deux sources ajoutées : Public Sénat (vote du bureau national du PS, 59 voix contre 4, pour la non-censure) et franceinfo. ⚠️ En rouvrant ces sources, deux **citations non confirmées** sont apparues : le mot « stabilité » et la formule « n'implique en rien une adhésion » ne figurent pas comme citations exactes du PS. La justification réellement documentée est « donner au pays un budget » et l'obtention de « gages » (4 000 postes d'enseignants maintenus, contribution sur les hauts revenus, moindre coupe dans l'AME) ; la non-censure est présentée par le PS comme un « sursis », suivi du dépôt de sa propre motion quinze jours plus tard. La fiche a été récrite sur ces éléments attestés.
+
+---
+
+## F ter. Précision ponctuelle (22/07/2026) — fiche 8 (Aboubakar Cissé)
+
+Signalé par Vincent : la fiche évoquait « les propos du ministre de l'Intérieur "totalement irrespectueux" » sans dire de quels propos ni de quel ministre il s'agissait, et ne citait que Wikipédia. Précisé et sourcé : le ministre est **Bruno Retailleau**, et les propos visés sont sa présentation publique d'Aboubakar Cissé comme un étranger « en situation irrégulière », doublée d'une réaction jugée tardive (≈48 h). La citation de l'avocat **Yassine Bouzrou** (« des propos totalement irrespectueux », le ministre ayant « décrit Aboubakar Cissé comme un individu en situation irrégulière ») est vérifiée sur franceinfo (03/05/2025), source ajoutée.
+
+---
+
+## G. Ajouts du 22/07/2026 — cinq nouvelles fiches (2, 3, 4, 5, 12)
+
+À la demande de Vincent, cinq faits marquants de 2025 absents du corpus ont été ajoutés. **Renumérotation** : quatre fiches insérées après la fiche 1 (Retailleau, allocution du 5 mars, conclave retraites, crise algérienne) et une (loi narcotrafic) après l'ancienne fiche 7 (Madleen). Les anciennes fiches 2-7 deviennent 6-11, les anciennes 8-22 deviennent 13-27. Total : 27 fiches. Le renvoi interne de la nouvelle fiche 4 (conclave) pointe vers la fiche 25 (suspension des retraites). ⚠️ La section F ci-dessus renvoie à l'ancienne numérotation (ex. « #2 Gaza » = fiche 6 ; « #15 Global Sumud » = fiche 20).
+
+**Nouvelle fiche 2 — Circulaire Retailleau (23/01/2025).** Abrogation de la circulaire Valls, durée de présence portée de 5 à 7 ans, régularisation par le travail limitée aux métiers en tension, exigences de langue et d'intégration renforcées, discrétion préfectorale : vérifiés via les analyses de La Cimade et de la LDH (qui la contestent). Sources associatives assumées comme telles ; les faits (contenu de la circulaire) sont par ailleurs largement documentés par la presse juridique.
+
+**Nouvelle fiche 3 — Allocution du 5 mars 2025.** Citations (« la menace russe est là […] nous touche », « rester spectateur serait une folie », ouverture du « débat stratégique » sur la dissuasion, décision restant présidentielle) vérifiées sur la transcription de l'Élysée et LCP. Contexte (suspension de l'aide américaine par Trump, appel de Merz) confirmé.
+
+**Nouvelle fiche 4 — Conclave retraites (février–juin 2025).** Lancement par Bayrou, départ de la CGT et de FO en cours de route, fin fin juin sans accord global : vérifiés sur info.gouv.fr (Bayrou soulignant des « avancées ») et Public Sénat (« échec du conclave »). Formulation prudente conforme aux sources — « pas d'accord global » plutôt que « échec total », les deux camps se renvoyant la responsabilité.
+
+**Nouvelle fiche 5 — Crise franco-algérienne (2025).** Expulsions croisées, affaire Sansal (arrêté 11/2024, gracié un an plus tard), « escalade » de Retailleau, accord de 1968 remis en cause, attentat de Mulhouse (22/02/2025) comme tremplin, dénonciation d'une « faillite migratoire » : vérifiés sur France 24 et Public Sénat. **Complément du 22/07/2026 (signalement de Vincent)** — le seul élément non couvert par ces deux sources, le vote de la résolution RN d'octobre, est désormais sourcé : LCP et le texte adopté n° 177 de l'Assemblée nationale confirment l'adoption le 30/10/2025 à une voix près (185-184), première pour le RN, texte non contraignant. Fiche datée « toute l'année » vu le caractère continu de la crise.
+
+**Nouvelle fiche 12 — Loi « narcotrafic » (12-13/06/2025).** Loi n° 2025-532 du 13 juin 2025 et décision n° 2025-885 DC du 12 juin : censure de six articles dont le « dossier coffre » (art. 40, condamnation sur preuves secrètes, contraire aux droits de la défense) et l'accès des services de renseignement du « premier cercle » aux fichiers fiscaux (art. 5) — vérifiés sur le communiqué officiel du Conseil constitutionnel et Public Sénat.
+
+---
+
+## H. Note transverse — Mayotte placé en 2024
+
+La fiche Mayotte / cyclone Chido, demandée par Vincent dans ce lot 2025, a été **placée dans la chronologie 2024** (fiche 23) car les faits — cyclone du 14 décembre 2024, visite présidentielle et propos « si c'était pas la France, vous seriez 10 000 fois plus dans la merde » des 19-20 décembre 2024 — sont de décembre 2024. Détail dans `RAPPORT_verification_2024.md`, section H. À déplacer en 2025 si Vincent le préfère.

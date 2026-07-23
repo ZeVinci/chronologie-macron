@@ -102,3 +102,17 @@ Le chiffre de 19 000 est confirmé, la promesse non tenue aussi. Mais « restero
 3. **Les décomptes de Dufresne** s'arrêtent en 2020. Le raccord avec l'après-Gilets jaunes (Sainte-Soline, etc.) sera à faire lors des passes suivantes.
 
 4. **La fiche 22 (retraites, système à points)** mentionne le « refus des simulateurs réclamés par les syndicats ». C'est exact mais non sourcé dans la fiche — à documenter si le point est repris en 2020, année où la réforme revient au premier plan.
+
+---
+
+## F. Ajouts du 22/07/2026 — quatre nouvelles fiches (8, 10, 11, 19)
+
+À la demande de Vincent, quatre faits marquants de 2019 absents du corpus ont été ajoutés, en format court. **Renumérotation** : l'ancienne fiche 8 (Legay) devient 9, l'ancienne 9 (Allo Place Beauvau) devient 12, les anciennes 10-15 deviennent 13-18, les anciennes 16-21 deviennent 20-25. Les renvois internes des nouvelles fiches pointent vers la nouvelle numérotation (fiches 6, 8, 17). Total : 25 fiches.
+
+**Nouvelle fiche 8 — Grève des urgences (mi-mars → 09/09/2019).** Article France 24 du 09/09/2019 rouvert intégralement : départ mi-mars, collectif Inter-Urgences, 249 services en grève selon le collectif contre 195 recensés par le ministère mi-août, prime de 100 € net et 15 M€ de renforts, revendications de postes et de lits non satisfaites. Le chiffrage du « pacte de refondation des urgences » (754 M€ sur 2019-2022, annoncé le 9 septembre) vient de la page info.gouv.fr dédiée.
+
+**Nouvelle fiche 10 — Notre-Dame (15/04 → 29/07/2019).** Article France Bleu du 17/04/2019 rouvert intégralement : plus de 850 M€ promis en deux jours, mécanisme de défiscalisation (66 % / 60 %, annonce Philippe du 75 % jusqu'à 1 000 €), citation exacte de Gilles Carrez, renoncement de la famille Pinault à l'avantage fiscal. La promesse « rebâtie en cinq ans » (allocution du 16 avril) et la loi n° 2019-803 du 29 juillet 2019 (qui donne son cadre légal au taux de 75 %) sont adossées à l'article Wikipédia dédié et confirmées par plusieurs résultats de recherche concordants.
+
+**Nouvelle fiche 11 — Castaner / Pitié-Salpêtrière (01-03/05/2019).** Article France 24 du 03/05/2019 rouvert intégralement : rétractation exacte (« je n'aurais pas dû employer le terme "attaque" », « intrusion violente […] confirmée par les vidéos »), levée des 32 gardes à vue dès le 2 mai, demandes d'audition et de démission par l'opposition. La formulation initiale du 1er mai (« attaque » d'un hôpital, « agression » du personnel) est reprise de la paraphrase de France 24 et du titre d'Arrêt sur images ; ⚠️ l'article ASI est réservé aux abonnés — cité pour son titre et son cadrage, vérifiables en accès libre.
+
+**Nouvelle fiche 19 — Plan immigration (06/11/2019).** Page de La Cimade rouverte intégralement : « 20 décisions », citations exactes du décryptage (« supposés fraudes, abus et détournements qu'aucun élément objectif ne vient étayer », « vision utilitariste »), allongement du délai d'accès à la couverture maladie. Le délai de carence de trois mois (PUMa des demandeurs d'asile) et les « objectifs quantitatifs ou quotas » sont confirmés par le dossier de presse info.gouv.fr et le titre d'Europe 1 du 06/11/2019 (source de 2019, antérieure au changement de ligne éditoriale de 2024). Le décret d'application du délai de carence date du 30 décembre 2019 — la fiche reste datée de l'annonce du 6 novembre.

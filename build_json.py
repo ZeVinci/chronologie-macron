@@ -285,6 +285,169 @@ def lire_page(nom):
     return texte or None
 
 
+CHIFFRE = re.compile(r"^Chiffre\s*:\s*(.+?)\s*\|\s*(.+?)\s*$", re.M)
+
+SIEGES_TOTAL = 577
+MAJORITE = 289
+
+
+def lire_contexte():
+    """
+    Lit contexte_politique.md : la liste des Premiers ministres avec leurs
+    dates de mandat, et le poids du camp presidentiel apres chaque legislative.
+
+    Renvoie deux listes brutes ; l'affectation annee par annee est faite par
+    enrichir_contexte(). Fichier absent => (None, None), les lignes d'annee
+    n'afficheront simplement rien a droite.
+    """
+    chemin = RACINE / "contexte_politique.md"
+    if not chemin.exists():
+        avertissements.append("contexte_politique.md absent : ni PM ni sieges affiches")
+        return None, None
+
+    brut = chemin.read_text(encoding="utf-8")
+
+    def section(titre):
+        m = re.search(r"^##\s+" + titre + r".*?\n(.*?)(?=^## |\Z)", brut, re.S | re.M)
+        return m.group(1) if m else ""
+
+    pms = []
+    for ligne in section("Premiers ministres").splitlines():
+        parts = [p.strip() for p in ligne.split("|")]
+        if len(parts) < 2 or "/" not in parts[1]:
+            continue  # saute l'en-tete et les lignes vides
+        nom, deb = parts[0], parts[1]
+        fin = parts[2] if len(parts) > 2 and parts[2] else None
+        d = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", deb)
+        pms.append({
+            "nom": nom,
+            "court": nom.split()[-1],
+            "debut": date(int(d.group(3)), int(d.group(2)), int(d.group(1))),
+            "fin": None,
+        })
+        if fin:
+            f = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", fin)
+            pms[-1]["fin"] = date(int(f.group(3)), int(f.group(2)), int(f.group(1)))
+
+    elections = []
+    for ligne in section("Camp présidentiel").splitlines():
+        parts = [p.strip() for p in ligne.split("|")]
+        if len(parts) < 2 or "/" not in parts[0]:
+            continue
+        d = re.match(r"(\d{1,2})/(\d{4})", parts[0])
+        if not d:
+            continue
+        try:
+            sieges = int(re.sub(r"\D", "", parts[1]))
+        except ValueError:
+            continue
+        elections.append({
+            "date": date(int(d.group(2)), int(d.group(1)), 1),
+            "sieges": sieges,
+            "note": parts[2] if len(parts) > 2 else "",
+        })
+
+    return pms, elections
+
+
+def enrichir_contexte(annees, pms, elections):
+    """Attache a chaque annee ses Premiers ministres et le poids du camp."""
+    if pms is None:
+        return
+    for a in annees:
+        an = a["annee"]
+        debut_an, fin_an = date(an, 1, 1), date(an, 12, 31)
+
+        actifs = [p for p in pms
+                  if p["debut"] <= fin_an and (p["fin"] is None or p["fin"] >= debut_an)]
+        actifs.sort(key=lambda p: p["debut"])
+        a["pms"] = [{"nom": p["nom"], "court": p["court"]} for p in actifs]
+
+        passees = [e for e in elections if e["date"] <= fin_an]
+        if passees:
+            e = max(passees, key=lambda e: e["date"])
+            a["camp"] = {
+                "sieges": e["sieges"],
+                "note": e["note"],
+                "part": round(e["sieges"] / SIEGES_TOTAL, 4),
+            }
+        else:
+            a["camp"] = None
+
+
+def lire_bilan():
+    """
+    Lit Bilan_chiffre_2017-2026.md et le rend sous forme de fiches, pour la
+    section « Quelques chiffres ». Structure d'une fiche identique aux
+    chronologies annuelles (titre, factuel, prisme, sources), plus deux
+    champs propres au bilan :
+
+        Chiffre : 115,6 % | Dette publique fin 2025
+
+    « 115,6 % » est le chiffre mis en avant, « Dette publique fin 2025 » son
+    libelle court. Cette ligne est facultative et editable dans le .md ; si
+    elle manque, la carte se rabat sur le titre de la fiche.
+
+    Le fichier est cherche dans sources/ puis a la racine.
+    """
+    chemin = SOURCES / "Bilan_chiffre_2017-2026.md"
+    if not chemin.exists():
+        chemin = RACINE / "Bilan_chiffre_2017-2026.md"
+    if not chemin.exists():
+        avertissements.append("Bilan chiffre absent : section « Quelques chiffres » omise")
+        return None
+
+    brut = chemin.read_text(encoding="utf-8")
+
+    note = ""
+    for ligne in brut.split("\n")[1:6]:
+        if ligne.startswith("*") and ligne.rstrip().endswith("*"):
+            note = ligne.strip().strip("*").strip()
+            break
+
+    fiches = []
+    for m in re.finditer(r"^## (\d+)\.\s*(.+?)\n(.*?)(?=^## |\Z)", brut, re.S | re.M):
+        num, titre, corps = int(m.group(1)), m.group(2).strip(), m.group(3)
+
+        c = CHIFFRE.search(corps)
+        chiffre = c.group(1).strip() if c else ""
+        chiffre_label = c.group(2).strip() if c else ""
+
+        d = re.search(r"^\*\*Mesure / publication\s*:\s*(.+?)\*\*", corps, re.M)
+        periode = d.group(1).strip() if d else ""
+
+        p = PRISME.search(corps)
+        critique = re.sub(r"\s+", " ", p.group(1)).strip() if p else ""
+
+        sources = []
+        for ligne in LIGNE_SOURCE.findall(corps):
+            for nom, url in LIEN_MD.findall(ligne):
+                sources.append({"nom": nom.strip(), "lien": url.strip()})
+
+        # Factuel : le corps prive de la periode, du chiffre, du prisme, des sources.
+        corps_sans = corps
+        for motif in (CHIFFRE, LIGNE_SOURCE):
+            corps_sans = motif.sub("", corps_sans)
+        corps_sans = re.sub(r"^\*\*Mesure / publication.*?\*\*", "", corps_sans, flags=re.M)
+        if p:
+            corps_sans = corps_sans.replace(p.group(0), "")
+        factuel = "\n\n".join(
+            re.sub(r"\s+", " ", b).strip()
+            for b in corps_sans.split("\n\n") if b.strip())
+
+        if not chiffre:
+            avertissements.append(f"bilan #{num} : pas de ligne « Chiffre : … | … »")
+
+        fiches.append({
+            "n": num, "titre": titre, "periode": periode,
+            "chiffre": chiffre, "chiffre_label": chiffre_label,
+            "factuel": factuel, "critique": critique, "sources": sources,
+        })
+
+    fiches.sort(key=lambda f: f["n"])
+    return {"note": note, "total": len(fiches), "fiches": fiches}
+
+
 # Textes de la page, utilises si page.md est absent ou incomplet.
 TEXTES_DEFAUT = {
     "titre": "Ce que Macron a fait, année après année",
@@ -396,10 +559,15 @@ def main():
     annees = [a for a in (lire_annee(y) for y in ANNEES) if a]
     total = sum(a["total"] for a in annees)
 
+    pms, elections = lire_contexte()
+    enrichir_contexte(annees, pms, elections)
+
     donnees = {
         "genere_le": date.today().isoformat(),
         "total_fiches": total,
+        "assemblee": {"total": SIEGES_TOTAL, "majorite": MAJORITE},
         "textes": lire_textes(),
+        "bilan": lire_bilan(),
         "annees": annees,
         "pages": {
             "methode": lire_page("methode"),

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compteur — jours sans gouvernement issu du scrutin gagné par la gauche</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --fg:#f4f5f7; --muted:#9aa3af;
+    --accent:#e4572e; --accent2:#ffd166; --border:#262b34;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:640px;margin:0 auto;padding:28px 18px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;
+    padding:26px 22px;text-align:center;}
+  h1{font-size:1.02rem;font-weight:600;color:var(--muted);margin:0 0 18px;
+    line-height:1.4;letter-spacing:.2px;}
+  .days{font-size:clamp(3rem,14vw,5.5rem);font-weight:800;line-height:1;
+    color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:-1px;}
+  .days-label{font-size:.85rem;color:var(--muted);text-transform:uppercase;
+    letter-spacing:2px;margin-top:6px;}
+  .sub{margin-top:16px;font-size:1.05rem;color:var(--fg);}
+  .clock{margin-top:8px;font-size:.95rem;color:var(--muted);font-variant-numeric:tabular-nums;}
+  .meta{margin-top:20px;padding-top:16px;border-top:1px solid var(--border);
+    font-size:.8rem;color:var(--muted);line-height:1.5;text-align:left;}
+  .frozen{color:var(--accent2);font-weight:700;margin-top:14px;font-size:1rem;}
+  b{color:var(--fg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Durée depuis la victoire du Nouveau Front populaire<br>(2ᵉ tour des législatives, 7 juillet 2024)<br>sans gouvernement issu du bloc arrivé en tête</h1>
+    <div class="days" id="days">—</div>
+    <div class="days-label">jours</div>
+    <div class="sub" id="ymd"></div>
+    <div class="clock" id="clock"></div>
+    <div class="frozen" id="frozen" style="display:none"></div>
+    <div class="meta" id="meta"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // --- Paramètres modifiables ---------------------------------------
+  // Point de départ : 2e tour des législatives 2024, NFP arrivé en tête.
+  var START = new Date("2024-07-07T00:00:00");
+  // Fin du décompte : 1er tour de la présidentielle 2027.
+  // Date PROVISOIRE (non officielle) : le mandat s'achève le 13 mai 2027,
+  // le scrutin doit se tenir 20 à 35 jours avant. À ajuster quand la
+  // date officielle sera fixée.
+  var CAP = new Date("2027-04-12T00:00:00");
+  // ------------------------------------------------------------------
+
+  var DAY = 86400000;
+
+  function fmt2(n){ return String(n).padStart(2,"0"); }
+
+  function ymd(days){
+    var y = Math.floor(days/365);
+    var rem = days - y*365;
+    var m = Math.floor(rem/30);
+    var d = rem - m*30;
+    var parts = [];
+    if(y) parts.push(y + (y>1?" ans":" an"));
+    if(m) parts.push(m + " mois");
+    parts.push(d + (d>1?" jours":" jour"));
+    return "soit " + parts.join(", ");
+  }
+
+  function render(){
+    var now = new Date();
+    var capped = now > CAP;
+    var ref = capped ? CAP : now;
+
+    var diff = ref - START;
+    if(diff < 0) diff = 0;
+    var days = Math.floor(diff / DAY);
+
+    document.getElementById("days").textContent = days.toLocaleString("fr-FR");
+    document.getElementById("ymd").textContent = ymd(days);
+
+    // Horloge fine (heures/min/sec depuis le début de la journée en cours)
+    var since = diff - days*DAY;
+    var h = Math.floor(since/3600000);
+    var mi = Math.floor((since%3600000)/60000);
+    var s = Math.floor((since%60000)/1000);
+    document.getElementById("clock").textContent =
+      capped ? "" : "et " + fmt2(h) + " h " + fmt2(mi) + " min " + fmt2(s) + " s";
+
+    if(capped){
+      var f = document.getElementById("frozen");
+      f.style.display = "block";
+      f.textContent = "⏹ Décompte arrêté au 1er tour de la présidentielle 2027.";
+    }
+
+    var opts = {year:"numeric", month:"long", day:"numeric"};
+    document.getElementById("meta").innerHTML =
+      "Départ : <b>7 juillet 2024</b> (NFP arrivé en tête, sans majorité absolue). " +
+      "Aucun gouvernement issu de cette coalition n'a été formé : refus de nommer Lucie Castets, puis gouvernements Barnier, Bayrou, Lecornu. " +
+      "Arrêt prévu : <b>" + CAP.toLocaleDateString("fr-FR", opts) + "</b> (1er tour présidentielle 2027, date provisoire). " +
+      "Compteur informatif, à visée critique — pas une source.";
+  }
+
+  render();
+  setInterval(render, 1000);
+})();
+</script>
+</body>
+</html>

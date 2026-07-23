@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Machronologie</title>
-<meta name="description" content="Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. Les descriptions factuelles et sourcées sont suivies de…">
+<meta name="description" content="Modeste bilan de ces deux quinquennats marquants. Il parait que le personnage est sensible à la trace qu'il laissera dans l'Histoire; je pense qu'on lui doit bien de se rappeler du détail de son action. Les descriptions sont factuelles et sourcées.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Machronologie">
-<meta property="og:description" content="Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. Les descriptions factuelles et sourcées sont suivies de…">
+<meta property="og:description" content="Modeste bilan de ces deux quinquennats marquants. Il parait que le personnage est sensible à la trace qu'il laissera dans l'Histoire; je pense qu'on lui doit bien de se rappeler du détail de son action. Les descriptions sont factuelles et sourcées.">
 <style>
 :root{
   --encre:#1a1a18; --texte:#2c2c2a; --gris:#5f5e5a; --pale:#8a8985;
@@ -73,6 +73,11 @@ body{
   line-height:1; color:var(--gris); transition:color .18s ease, font-size .18s ease;
 }
 .annee.ouverte .millesime{color:var(--encre); font-size:38px}
+.millesime-txt{
+  font-size:23px; font-weight:500; letter-spacing:-.01em; line-height:1;
+  color:var(--gris); transition:color .18s ease;
+}
+.annee.ouverte .millesime-txt{color:var(--encre)}
 .resume{min-width:0; flex:1}
 .resume b{display:block; font-size:13px; font-weight:500; color:var(--gris)}
 .annee.ouverte .resume b{color:var(--texte)}
@@ -80,10 +85,17 @@ body{
   display:block; font-size:12px; color:var(--pale); line-height:1.45;
   overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
 }
-.densite{flex:none; display:flex; gap:3px; align-items:flex-end; height:20px}
-.densite i{width:6px; background:var(--trait-fort); border-radius:1px}
-.densite i.vide{background:var(--trait)}
-.densite i.haut{background:var(--gris)}
+.contexte{flex:none; width:150px; text-align:right}
+.pm{display:block; font-size:12px; color:var(--gris); line-height:1.4; margin-bottom:6px}
+.annee.ouverte .pm{color:var(--texte)}
+.pm-sep{color:var(--trait-fort)}
+.camp-barre{
+  position:relative; height:7px; border-radius:2px;
+  background:var(--fond); box-shadow:inset 0 0 0 0.5px var(--trait);
+}
+.camp-remplit{position:absolute; left:0; top:0; bottom:0; background:var(--gris); border-radius:2px}
+.camp-seuil{position:absolute; top:-2px; bottom:-2px; width:1px; background:var(--encre)}
+.camp-txt{font-size:11px; color:var(--pale); margin-top:4px; line-height:1.4}
 
 .corps{display:none; padding:2px 0 34px 30px}
 .annee.ouverte .corps{display:block}
@@ -117,6 +129,38 @@ body{
 .source a:hover{color:var(--encre); border-bottom-color:var(--gris)}
 .source .sep{margin:0 7px; color:var(--trait-fort)}
 .source .etiq-src{margin-right:8px; letter-spacing:.04em; color:var(--trait-fort)}
+
+/* ---------- section « Quelques chiffres » ---------- */
+.bilan-avert{
+  margin:0 0 24px; padding-left:22px;
+  font-size:13px; line-height:1.6; color:var(--gris);
+  border-left:2px solid var(--trait-fort);
+}
+.chiffre-grille{
+  display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:14px;
+}
+.chiffre-carte{
+  background:var(--carte); border:0.5px solid var(--trait);
+  border-radius:12px; padding:20px 22px;
+}
+.chiffre-val{
+  font-size:27px; font-weight:500; letter-spacing:-.01em;
+  line-height:1.1; color:var(--encre);
+}
+.chiffre-lab{
+  font-size:13px; color:var(--texte); margin-top:6px; line-height:1.45;
+}
+.chiffre-crit{
+  margin:14px 0 0; padding-left:14px; border-left:2px solid var(--trait);
+  font-size:12px; line-height:1.6; color:var(--gris);
+}
+.chiffre-src{
+  margin:14px 0 0; font-size:11px; color:var(--pale); line-height:1.5;
+}
+.chiffre-per{display:block; margin-bottom:3px}
+.chiffre-src a{color:var(--pale); text-decoration:none; border-bottom:1px solid var(--trait-fort)}
+.chiffre-src a:hover{color:var(--encre); border-bottom-color:var(--gris)}
+.chiffre-src .sep{margin:0 6px; color:var(--trait-fort)}
 
 /* ---------- panneaux ---------- */
 .voile{
@@ -154,10 +198,12 @@ body{
   .chapeau h1{font-size:27px}
   .millesime{font-size:26px}
   .annee.ouverte .millesime{font-size:31px}
-  .densite{display:none}
+  .contexte{display:none}
   .corps{padding-left:0}
   .fiche{gap:13px}
   .critique{padding-left:14px}
+  .chiffre-grille{grid-template-columns:1fr}
+  .millesime-txt{font-size:20px}
   .panneau{padding:26px 22px; margin:12px auto}
 }
 </style>
@@ -200,9 +246,6 @@ body{
 <script>
 (function(){
 "use strict";
-
-var MOIS_LONG = ["janvier","février","mars","avril","mai","juin","juillet",
-                 "août","septembre","octobre","novembre","décembre"];
 
 function ech(s){
   return String(s == null ? "" : s)
@@ -277,31 +320,39 @@ function construire(donnees){
   document.getElementById("chapo").innerHTML = md(t.chapo);
   document.getElementById("pied").innerHTML =
     md(t.pied) +
-    '<p>Généré le ' + ech(D.genere_le) +
-    " depuis les chronologies annuelles.</p>";
-
-  var maxi = 1;
-  D.annees.forEach(function(a){
-    a.densite.forEach(function(v){ if (v > maxi) maxi = v; });
-  });
+    '<p>Mis à jour le ' + ech(D.genere_le) + ".</p>";
 
   document.getElementById("timeline").innerHTML =
-    D.annees.map(function(a){ return blocAnnee(a, maxi); }).join("");
+    D.annees.map(blocAnnee).join("") +
+    (D.bilan ? blocBilan(D.bilan) : "");
 
   brancher();
-  ouvrir(document.getElementById("a" + D.annees[0].annee), true);
   pages();
 }
 
-function blocAnnee(a, maxi){
-  var barres = a.densite.map(function(v, i){
-    var h = v === 0 ? 2 : Math.max(4, Math.round(v / maxi * 20));
-    var cl = v === 0 ? "vide" : (v >= maxi * 0.66 ? "haut" : "");
-    return '<i class="' + cl + '" style="height:' + h + 'px" title="' +
-           MOIS_LONG[i] + " " + a.annee + " — " + v +
-           (v > 1 ? " fiches" : " fiche") + '"></i>';
-  }).join("");
+function blocContexte(a){
+  if (!a.pms && !a.camp) return "";
+  var noms = (a.pms || []).map(function(p){
+    return '<span title="' + ech(p.nom) + '">' + ech(p.court) + "</span>";
+  }).join('<span class="pm-sep"> · </span>');
 
+  var barre = "";
+  if (a.camp){
+    var maj = D.assemblee.majorite / D.assemblee.total * 100;
+    barre =
+      '<div class="camp-barre" title="Majorité présidentielle : ' + a.camp.sieges +
+        " sièges sur " + D.assemblee.total + " (majorité absolue à " +
+        D.assemblee.majorite + ')">' +
+        '<div class="camp-remplit" style="width:' + (a.camp.part * 100) + '%"></div>' +
+        '<div class="camp-seuil" style="left:' + maj + '%"></div>' +
+      "</div>" +
+      '<div class="camp-txt">' + a.camp.sieges + " sièges · " + ech(a.camp.note) + "</div>";
+  }
+  return '<span class="contexte">' +
+    (noms ? '<span class="pm">' + noms + "</span>" : "") + barre + "</span>";
+}
+
+function blocAnnee(a){
   var trans = a.fiches.filter(function(f){ return f.transverse; });
   var flux  = a.fiches.filter(function(f){ return !f.transverse; });
 
@@ -323,9 +374,45 @@ function blocAnnee(a, maxi){
       '<span class="resume"><b>' + a.total + " fiches</b>" +
         (a.note ? "<span>" + ech(a.note) + "</span>" : "") +
       '</span>' +
-      '<span class="densite">' + barres + '</span>' +
+      blocContexte(a) +
     "</button>" +
     '<div class="corps">' + interieur + "</div>" +
+  "</section>";
+}
+
+function blocBilan(b){
+  var cartes = b.fiches.map(function(f){
+    var srcs = f.sources.map(function(s){
+      return s.lien
+        ? '<a href="' + ech(s.lien) + '" target="_blank" rel="noopener">' + ech(s.nom) + "</a>"
+        : ech(s.nom);
+    }).join('<span class="sep">·</span>');
+    return '<article class="chiffre-carte">' +
+      '<div class="chiffre-val">' + ech(f.chiffre || f.titre) + "</div>" +
+      '<div class="chiffre-lab">' + ech(f.chiffre_label || f.titre) + "</div>" +
+      (f.critique ? '<p class="chiffre-crit">' + ech(f.critique) + "</p>" : "") +
+      '<p class="chiffre-src">' +
+        (f.periode ? '<span class="chiffre-per">' + ech(f.periode) + "</span>" : "") +
+        srcs + "</p>" +
+    "</article>";
+  }).join("");
+
+  return '<section class="annee bilan" id="bilan">' +
+    '<button class="tete" aria-expanded="false">' +
+      '<svg class="chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
+      '<path d="M6 3.5L10.5 8L6 12.5" stroke="currentColor" stroke-width="1.5" ' +
+      'stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+      '<span class="millesime-txt">Quelques chiffres</span>' +
+      '<span class="resume"><b>' + b.total + " indicateurs</b>" +
+        "<span>L'état social et budgétaire de la France, sources officielles</span>" +
+      '</span>' +
+    "</button>" +
+    '<div class="corps">' +
+      '<p class="bilan-avert">Ces indicateurs décrivent l\'état de la France, ' +
+      'non l\'effet mécanique d\'une politique. Chacun est daté par sa ' +
+      'publication ; plusieurs mesures ont paru en 2026.</p>' +
+      '<div class="chiffre-grille">' + cartes + "</div>" +
+    "</div>" +
   "</section>";
 }
 

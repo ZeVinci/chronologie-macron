@@ -1,6 +1,7 @@
 # **Mac**h**ron**ologie
-Il est difficile de se souvenir des péripéties les plus marquantes de ses deux quinquennats de Macron. Cette page présente une chronologie, non exhaustive, de ses décisions, des actions de ses gouvernement - et de leurs conséquences. 
-Les descriptions factuelles et sourcées sont suivies de commentaires critiques; le lecteur peut toutefois facilement séparer les unes et les autres.
+Modeste bilan de ces deux quinquennats marquants.
+Il parait que le personnage est sensible à la trace qu'il laissera dans l'Histoire; je pense qu'on lui doit bien de se rappeler du détail de son action.
+Les descriptions sont factuelles et sourcées.
 
 ---
 

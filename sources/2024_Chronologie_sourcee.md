@@ -3,7 +3,7 @@
 
 *Deuxième passe de vérification (18/07/2026) : chaque source a été rouverte et confrontée à la description. 6 fiches corrigées, 12 confirmées en l'état. Détail dans `RAPPORT_verification_2024.md`.*
 
-*Mise à jour (22/07/2026) : cinq fiches ajoutées à la demande de Vincent — « réarmement démographique » (3), colère agricole et pause Écophyto (4), troupes en Ukraine (8), Nouvelle-Calédonie (12) et réforme de l'audiovisuel Dati (13) — avec renumérotation des fiches suivantes (et comblement de l'ancien trou de numérotation). Détail dans le rapport.*
+*Mise à jour (22/07/2026) : cinq fiches ajoutées à la demande de Vincent — « réarmement démographique » (3), colère agricole et pause Écophyto (4), troupes en Ukraine (8), Nouvelle-Calédonie (12) et réforme de l'audiovisuel Dati (13) — avec renumérotation des fiches suivantes (et comblement de l'ancien trou de numérotation). Puis, le même jour, ajout de la fiche 23 (Mayotte / cyclone Chido, décembre 2024) — placée ici plutôt qu'en 2025 pour respecter la chronologie. Détail dans le rapport.*
 
 ---
 
@@ -190,3 +190,12 @@ Après le recours au 49.3 pour le budget de la Sécurité sociale 2025, l'Assemb
 *Prisme critique — Aboutissement chaotique de la dissolution : un gouvernement sans légitimité, tombé en un temps record, plongeant le pays dans l'instabilité — le prix du « moi ou le chaos ».*
 
 Source : [Public Sénat](https://www.publicsenat.fr/actualites/parlementaire/le-gouvernement-de-michel-barnier-renverse-apres-ladoption-de-la-motion-de-censure-du-nfp)
+
+## 23. Mayotte dévastée : « si c'était pas la France, vous seriez 10 000 fois plus dans la merde »
+**Date : 14-20/12/2024**
+
+Le 14 décembre, le cyclone Chido ravage Mayotte, département le plus pauvre de France, faisant des dizaines de morts (bilan officiel provisoire de 31, réévalué ensuite à 39, mais probablement bien supérieur compte tenu des bidonvilles) et des milliers de blessés. En visite les 19-20 décembre, Macron, confronté à la colère des habitants privés d'eau, de nourriture et de soins, lance de nuit à la foule : « Si c'était pas la France, vous seriez 10 000 fois plus dans la merde ! », après un « c'est pas moi, le cyclone ! ».
+
+*Prisme critique — Mépris colonial et déni de responsabilité face à un territoire abandonné puis sinistré : au lieu de répondre à la détresse, le président renvoie les Mahorais à la « chance » d'être français — l'exact contraire de l'égalité républicaine invoquée.*
+
+Sources : [France 24 — « "C'est pas moi, le cyclone !" : à Mayotte, Emmanuel Macron confronté à la colère des Mahorais » (20/12/2024)](https://www.france24.com/fr/france/20241220-mayotte-col%C3%A8re-emmanuel-macron-prolonge-sa-visite-cyclone-chido) · [Crise de 2024 à Mayotte (Wikipédia, sourcé — bilan, chronologie)](https://fr.wikipedia.org/wiki/Cyclone_Chido)

@@ -137,9 +137,6 @@ Sur les moyens, la réponse présidentielle tient en deux points : l'État « re
 
 *Prisme critique — Injonction à la performance dont le financement est renvoyé pour partie au privé et concentré sur les disciplines rentables en médailles : les sports à faible rendement olympique font implicitement les frais de l'objectif « top 5 ».*
 
-*Note de sourçage (22/07/2026) — Vérification sur la transcription intégrale de l'Élysée (déjà citée) : les formules « concentrer nos efforts sur les profils et disciplines à fort potentiel », « mieux associer des acteurs privés » et le « pacte de performance […] au travers du mécénat » y figurent mot pour mot. En revanche, la citation « ne faiblira pas » n'apparaît nulle part dans le discours — elle a été remplacée par la formulation réellement prononcée, « l'État restera présent à vos côtés » (l'engagement étant présenté comme devant être « renforcé »).*
-
-
 Sources : [franceinfo — « Faire beaucoup plus aux JO de Paris 2024 »](https://www.franceinfo.fr/les-jeux-olympiques/tokyo-2020/emmanuel-macron-aux-medailles-de-tokyo-faire-beaucoup-plus-aux-jo-de-paris-2024_4770163.html) · [franceinfo — reportage au cœur du rassemblement des médaillés à l'Élysée (réactions des athlètes, réponse sur les moyens)](https://www.franceinfo.fr/les-jeux-olympiques/paris-2024/reportage-honneur-fierte-plaisir-au-coeur-du-rassemblement-inedit-des-medailles-olympiques-et-paralympiques-a-l-elysee_4770185.html) · [Élysée — cérémonie en l'honneur des médaillés de Tokyo (13/09/2021)](https://www.elysee.fr/emmanuel-macron/2021/09/13/ceremonie-en-lhonneur-des-medailles-olympiques-et-paralympiques-aux-jeux-de-tokyo-2020)
 
 ## 15. Le camouflet des sous-marins (AUKUS)

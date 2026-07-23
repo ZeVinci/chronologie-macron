@@ -1,5 +1,5 @@
 # 2022 — Chronologie sourcée des actions et annonces de Macron et son gouvernement
-*Points retenus par Vincent depuis ses retweets, datés et adossés à une source la plus solide possible. Description factuelle suivie d'une note restituant la critique de l'époque. Présidentielles et perte de majorité, menant à un autoritarisme à nu.*
+*Points retenus par Vincent depuis ses retweets, datés et adossés à une source la plus solide possible. Description factuelle suivie d'une note restituant la critique de l'époque. Présidentielles et perte de majorité, autoritarisme à nu.*
 
 *Deuxième passe de vérification (18/07/2026) : chaque source a été rouverte et confrontée à la description. 7 fiches corrigées, 11 confirmées en l'état. Détail dans `RAPPORT_verification_2022.md`.*
 
