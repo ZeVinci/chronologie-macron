@@ -1,6 +1,6 @@
 window.DONNEES = {
  "genere_le": "2026-07-23",
- "total_fiches": 207,
+ "total_fiches": 213,
  "textes": {
   "titre": "Machronologie",
   "titre_balise": "**Mac**h**ron**ologie",
@@ -3788,7 +3788,7 @@ window.DONNEES = {
   {
    "annee": 2024,
    "note": "Année de droitisation et d'autoritarisme, avec la dissolution tactique dont les résultats sont ignorés.",
-   "total": 20,
+   "total": 21,
    "densite": [
     3,
     3,
@@ -3801,7 +3801,7 @@ window.DONNEES = {
     2,
     1,
     0,
-    1
+    2
    ],
    "fiches": [
     {
@@ -4243,20 +4243,42 @@ window.DONNEES = {
        "lien": "https://www.publicsenat.fr/actualites/parlementaire/le-gouvernement-de-michel-barnier-renverse-apres-ladoption-de-la-motion-de-censure-du-nfp"
       }
      ]
+    },
+    {
+     "n": 23,
+     "titre": "Mayotte dévastée : « si c'était pas la France, vous seriez 10 000 fois plus dans la merde »",
+     "date_libelle": "14-20/12/2024",
+     "debut": "2024-12-14",
+     "fin": "2024-12-20",
+     "precision": "periode",
+     "transverse": false,
+     "mois": 12,
+     "factuel": "Le 14 décembre, le cyclone Chido ravage Mayotte, département le plus pauvre de France, faisant des dizaines de morts (bilan officiel provisoire de 31, réévalué ensuite à 39, mais probablement bien supérieur compte tenu des bidonvilles) et des milliers de blessés. En visite les 19-20 décembre, Macron, confronté à la colère des habitants privés d'eau, de nourriture et de soins, lance de nuit à la foule : « Si c'était pas la France, vous seriez 10 000 fois plus dans la merde ! », après un « c'est pas moi, le cyclone ! ».",
+     "critique": "Mépris colonial et déni de responsabilité face à un territoire abandonné puis sinistré : au lieu de répondre à la détresse, le président renvoie les Mahorais à la « chance » d'être français — l'exact contraire de l'égalité républicaine invoquée.",
+     "sources": [
+      {
+       "nom": "France 24 — « \"C'est pas moi, le cyclone !\" : à Mayotte, Emmanuel Macron confronté à la colère des Mahorais » (20/12/2024)",
+       "lien": "https://www.france24.com/fr/france/20241220-mayotte-col%C3%A8re-emmanuel-macron-prolonge-sa-visite-cyclone-chido"
+      },
+      {
+       "nom": "Crise de 2024 à Mayotte (Wikipédia, sourcé — bilan, chronologie)",
+       "lien": "https://fr.wikipedia.org/wiki/Cyclone_Chido"
+      }
+     ]
     }
    ]
   },
   {
    "annee": 2025,
    "note": "Les notes citent tes propres formulations.",
-   "total": 22,
+   "total": 27,
    "densite": [
+    2,
     1,
-    0,
-    0,
+    1,
     3,
     1,
-    1,
+    2,
     2,
     0,
     5,
@@ -4274,17 +4296,121 @@ window.DONNEES = {
      "precision": "periode",
      "transverse": false,
      "mois": 1,
-     "factuel": "Nommé Premier ministre le 13 décembre 2024 après la censure de Barnier, François Bayrou fait adopter le budget 2025 par 49.3 (3 février). Le Parti socialiste renonce à voter la censure au nom de la « stabilité » : la motion déposée par LFI, les communistes et les écologistes est rejetée le 5 février avec 128 voix seulement — dont six socialistes —, très loin des 289 requises. Le PS souligne que sa décision « n'implique en rien une adhésion » à la politique de Bayrou.",
+     "factuel": "Nommé Premier ministre le 13 décembre 2024 après la censure de Barnier, François Bayrou fait adopter le budget 2025 par 49.3 (3 février). Le Parti socialiste renonce à voter la censure pour « donner au pays un budget » : son bureau national tranche pour la non-censure par 59 voix contre 4, après avoir négocié une série de « gages » (maintien de 4 000 postes d'enseignants, contribution exceptionnelle sur les hauts revenus, baisse de l'AME limitée). La motion déposée par LFI, les communistes et les écologistes est rejetée le 5 février avec 128 voix seulement — dont six socialistes —, très loin des 289 requises. Le PS présente sa non-censure comme un simple « sursis » et dépose deux semaines plus tard sa propre motion « pour la défense des valeurs de la République ».",
      "critique": "Un budget d'austérité passé sans vote, sauvé par la gauche de gouvernement.",
      "sources": [
       {
        "nom": "Touteleurope.eu",
        "lien": "https://www.touteleurope.eu/vie-politique-des-etats-membres/budget-le-gouvernement-de-francois-bayrou-echappe-a-la-motion-de-censure/"
+      },
+      {
+       "nom": "Public Sénat — « Budget : le PS décide de ne pas censurer le gouvernement Bayrou… ce coup-ci » (03/02/2025)",
+       "lien": "https://www.publicsenat.fr/actualites/politique/budget-le-ps-decide-de-ne-pas-censurer-le-gouvernement-bayrou-ce-coup-ci"
+      },
+      {
+       "nom": "franceinfo — « Budget 2025 : les députés socialistes se prononcent contre la censure du gouvernement Bayrou »",
+       "lien": "https://www.franceinfo.fr/economie/budget/budget-2025-les-deputes-socialistes-se-prononcent-contre-la-censure-du-gouvernement-bayrou_7052993.html"
       }
      ]
     },
     {
      "n": 2,
+     "titre": "La circulaire Retailleau : régularisations durcies",
+     "date_libelle": "23/01/2025",
+     "debut": "2025-01-23",
+     "fin": "2025-01-23",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 1,
+     "factuel": "Le 23 janvier, le ministre de l'Intérieur Bruno Retailleau abroge la circulaire Valls de 2012 et la remplace par un texte durcissant fortement l'admission exceptionnelle au séjour des sans-papiers : durée de présence requise portée de cinq à sept ans, régularisation par le travail réservée aux métiers en tension, exigences renforcées de maîtrise du français et d'« intégration », et large pouvoir d'appréciation laissé aux préfets. La Cimade et la LDH la contestent, y voyant une machine à précariser et à créer des disparités entre départements.",
+     "critique": "Nouveau tour de vis migratoire par voie de circulaire, sans débat parlementaire, dans le prolongement des lois de 2018 et 2023 : l'exception devient la règle et le droit au séjour se rétracte.",
+     "sources": [
+      {
+       "nom": "La Cimade — « Stigmatisation et précarisation : la circulaire Retailleau n'est pas une solution ! »",
+       "lien": "https://www.lacimade.org/stigmatisation-et-precarisation-la-circulaire-retailleau-nest-pas-une-solution/"
+      },
+      {
+       "nom": "LDH — « La LDH et ses partenaires contestent la circulaire \"Retailleau\" »",
+       "lien": "https://www.ldh-france.org/la-ldh-et-ses-partenaires-contestent-la-circulaire-retailleau/"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "titre": "« La menace russe est là » : l'allocution du 5 mars",
+     "date_libelle": "05/03/2025",
+     "debut": "2025-03-05",
+     "fin": "2025-03-05",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 3,
+     "factuel": "Au lendemain de la suspension par Trump de l'aide américaine à l'Ukraine, Macron s'adresse aux Français le 5 mars : « La menace russe est là et touche les pays d'Europe, nous touche », « face à ce monde de dangers, rester spectateur serait une folie ». Il annonce ouvrir « le débat stratégique » sur la protection, par la dissuasion nucléaire française, des alliés européens (répondant à un appel du futur chancelier allemand Friedrich Merz), tout en précisant que la décision d'emploi « restera » entre les mains du seul président.",
+     "critique": "Bascule stratégique majeure — réarmement, dissuasion « européanisée », préparation à un conflit — annoncée par la voix présidentielle seule, dans la continuité verticale de la LPM (2023) et du « rien ne doit être exclu » sur l'Ukraine (2024).",
+     "sources": [
+      {
+       "nom": "Élysée — adresse aux Français du 5 mars 2025 (transcription officielle)",
+       "lien": "https://www.elysee.fr/emmanuel-macron/2025/03/05/adresse-aux-francais"
+      },
+      {
+       "nom": "LCP — « \"La menace russe est là\", déclare Emmanuel Macron » (05/03/2025)",
+       "lien": "https://lcp.fr/actualites/la-menace-russe-est-la-declare-emmanuel-macron-affirmant-que-face-a-ce-monde-de-dangers"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "titre": "Le « conclave » sur les retraites et son échec",
+     "date_libelle": "février–juin 2025",
+     "debut": "2025-02-01",
+     "fin": "2025-06-30",
+     "precision": "mois",
+     "transverse": false,
+     "mois": 2,
+     "factuel": "Pour désamorcer la contestation de la réforme de 2023, Bayrou confie fin février aux partenaires sociaux un « conclave » chargé d'en renégocier certains paramètres, dans une enveloppe budgétaire contrainte. Après quatre mois de discussions — désertées en cours de route par la CGT et FO —, le conclave s'achève fin juin sans accord global, syndicats et patronat se renvoyant la responsabilité de l'impasse.",
+     "critique": "Théâtre du dialogue social sans mandat réel : une négociation encadrée d'avance, sans les principaux syndicats à l'arrivée, qui n'accouche de rien — préfigurant la « suspension » minimale finalement concédée à l'automne pour survivre politiquement.",
+     "sources": [
+      {
+       "nom": "info.gouv.fr — « Conclave sur la réforme des retraites : François Bayrou souligne les \"avancées\" »",
+       "lien": "https://www.info.gouv.fr/actualite/conclave-sur-la-reforme-des-retraites-francois-bayrou-souligne-les-avancees"
+      },
+      {
+       "nom": "Public Sénat — « Échec du conclave sur les retraites : Bayrou reçoit les partenaires sociaux pour une réunion de la dernière chance »",
+       "lien": "https://www.publicsenat.fr/actualites/politique/echec-du-conclave-sur-les-retraites-bayrou-recoit-les-partenaires-sociaux-pour-une-reunion-de-la-derniere-chance-0"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "titre": "La crise diplomatique franco-algérienne",
+     "date_libelle": "2025 (toute l'année)",
+     "debut": "2025-01-01",
+     "fin": "2025-12-31",
+     "precision": "annee",
+     "transverse": true,
+     "mois": null,
+     "factuel": "Les relations franco-algériennes atteignent en 2025 un point de rupture : expulsions croisées de diplomates, rappel de l'ambassadeur, détention en Algérie de l'écrivain franco-algérien Boualem Sansal (arrêté en novembre 2024, gracié un an plus tard). Bruno Retailleau prône une « escalade » — durcissement des visas, remise en cause de l'accord de 1968 sur la circulation des Algériens —, l'attentat de Mulhouse du 22 février (commis par un Algérien sous OQTF) lui servant de tremplin pour dénoncer une « faillite migratoire ». Le 30 octobre, une proposition de résolution du RN dénonçant l'accord de 1968 est adoptée à l'Assemblée — à une voix près (185 contre 184), première fois qu'un texte du RN passe dans l'hémicycle, même sans valeur contraignante.",
+     "critique": "« Diplomatie bulldozer » de Retailleau, critiquée jusque dans la majorité pour son inefficacité : l'instrumentalisation d'un drame et d'un contentieux mémoriel au service d'une surenchère migratoire, sans résultat tangible sinon la dégradation durable du lien avec Alger.",
+     "sources": [
+      {
+       "nom": "France 24 — « Crise diplomatique France-Algérie : en 2025, une bascule irrémédiable ? »",
+       "lien": "https://www.france24.com/fr/afrique/20251230-crise-france-algerie-2025-sansal-oqtf-sahara"
+      },
+      {
+       "nom": "Public Sénat — « Trois mois après la libération de Boualem Sansal, où en sont les relations franco-algériennes ? »",
+       "lien": "https://www.publicsenat.fr/actualites/politique/trois-mois-apres-la-liberation-de-boualem-sansal-ou-en-sont-les-relations-franco-algeriennes"
+      },
+      {
+       "nom": "LCP — « Dénonciation des accords franco-algériens de 1968 : un texte du RN adopté, à une voix près, à l'Assemblée » (30/10/2025)",
+       "lien": "https://lcp.fr/actualites/denonciation-des-accords-franco-algeriens-de-1968-un-texte-du-rn-adopte-a-une-voix-pres"
+      },
+      {
+       "nom": "Assemblée nationale — texte adopté n° 177 (résolution du 30/10/2025)",
+       "lien": "https://www.assemblee-nationale.fr/dyn/old/17/ta/ta0177.asp"
+      }
+     ]
+    },
+    {
+     "n": 6,
      "titre": "Gaza : condamner sans jamais sanctionner, et continuer à livrer",
      "date_libelle": "2025 (toute l'année)",
      "debut": "2025-01-01",
@@ -4322,7 +4448,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 3,
+     "n": 7,
      "titre": "Indemnités journalières rabotées et procès des arrêts maladie",
      "date_libelle": "01/04/2025",
      "debut": "2025-04-01",
@@ -4331,7 +4457,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 4,
      "factuel": "Depuis le 1er avril 2025, le salaire de référence servant à calculer les indemnités journalières maladie est plafonné à 1,4 SMIC (contre 1,8), réduisant le montant versé aux salariés en arrêt. Le gouvernement impute la hausse des dépenses à des prescriptions « en excès » et à un manque de suivi médical régulier ; les syndicats médicaux pointent à l'inverse la dégradation des conditions de travail, l'explosion des troubles psychiques et une désorganisation profonde du système de soins.",
-     "critique": "Tu démontes le chiffrage : « les 50 % sont mesurés non pas sur les arrêts en général, mais ceux qui font l'objet d'un contrôle […] Propagande. » Stigmatiser les malades pour justifier l'économie.",
+     "critique": "Stigmatiser les malades pour justifier l'économie.",
      "sources": [
       {
        "nom": "Aide-sociale.fr",
@@ -4344,7 +4470,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 4,
+     "n": 8,
      "titre": "L'assassinat d'Aboubakar Cissé dans une mosquée du Gard",
      "date_libelle": "25/04/2025",
      "debut": "2025-04-25",
@@ -4352,9 +4478,13 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 4,
-     "factuel": "Le 25 avril, Aboubakar Cissé, 22 ans, est tué de 57 coups de couteau dans la mosquée de La Grand-Combe (Gard), l'agresseur accompagnant son geste de propos blasphématoires. Le crime relance le débat sur la reconnaissance de l'islamophobie et sur la lenteur de la réaction des autorités ; l'avocat de la famille juge les propos du ministre de l'Intérieur « totalement irrespectueux ».",
-     "critique": "Suspect de tiédeur ministérielle dès lors que la victime est musulmane.",
+     "factuel": "Le 25 avril, Aboubakar Cissé, 22 ans, est tué de 57 coups de couteau dans la mosquée de La Grand-Combe (Gard), l'agresseur accompagnant son geste de propos blasphématoires. Le crime relance le débat sur la reconnaissance de l'islamophobie et sur la lenteur de la réaction des autorités — le ministre de l'Intérieur Bruno Retailleau ne s'exprimant qu'environ 48 heures après le meurtre. L'avocat de la famille, Yassine Bouzrou, déconseille aux proches de rencontrer le ministre, qui a présenté publiquement Aboubakar Cissé comme un étranger « en situation irrégulière » : « des propos totalement irrespectueux ».",
+     "critique": "Suspect de tiédeur ministérielle dès lors que la victime est musulmane : plutôt que de nommer d'emblée un crime raciste et d'honorer la victime, le ministre en met en avant le statut administratif.",
      "sources": [
+      {
+       "nom": "franceinfo — « L'avocat de la famille d'Aboubakar Cissé leur \"déconseille\" d'accepter l'invitation de Bruno Retailleau, \"un ministre qui leur a manqué de respect\" » (03/05/2025)",
+       "lien": "https://www.franceinfo.fr/faits-divers/assassinat-dans-une-mosquee-du-gard/meurtre-d-aboubakar-cisse-l-avocat-de-la-famille-leur-deconseille-d-accepter-l-invitation-de-bruno-retailleau-un-ministre-qui-leur-a-manque-de-respect_7225311.html"
+      },
       {
        "nom": "Wikipédia (Assassinat d'Aboubakar Cissé, sourcé)",
        "lien": "https://fr.wikipedia.org/wiki/Assassinat_d'Aboubakar_Ciss%C3%A9"
@@ -4362,7 +4492,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 5,
+     "n": 9,
      "titre": "Bétharram : les mensonges de Bayrou, et son refus de partir",
      "date_libelle": "14/05 – 02/07/2025",
      "debut": "2025-05-14",
@@ -4384,7 +4514,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 6,
+     "n": 10,
      "titre": "Dissolutions : Urgence Palestine et la Jeune Garde antifasciste",
      "date_libelle": "30/04 – 12/06/2025",
      "debut": "2025-04-30",
@@ -4422,7 +4552,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 7,
+     "n": 11,
      "titre": "Flottille Madleen : des Français enlevés, Bayrou refuse le mot « otage »",
      "date_libelle": "10-11/06/2025",
      "debut": "2025-06-10",
@@ -4431,7 +4561,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 6,
      "factuel": "Le 10 juin, l'armée israélienne arraisonne dans les eaux internationales le voilier Madleen, avec douze militants à bord dont Greta Thunberg et l'eurodéputée franco-palestinienne Rima Hassan. Six Français sont détenus. Rima Hassan est placée à l'isolement à la prison de Neve Tirza pour avoir écrit « Free Palestine » sur le mur de sa cellule. Devant l'Assemblée, Bayrou juge « inacceptable » l'emploi du mot « otage » ; le groupe communiste quitte l'hémicycle. Barrot dénonce la « désinformation » de LFI.",
-     "critique": "Peu de célérité à défendre des compatriotes, dont une élue, illégalement détenue.",
+     "critique": "Peu de célérité à défendre des compatriotes, dont une élue, illégalement détenus.",
      "sources": [
       {
        "nom": "Public Sénat",
@@ -4440,7 +4570,29 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 8,
+     "n": 12,
+     "titre": "Loi « narcotrafic » : le « dossier coffre » retoqué",
+     "date_libelle": "12-13/06/2025",
+     "debut": "2025-06-12",
+     "fin": "2025-06-13",
+     "precision": "periode",
+     "transverse": false,
+     "mois": 6,
+     "factuel": "La loi « visant à sortir la France du piège du narcotrafic », largement adoptée, crée un parquet national anticriminalité organisée et de nouveaux outils d'enquête et de renseignement. Le 12 juin, le Conseil constitutionnel censure six articles : notamment le « dossier coffre » (article 40), qui permettait de fonder une condamnation sur des preuves versées dans un dossier secret inaccessible à la défense — contraire aux droits de la défense.",
+     "critique": "Nouvelle extension de l'arsenal sécuritaire et du renseignement, dont les dispositions les plus attentatoires aux droits de la défense sont retoquées par le Conseil constitutionnel : les attaques contre les libertés publiques (SILT 2017, anti-casseurs 2019, Sécurité globale 2020) se poursuivent, la justice constitutionnelle jouant à nouveau le rôle de dernier garde-fou.",
+     "sources": [
+      {
+       "nom": "Conseil constitutionnel — décision n° 2025-885 DC du 12 juin 2025 (communiqué de presse)",
+       "lien": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2025-885-dc-du-12-juin-2025-communique-de-presse"
+      },
+      {
+       "nom": "Public Sénat — « Narcotrafic : le Conseil constitutionnel censure certaines dispositions relatives au renseignement, comme le \"dossier coffre\" »",
+       "lien": "https://www.publicsenat.fr/actualites/parlementaire/narcotrafic-le-conseil-constitutionnel-censure-certaines-dispositions-relatives-au-renseignement-comme-dossier-coffre"
+      }
+     ]
+    },
+    {
+     "n": 13,
      "titre": "Loi Duplomb : pétition record et censure constitutionnelle",
      "date_libelle": "08/07 – 07/08/2025",
      "debut": "2025-07-08",
@@ -4466,7 +4618,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 9,
+     "n": 14,
      "titre": "Le plan Bayrou : 43,8 milliards, année blanche, deux jours fériés",
      "date_libelle": "15/07/2025",
      "debut": "2025-07-15",
@@ -4484,7 +4636,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 10,
+     "n": 15,
      "titre": "La chute de Bayrou",
      "date_libelle": "08/09/2025",
      "debut": "2025-09-08",
@@ -4492,7 +4644,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 9,
-     "factuel": "Ayant lui-même engagé un vote de confiance sur sa trajectoire budgétaire, François Bayrou est massivement désavoué le 8 septembre : **194 voix pour, 364 contre**. Il présente sa démission le lendemain. C'est la **première fois sous la Ve République qu'un gouvernement tombe sur un vote de confiance** qu'il a lui-même sollicité.",
+     "factuel": "Ayant lui-même engagé un vote de confiance sur sa trajectoire budgétaire, François Bayrou est massivement désavoué le 8 septembre : 194 voix pour, 364 contre. Il présente sa démission le lendemain. C'est la première fois sous la Ve République qu'un gouvernement tombe sur un vote de confiance qu'il a lui-même sollicité.",
      "critique": "Deuxième gouvernement renversé en moins d'un an, et par une voie inédite : Barnier était tombé sur une motion de censure (la première adoptée depuis 1962), Bayrou tombe sur sa propre demande de confiance. Deux premières institutionnelles en neuf mois. »",
      "sources": [
       {
@@ -4502,7 +4654,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 11,
+     "n": 16,
      "titre": "Lecornu nommé : « dorénavant c'est absolument comme auparavant »",
      "date_libelle": "09/09/2025",
      "debut": "2025-09-09",
@@ -4520,7 +4672,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 12,
+     "n": 17,
      "titre": "« Bloquons tout » : la mobilisation réprimée",
      "date_libelle": "10/09/2025",
      "debut": "2025-09-10",
@@ -4528,8 +4680,8 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 9,
-     "factuel": "Né hors des partis et des syndicats contre le plan budgétaire, le mouvement « Bloquons tout » rassemble le 10 septembre **200 000 personnes selon le ministère de l'Intérieur, plus de 250 000 selon la CGT**. En fin de journée, 812 actions sont recensées : 550 rassemblements et 262 blocages. L'État déploie 80 000 policiers et gendarmes ; 473 personnes sont interpellées et treize membres des forces de l'ordre sont légèrement blessés.",
-     "critique": "Mouvement né hors parti, sa violence à venir a été annoncée avec délice par les médias pendant des jours. Il n'y a eu pratiquement aucune violence, malgré un dispositif policier impressionant.",
+     "factuel": "Né hors des partis et des syndicats contre le plan budgétaire, le mouvement « Bloquons tout » rassemble le 10 septembre 200 000 personnes selon le ministère de l'Intérieur. En fin de journée, 812 actions sont recensées : 550 rassemblements et 262 blocages. L'État déploie 80 000 policiers et gendarmes ; 473 personnes sont interpellées et treize membres des forces de l'ordre sont légèrement blessés.",
+     "critique": "Mouvement né hors parti, ses débordements futurs ont été annoncée avec délice par les médias pendant des jours. Il n'y a cependant eu pratiquement aucune violence, malgré un dispositif policier impressionant.",
      "sources": [
       {
        "nom": "franceinfo",
@@ -4538,7 +4690,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 13,
+     "n": 18,
      "titre": "La France reconnaît l'État de Palestine",
      "date_libelle": "22/09/2025",
      "debut": "2025-09-22",
@@ -4556,7 +4708,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 14,
+     "n": 19,
      "titre": "Sarkozy condamné, incarcéré — et le régime de faveur",
      "date_libelle": "25/09 – 10/11/2025",
      "debut": "2025-09-25",
@@ -4574,7 +4726,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 15,
+     "n": 20,
      "titre": "Global Sumud Flotilla : des parlementaires français retenus",
      "date_libelle": "01-03/10/2025",
      "debut": "2025-10-01",
@@ -4600,7 +4752,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 16,
+     "n": 21,
      "titre": "Les macronistes élisent le RN à la vice-présidence de l'Assemblée",
      "date_libelle": "octobre 2025",
      "debut": "2025-10-01",
@@ -4618,7 +4770,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 17,
+     "n": 22,
      "titre": "Lecornu I : 26 jours pour un gouvernement mort en 24 heures",
      "date_libelle": "05-06/10/2025",
      "debut": "2025-10-05",
@@ -4636,7 +4788,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 18,
+     "n": 23,
      "titre": "Lecornu II : le même, reconduit",
      "date_libelle": "10/10/2025",
      "debut": "2025-10-10",
@@ -4654,7 +4806,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 19,
+     "n": 24,
      "titre": "La taxe Zucman enterrée",
      "date_libelle": "31/10/2025",
      "debut": "2025-10-31",
@@ -4680,7 +4832,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 20,
+     "n": 25,
      "titre": "Retraites : la suspension arrachée par le PS",
      "date_libelle": "14/10 – 12/11/2025",
      "debut": "2025-10-14",
@@ -4698,7 +4850,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 21,
+     "n": 26,
      "titre": "Brigitte Macron et les « sales connes »",
      "date_libelle": "08/12/2025",
      "debut": "2025-12-08",
@@ -4716,7 +4868,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 22,
+     "n": 27,
      "titre": "Le budget 2026 passe à treize voix, grâce aux écologistes",
      "date_libelle": "09-16/12/2025",
      "debut": "2025-12-09",
