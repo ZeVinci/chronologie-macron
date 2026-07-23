@@ -1,6 +1,6 @@
 window.DONNEES = {
  "genere_le": "2026-07-23",
- "total_fiches": 204,
+ "total_fiches": 207,
  "textes": {
   "titre": "Machronologie",
   "titre_balise": "**Mac**h**ron**ologie",
@@ -3788,13 +3788,13 @@ window.DONNEES = {
   {
    "annee": 2024,
    "note": "Année de droitisation et d'autoritarisme, avec la dissolution tactique dont les résultats sont ignorés.",
-   "total": 17,
+   "total": 20,
    "densite": [
-    2,
-    2,
+    3,
+    3,
     2,
     0,
-    2,
+    3,
     2,
     2,
     0,
@@ -3869,11 +3869,63 @@ window.DONNEES = {
       {
        "nom": "Les Surligneurs — la suspension des subventions est illégale",
        "lien": "https://lessurligneurs.eu/la-mairie-de-paris-suspend-le-versement-de-ses-subventions-a-letablissement-catholique-stanislas/"
+      },
+      {
+       "nom": "Medipart - Rapport Stanislas",
+       "lien": "https://www.mediapart.fr/journal/france/160124/affaire-oudea-castera-mediapart-publie-le-rapport-sur-stanislas-cache-par-les-ministres"
       }
      ]
     },
     {
      "n": 3,
+     "titre": "« Réarmement démographique » et « ordre »",
+     "date_libelle": "16/01/2024",
+     "debut": "2024-01-16",
+     "fin": "2024-01-16",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 1,
+     "factuel": "Lors de sa première grande conférence de presse depuis deux ans, Macron appelle à un « réarmement démographique » du pays (grand plan de lutte contre l'infertilité, réforme du congé parental en « congé de naissance ») et à un « réarmement civique » (uniforme expérimenté à l'école, instruction civique au volume horaire doublé, apprentissage de la Marseillaise), faisant de « l'ordre » son maître-mot. La formule nataliste au lexique guerrier est vivement critiquée à gauche et par des démographes et féministes, qui y voient une injonction faite aux femmes et la reprise d'un registre réactionnaire.",
+     "critique": "Nouveau glissement lexical et idéologique vers un registre d'« ordre » et de natalité proche des thèmes de la droite dure, dans la lignée de « décivilisation » : l'État se pense en réparateur d'une nation « désarmée », au prix d'un discours sur le corps des femmes.",
+     "sources": [
+      {
+       "nom": "Élysée — conférence de presse du président de la République, 16 janvier 2024 (transcription intégrale)",
+       "lien": "https://www.elysee.fr/emmanuel-macron/2024/01/16/conference-de-presse-du-president-emmanuel-macron"
+      },
+      {
+       "nom": "franceinfo — « Conférence de presse d'Emmanuel Macron : qu'entend le président par \"réarmement civique\" ? »",
+       "lien": "https://www.franceinfo.fr/politique/emmanuel-macron/conference-de-presse-d-emmanuel-macron-qu-entend-le-president-par-rearmement-civique_6309804.html"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "titre": "Colère agricole : la « pause » du plan Écophyto",
+     "date_libelle": "16/01 → 01/02/2024",
+     "debut": "2024-02-01",
+     "fin": "2024-02-01",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 2,
+     "factuel": "Face au mouvement agricole lancé le 16 janvier (blocages d'autoroutes par la FNSEA, les Jeunes Agriculteurs, la Coordination rurale et la Confédération paysanne), Gabriel Attal fait deux séries d'annonces, le 26 janvier puis le 1er février, où il renonce à la hausse de la fiscalité sur le gazole non routier et acte la « mise en pause » du plan Écophyto de réduction des pesticides. La décision suscite l'indignation des écologistes et des scientifiques.",
+     "critique": "Reniement écologique cédé sous la pression du principal syndicat agricole : abandon d'un plan de réduction des pesticides pourtant jugé déjà trop lent, dans la continuité du recul sur les néonicotinoïdes (2020) et à rebours du « Make our planet great again ».",
+     "sources": [
+      {
+       "nom": "franceinfo — « \"Pause\" du plan Écophyto : vive indignation des écologistes et des scientifiques »",
+       "lien": "https://www.franceinfo.fr/environnement/transition-ecologique-de-l-agriculture/pesticides/pause-du-plan-ecophyto-vive-indignation-des-ecologistes-et-des-scientifiques_6341782.html"
+      },
+      {
+       "nom": "Public Sénat — « Pause du plan Écophyto : \"C'est une grave erreur pour la biodiversité, mais aussi pour les agriculteurs\" »",
+       "lien": "https://www.publicsenat.fr/actualites/environnement/pause-du-plan-ecophyto-cest-une-grave-erreur-pour-la-biodiversite-mais-aussi-pour-les-agriculteurs"
+      },
+      {
+       "nom": "Crise agricole française depuis 2024 (Wikipédia, sourcé)",
+       "lien": "https://fr.wikipedia.org/wiki/Crise_agricole_fran%C3%A7aise_depuis_2024"
+      }
+     ]
+    },
+    {
+     "n": 5,
      "titre": "Le silence présidentiel envers Justine Triet",
      "date_libelle": "mai 2023 / mars 2024",
      "debut": "2023-05-01",
@@ -3891,25 +3943,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 4,
-     "titre": "Le doublement des franchises médicales, par décret",
-     "date_libelle": "17/02 – 15/05/2024",
-     "debut": "2024-02-17",
-     "fin": "2024-05-15",
-     "precision": "periode",
-     "transverse": false,
-     "mois": 2,
-     "factuel": "Deux décrets publiés au Journal officiel le 17 février 2024 doublent les franchises médicales : à compter du 31 mars, le reste à charge passe de 0,50 à 1 euro par boîte de médicament et par acte paramédical, et de 2 à 4 euros par transport sanitaire. Une décision du 24 avril porte la participation forfaitaire sur les consultations et actes médicaux de 1 à 2 euros au 15 mai. Le plafond annuel demeure fixé à 50 euros.",
-     "critique": "Mesure prise par décret, sans débat parlementaire, dans le cadre du tour de vis budgétaire de 2024. Les syndicats (UNSA, CGT) y voient une taxe sur la maladie qui pèse mécaniquement sur les malades chroniques et les plus modestes, et un facteur supplémentaire de renoncement aux soins.",
-     "sources": [
-      {
-       "nom": "Service-Public.fr",
-       "lien": "https://www.service-public.gouv.fr/particuliers/actualites/A17166"
-      }
-     ]
-    },
-    {
-     "n": 5,
+     "n": 7,
      "titre": "10 milliards d'économies par décret, l'écologie sabrée",
      "date_libelle": "21/02/2024",
      "debut": "2024-02-21",
@@ -3917,8 +3951,8 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 2,
-     "factuel": "Face au dérapage des recettes, le gouvernement annule 10 milliards d'euros de crédits par décret (n°2024-124 du 21 février), sans passer par le Parlement. La mission « Écologie, développement et mobilité durables » est la plus touchée : −2,13 milliards (soit −10 % de ses crédits).",
-     "critique": "Austérité décidée hors débat parlementaire, dont l'écologie fait les frais en priorité — reniement de plus.",
+     "factuel": "Face au dérapage des recettes, le gouvernement annule 10 milliards d'euros de crédits par décret, sans passer par le Parlement. La mission « Écologie, développement et mobilité durables » est la plus touchée : −2,13 milliards (soit −10 % de ses crédits).",
+     "critique": "Austérité décidée hors débat parlementaire, dont l'écologie fait les frais en priorité — un reniement de plus.",
      "sources": [
       {
        "nom": "Vie-publique.fr",
@@ -3927,7 +3961,37 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 6,
+     "n": 8,
+     "titre": "« Rien ne doit être exclu » : l'envoi de troupes en Ukraine",
+     "date_libelle": "26/02/2024",
+     "debut": "2024-02-26",
+     "fin": "2024-02-26",
+     "precision": "jour",
+     "transverse": false,
+     "mois": 2,
+     "factuel": "À l'issue d'une conférence de soutien à l'Ukraine réunissant à Paris une vingtaine de dirigeants, Macron déclare, une première : « Il n'y a pas de consensus aujourd'hui pour envoyer de manière officielle, assumée et endossée des troupes au sol. Mais en dynamique, rien ne doit être exclu. » La sortie prend de court les alliés : dès le 27 février, Olaf Scholz assure qu'« il n'y aura aucune troupe au sol, aucun soldat envoyé ni par les États européens ni par les États de l'OTAN sur le sol ukrainien », les États-Unis (« les États-Unis n'enverront pas de soldats combattre en Ukraine »), le Royaume-Uni, l'Italie, l'Espagne, la Pologne et la République tchèque démentant à leur tour toute intention d'envoyer des soldats.",
+     "critique": "Verticalité présidentielle appliquée à la politique étrangère : une déclaration lourde de conséquences lancée sans concertation apparente avec les alliés ni le Parlement, immédiatement contredite, qui expose l'isolement de la France plus qu'elle ne la renforce.",
+     "sources": [
+      {
+       "nom": "vie-publique.fr — conférence de presse d'Emmanuel Macron sur le soutien à l'Ukraine, 26 février 2024 (transcription)",
+       "lien": "https://www.vie-publique.fr/discours/293634-emmanuel-macron-26022024-conflit-en-ukraine"
+      },
+      {
+       "nom": "franceinfo — « Guerre en Ukraine : Emmanuel Macron évoque la possibilité d'envoyer des troupes au sol, une première » (26/02/2024)",
+       "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-emmanuel-macron-evoque-la-possibilite-d-envoyer-des-troupes-au-sol-dans-le-pays-une-premiere_6391612.html"
+      },
+      {
+       "nom": "France 24 — « Troupes en Ukraine : Emmanuel Macron provoque surprise et consternation parmi les alliés » (27/02/2024)",
+       "lien": "https://www.france24.com/fr/europe/20240227-troupes-occidentales-en-ukraine-emmanuel-macron-face-%C3%A0-l-opposition-europ%C3%A9enne-et-fran%C3%A7aise"
+      },
+      {
+       "nom": "franceinfo — « Guerre en Ukraine : les propos d'Emmanuel Macron suscitent la polémique »",
+       "lien": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-les-propos-d-emmanuel-macron-suscitent-la-polemique_6391999.html"
+      }
+     ]
+    },
+    {
+     "n": 9,
      "titre": "L'IVG inscrite dans la Constitution",
      "date_libelle": "04/03/2024",
      "debut": "2024-03-04",
@@ -3949,7 +4013,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 7,
+     "n": 10,
      "titre": "Bernard Arnault décoré de la grand-croix de la Légion d'honneur",
      "date_libelle": "13/03/2024",
      "debut": "2024-03-13",
@@ -3967,7 +4031,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 9,
+     "n": 11,
      "titre": "Gaza : l'alignement pro-israélien du pouvoir",
      "date_libelle": "06/05/2024, puis 06/10/2024",
      "debut": "2024-05-06",
@@ -3989,8 +4053,30 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 10,
-     "titre": "Assurance-chômage : un nouveau tour de vis, puis suspendu",
+     "n": 12,
+     "titre": "Nouvelle-Calédonie : l'insurrection et l'état d'urgence",
+     "date_libelle": "13-28/05/2024",
+     "debut": "2024-05-13",
+     "fin": "2024-05-28",
+     "precision": "periode",
+     "transverse": false,
+     "mois": 5,
+     "factuel": "Le passage en force à l'Assemblée du dégel du corps électoral calédonien — combattu par les indépendantistes comme une manœuvre marginalisant le peuple kanak — déclenche à partir du 13 mai les violences les plus graves depuis quarante ans. Macron décrète l'état d'urgence le 13 mai (levé le 28), déploie l'armée pour sécuriser ports et aéroports, et interdit TikTok. Bilan : 14 morts (dont plusieurs Kanaks tués par balles), des centaines de blessés, environ 2,2 milliards d'euros de dégâts et quelque 535 interpellations. La réforme sera finalement abandonnée après la dissolution.",
+     "critique": "Maintien de l'ordre létal et déni du fait colonial : le fil des violences d'État étendu à l'outre-mer, une réforme imposée contre les indépendantistes qui embrase l'archipel avant d'être remisée — coûteux aveu d'échec.",
+     "sources": [
+      {
+       "nom": "Ministère de l'Intérieur — « Levée de l'état d'urgence en Nouvelle-Calédonie » (communiqué officiel)",
+       "lien": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/levee-de-letat-durgence-en-nouvelle-caledonie-forces-de-securite"
+      },
+      {
+       "nom": "Émeutes de 2024 en Nouvelle-Calédonie (Wikipédia, sourcé — bilan, chronologie)",
+       "lien": "https://fr.wikipedia.org/wiki/%C3%89meutes_de_2024_en_Nouvelle-Cal%C3%A9donie"
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "titre": "Assurance-chômage : un nouveau tour de vis, finalement suspendu",
      "date_libelle": "mai–juin 2024",
      "debut": "2024-05-01",
      "fin": "2024-06-30",
@@ -4007,7 +4093,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 11,
+     "n": 15,
      "titre": "Européennes et dissolution surprise",
      "date_libelle": "09/06/2024",
      "debut": "2024-06-09",
@@ -4015,7 +4101,7 @@ window.DONNEES = {
      "precision": "jour",
      "transverse": false,
      "mois": 6,
-     "factuel": "Aux européennes du 9 juin, la liste RN de Jordan Bardella arrive largement en tête avec **31,37 %** et 30 sièges — un record pour le parti —, tandis que la liste Renaissance de Valérie Hayer s'effondre à **14,60 %** et 13 sièges. La participation s'établit à 51,49 %, en hausse de près de 1,4 point par rapport à 2019. Le soir même, Macron dissout l'Assemblée nationale. Selon Le Monde (14 juin), il confie à un proche : « J'ai lancé ma grenade dégoupillée dans les jambes [des oppositions]. »",
+     "factuel": "Aux européennes du 9 juin, la liste RN de Jordan Bardella arrive largement en tête avec 31,37 % et 30 sièges — un record pour le parti —, tandis que la liste Renaissance de Valérie Hayer s'effondre à 14,60 % et 13 sièges. La participation s'établit à 51,49 %, en hausse de près de 1,4 point par rapport à 2019. Le soir même, Macron dissout l'Assemblée nationale. Selon Le Monde, il confie à un proche : « J'ai lancé ma grenade dégoupillée dans les jambes [des oppositions]. »",
      "critique": "Pari irresponsable : au lieu de faire barrage à l'extrême droite, la dissolution lui déroule le tapis rouge — un président qui se croit stratège et déstabilise le pays.",
      "sources": [
       {
@@ -4029,7 +4115,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 12,
+     "n": 16,
      "titre": "Benalla définitivement condamné",
      "date_libelle": "26/06/2024",
      "debut": "2024-06-26",
@@ -4047,7 +4133,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 13,
+     "n": 17,
      "titre": "Législatives : le Nouveau Front populaire en tête",
      "date_libelle": "07/07/2024",
      "debut": "2024-07-07",
@@ -4069,7 +4155,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 14,
+     "n": 18,
      "titre": "Le déni du résultat : Lucie Castets écartée",
      "date_libelle": "juillet–août 2024",
      "debut": "2024-07-01",
@@ -4078,7 +4164,7 @@ window.DONNEES = {
      "transverse": false,
      "mois": 7,
      "factuel": "Le NFP s'accorde le 23 juillet sur Lucie Castets pour Matignon. Macron refuse de la nommer (annonce le 26 août), invoquant l'absence de majorité, et maintient le gouvernement Attal « démissionnaire » aux affaires courantes pendant des semaines — utilisant la « trêve olympique » (Macron en animateur des JO) pour geler la situation tout en préparant un budget d'austérité.",
-     "critique": "Refus présidentiel de tirer les conséquences du vote : « ignorer le résultat des urnes », un « coup d'État de droit » selon le fil.",
+     "critique": "Refus présidentiel de tirer les conséquences du vote : « ignorer le résultat des urnes », un « coup d'État de droit ».",
      "sources": [
       {
        "nom": "franceinfo",
@@ -4087,7 +4173,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 15,
+     "n": 19,
      "titre": "Le départ de Bruno Le Maire et le dérapage budgétaire",
      "date_libelle": "02-09/09/2024",
      "debut": "2024-09-02",
@@ -4105,7 +4191,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 16,
+     "n": 20,
      "titre": "Barnier : le gouvernement de la défaite",
      "date_libelle": "05-21/09/2024",
      "debut": "2024-09-05",
@@ -4123,7 +4209,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 17,
+     "n": 21,
      "titre": "Une nouvelle loi immigration en préparation",
      "date_libelle": "octobre 2024",
      "debut": "2024-10-01",
@@ -4141,7 +4227,7 @@ window.DONNEES = {
      ]
     },
     {
-     "n": 18,
+     "n": 22,
      "titre": "La censure du gouvernement Barnier",
      "date_libelle": "04/12/2024",
      "debut": "2024-12-04",
