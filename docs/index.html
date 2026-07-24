@@ -112,11 +112,22 @@ body{
 .ligne{width:1px; flex:1; background:var(--trait); margin-top:6px}
 .fiche:last-child .ligne{background:linear-gradient(var(--trait),transparent)}
 .contenu{min-width:0; padding-bottom:30px}
+.fiche-tete{
+  display:block; width:100%; text-align:left; padding:0; margin:0;
+  background:none; border:none; font:inherit; color:inherit;
+  cursor:default; position:relative;
+}
 .quand{
   display:block; font-size:12px; font-weight:500; letter-spacing:.03em;
   color:var(--gris); margin-bottom:7px;
 }
-.titre{font-size:17px; font-weight:500; line-height:1.4; color:var(--encre); margin:0 0 10px}
+.titre{display:block; font-size:17px; font-weight:500; line-height:1.4; color:var(--encre)}
+.fiche-chevron{
+  display:none; position:absolute; right:0; top:1px; width:15px; height:15px;
+  color:var(--pale); transition:transform .18s ease;
+}
+.fiche-corps{padding-top:11px}
+.fiche:not(.ouvert) .fiche-corps{display:none}
 .factuel{margin:0 0 12px; font-size:15px; line-height:1.65}
 .factuel p{margin:0 0 9px}
 .factuel p:last-child{margin:0}
@@ -205,6 +216,15 @@ body{
   .chiffre-grille{grid-template-columns:1fr}
   .millesime-txt{font-size:20px}
   .panneau{padding:26px 22px; margin:12px auto}
+
+  /* Fiches repliees sur leur titre ; un appui deplie le detail. */
+  .fiche-tete{cursor:pointer}
+  .titre{padding-right:22px}
+  .fiche-chevron{display:block}
+  .fiche.ouvert .fiche-chevron{transform:rotate(90deg); color:var(--gris)}
+  .contenu{padding-bottom:0}
+  .fiche-tete{padding:13px 0}
+  .axe{padding-top:20px}
 }
 </style>
 </head>
@@ -330,6 +350,19 @@ function construire(donnees){
   pages();
 }
 
+/* Sur mobile, les fiches sont repliees sur leur titre ; sur desktop, tout
+   reste ouvert. La bascule suit les changements de largeur (rotation). */
+var mqCompact = window.matchMedia("(max-width:640px)");
+
+function appliquerMode(){
+  var compact = mqCompact.matches;
+  document.querySelectorAll(".fiche").forEach(function(f){
+    f.classList.toggle("ouvert", !compact);
+    var t = f.querySelector(".fiche-tete");
+    if (t) t.setAttribute("aria-expanded", compact ? "false" : "true");
+  });
+}
+
 function blocContexte(a){
   if (!a.pms && !a.camp) return "";
   var noms = (a.pms || []).map(function(p){
@@ -424,11 +457,18 @@ function blocFiche(f){
   return '<article class="fiche">' +
     '<div class="axe"><span class="point"></span><span class="ligne"></span></div>' +
     '<div class="contenu">' +
-      '<span class="quand">' + ech(f.date_libelle) + "</span>" +
-      '<h3 class="titre">' + ech(f.titre) + "</h3>" +
-      '<div class="factuel">' + factuel + "</div>" +
-      (f.critique ? '<p class="critique">' + ech(f.critique) + "</p>" : "") +
-      blocSources(f.sources) +
+      '<button class="fiche-tete" aria-expanded="false">' +
+        '<span class="quand">' + ech(f.date_libelle) + "</span>" +
+        '<span class="titre">' + ech(f.titre) + "</span>" +
+        '<svg class="fiche-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
+        '<path d="M6 3.5L10.5 8L6 12.5" stroke="currentColor" stroke-width="1.5" ' +
+        'stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+      "</button>" +
+      '<div class="fiche-corps">' +
+        '<div class="factuel">' + factuel + "</div>" +
+        (f.critique ? '<p class="critique">' + ech(f.critique) + "</p>" : "") +
+        blocSources(f.sources) +
+      "</div>" +
     "</div></article>";
 }
 
@@ -457,6 +497,19 @@ function brancher(){
       ouvrir(sec, !sec.classList.contains("ouverte"));
     });
   });
+
+  // Repli des fiches, actif en mode compact seulement (delegation).
+  document.getElementById("timeline").addEventListener("click", function(e){
+    if (!mqCompact.matches) return;
+    var t = e.target.closest(".fiche-tete");
+    if (!t) return;
+    var f = t.closest(".fiche");
+    var ouvert = f.classList.toggle("ouvert");
+    t.setAttribute("aria-expanded", ouvert ? "true" : "false");
+  });
+
+  appliquerMode();
+  mqCompact.addEventListener("change", appliquerMode);
 }
 
 /* ---------- panneaux Methode / Qui suis-je ---------- */
